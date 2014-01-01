@@ -8,5 +8,9 @@ App.config(function($routeProvider) {
 		controller: 'Index',
 		templateUrl: 'partials/index.html'
 	})
+	.when('/champions', {
+		controller: 'ChampionList',
+		templateUrl: 'partials/champion-list.html'
+	})
 	.otherwise({ redirectTo: '/' });
 });
