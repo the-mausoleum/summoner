@@ -19,13 +19,26 @@ function ChampionList($scope, API) {
 		var output = "";
 
 		for (var i = 0; i < Champions.length; i++) {
-			output += '<div id="' + Champions[i].name + '"><img src="assets/champions/' + Champions[i].name + ".png"  + '"</img>"></div>'
+			var img_path = "assets/champions/" + Champions[i].name + ".png"
+
+			if (imageExists(img_path)) {
+				output += '<div id="' + Champions[i].name + '"><a href="#/champions/' + Champions[i].name + '"><img class="champions" src="' + img_path + '" width="64"</img></a></div>'
+			} else {
+				output += '<div id="' + Champions[i].name + '"><a href="#/champions/' + Champions[i].name + '"><img class="champions" src="assets/champions/Champion.png" width="64"</img></a></div>'
+			}
+			
 		}
 
 		$('.champions').html(output);
 	}).error(function(data) {
 		console.log(data);
 	});
+
+	function imageExists(url) {
+		var image = new Image();
+		image.src = url;
+		return image.height != 0;
+	}
 }
 
 function ChampionDetail($scope, API) {
