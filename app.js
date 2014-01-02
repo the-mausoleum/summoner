@@ -12,5 +12,13 @@ App.config(function($routeProvider) {
 		controller: 'ChampionList',
 		templateUrl: 'partials/champion-list.html'
 	})
+	.when('/champions/:name', {
+		controller: 'ChampionDetail',
+		templateUrl: 'partials/champion-detail.html'
+	})
+	.when('/summoners/:region/:id', {
+		controller: 'SummonerDetail',
+		templateUrl: 'partials/summoner-detail.html'
+	})
 	.otherwise({ redirectTo: '/' });
 });
