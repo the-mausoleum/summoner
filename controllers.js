@@ -1,14 +1,5 @@
 function Index($scope, API) {
-	// API.Summoner.getByName("MaxDeviant").success(function(data) {
-	// 	console.log(data);
-	// }).error(function(data) {
-	// 	console.log(data);
-	// });
-	API.getChampions().success(function(data) {
-		console.log(data);
-	}).error(function(data) {
-		console.log(data);
-	});
+	
 }
 
 function ChampionList($scope, API) {
@@ -43,7 +34,12 @@ function ChampionDetail($scope, $routeParams, API) {
 
 function SummonerDetail($scope, $routeParams, API) {
 	$scope.Summoner = {};
-	$scope.Summoner.ID = $routeParams.ID;
+	$scope.Summoner.ID = $routeParams.id;
 
-	API.Summoner.getByID()
+	API.Summoner.getByID($scope.Summoner.ID).success(function(data) {
+		console.log(data);
+		$scope.Summoner.Name = data.name;
+	}).error(function(data) {
+		console.log(data);
+	});
 }

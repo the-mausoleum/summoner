@@ -47,12 +47,12 @@ App.factory('API', function($http) {
 
 	// Get mastery pages by summoner ID
 	API.Summoner.getMasteries = function(id) {
-		return GET(versions["summoners"] + "/summoner/" + id + "/masteries");
+		return GET(versions["summoner"] + "/summoner/" + id + "/masteries");
 	}
 
 	// Get rune pages by summoner ID
 	API.Summoner.getRunes = function(id) {
-		return GET(versions["summoners"] + "/summoner/" + id + "/runes");
+		return GET(versions["summoner"] + "/summoner/" + id + "/runes");
 	}
 
 	// Get summoner by name
@@ -62,12 +62,12 @@ App.factory('API', function($http) {
 
 	// Get summoner by summoner ID
 	API.Summoner.getByID = function(id) {
-		return GET(versions["summoners"] + "/summoner/" + id);
+		return GET(versions["summoner"] + "/summoner/" + id);
 	}
 
 	// Get list of summoners by summoner IDs
 	API.Summoner.getListByID = function(id_list) {
-		return GET(versions["summoners"] + "/summoner/" + id_list + "/name")
+		return GET(versions["summoner"] + "/summoner/" + id_list + "/name")
 	}
 
 	// Retrieves teams for given summoner ID
