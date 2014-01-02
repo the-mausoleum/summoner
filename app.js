@@ -16,6 +16,10 @@ App.config(function($routeProvider) {
 		controller: 'ChampionDetail',
 		templateUrl: 'partials/champion-detail.html'
 	})
+	.when('/summoners', {
+		controller: 'SummonerSearch',
+		templateUrl: 'partials/summoner-search.html'
+	})
 	.when('/summoners/:region/:id', {
 		controller: 'SummonerDetail',
 		templateUrl: 'partials/summoner-detail.html'

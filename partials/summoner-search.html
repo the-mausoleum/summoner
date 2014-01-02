@@ -1,0 +1,10 @@
+<section style="padding: 100px 0; width: 100%; width: 960px; margin: 0 auto;">
+	<h1 style="color: #fff; text-transform: uppercase; font-size: 48px;">Summoners</h1>
+
+	<form ng-submit="search()">
+		Search: <input type="text" name="Search" ng-model="Name">
+		<select ng-model="Region">
+			<option ng-repeat="(Key, Val) in Regions" value="{{Key}}">{{Val}}</option>
+		</select>
+	</form>
+</section>
