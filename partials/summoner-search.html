@@ -3,8 +3,6 @@
 
 	<form ng-submit="search()">
 		Search: <input type="text" name="Search" ng-model="Name">
-		<select ng-model="Region">
-			<option ng-repeat="(Key, Val) in Regions" value="{{Key}}">{{Val}}</option>
-		</select>
+		<select ng-model="Region" ng-options="Region.Name for Region in Regions"></select>
 	</form>
 </section>

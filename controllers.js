@@ -1,11 +1,29 @@
-var Regions = Object.freeze({
-	"na": "North America",
-	// "euw": "Western Europe",
-	// "eune": "Eastern Europe",
-	// "kr": "Korea",
-	// "br": "Brazil",
-	// "tr": "Turkey"
-});
+var Regions = Object.freeze([
+	{
+		"ID": "na",
+		"Name": "North America"
+	},
+	{
+		"ID": "euw",
+		"Name": "Western Europe"
+	},
+	{
+		"ID": "eune",
+		"Name": "Eastern Europe"
+	},
+	{
+		"ID": "kr",
+		"Name": "Korea"
+	},
+	{
+		"ID": "br",
+		"Name": "Brazil"
+	},
+	{
+		"ID": "tr",
+		"Name": "Turkey"
+	},
+]);
 
 function Index($scope, API) {
 
@@ -42,11 +60,12 @@ function ChampionDetail($scope, $routeParams, API) {
 }
 
 function SummonerSearch($scope, $location, API) {
+	$scope.Region = Regions[0];
 	$scope.Regions = Regions;
 
 	$scope.search = function() {
 		API.Summoner.getByName($scope.Name).success(function(data) {
-			window.location = "#/summoners/" + $scope.Region + "/" + data.id;
+			window.location = "#/summoners/" + $scope.Region.ID + "/" + data.id;
 			// $location.url($location.path());
 		}).error(function(data) {
 			console.log(data);
