@@ -1,4 +1,4 @@
-App.factory('API', function($http) {
+angular.module('App').factory('API', function($http) {
 	var region = "na";
 	var versions = Object.freeze({
 		"champion": "v1.1",

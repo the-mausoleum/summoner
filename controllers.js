@@ -1,30 +1,3 @@
-var Regions = Object.freeze([
-	{
-		"ID": "na",
-		"Name": "North America"
-	},
-	{
-		"ID": "euw",
-		"Name": "Western Europe"
-	},
-	{
-		"ID": "eune",
-		"Name": "Eastern Europe"
-	},
-	{
-		"ID": "kr",
-		"Name": "Korea"
-	},
-	{
-		"ID": "br",
-		"Name": "Brazil"
-	},
-	{
-		"ID": "tr",
-		"Name": "Turkey"
-	},
-]);
-
 function Index($scope, API) {
 
 }
@@ -59,9 +32,9 @@ function ChampionDetail($scope, $routeParams, API) {
 	$scope.Champion.Name = $routeParams.name;
 }
 
-function SummonerSearch($scope, $location, API) {
-	$scope.Region = Regions[0];
-	$scope.Regions = Regions;
+function SummonerSearch($scope, $location, API, Enums) {
+	$scope.Region = Enums.Regions[0];
+	$scope.Regions = Enums.Regions;
 
 	$scope.search = function() {
 		API.Summoner.getByName($scope.Name).success(function(data) {
@@ -73,17 +46,25 @@ function SummonerSearch($scope, $location, API) {
 	}
 }
 
-function SummonerDetail($scope, $routeParams, API) {
+function SummonerDetail($scope, $routeParams, API, Enums) {
 	$scope.Summoner = {};
 	$scope.Summoner.ID = $routeParams.id;
 
 	API.Summoner.getByID($scope.Summoner.ID).success(function(data) {
 		console.log(data);
 		$scope.Summoner = {
+			"ID": data.id,
 			"Name": data.name,
-			"Region": Regions[$routeParams.region],
-			"Level": data.summonerLevel
+			"Region": Enums.Regions.filter(function(o) { return o.ID === $routeParams.region })[0].Name,
+			"Level": data.summonerLevel,
+			"Icon": Enums.SummonerIcons.filter(function(o) { return o.ID === data.profileIconId })[0].Icon
 		}
+
+		// API.getLeagues($scope.Summoner.ID).success(function(data) {
+		// 	console.log(data);
+		// }).error(function(data) {
+		// 	console.log(data);
+		// });
 	}).error(function(data) {
 		console.log(data);
 	});
