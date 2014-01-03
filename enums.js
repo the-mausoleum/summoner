@@ -846,110 +846,110 @@ angular.module('App').factory('Enums', function() {
 		},
 		{
 			"ID": "pantheon",
-			"Name": "",
-			"Title": "",
+			"Name": "Pantheon",
+			"Title": "The Artisan of War",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "aegis_protection",
+				"Q": "spear_shot",
+				"W": "aegis_of_zeonia",
+				"E": "heartseeker_strike",
+				"R": "grand_skyfall"
 			}
 		},
 		{
 			"ID": "poppy",
-			"Name": "",
-			"Title": "",
+			"Name": "Poppy",
+			"Title": "The Iron Ambassador",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "valiant_fighter",
+				"Q": "devastating_blow",
+				"W": "paragon_of_demacia",
+				"E": "heroic_charge",
+				"R": "diplomatic_immunity"
 			}
 		},
 		{
 			"ID": "quinn",
-			"Name": "",
-			"Title": "",
+			"Name": "Quinn and Valor",
+			"Title": "Demacia's Wings",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
+				"Passive": "harrier",
+				"Q": "binding_assault",
+				"W": "heightened_senses",
+				"E": "vault",
 				"R": ""
 			}
 		},
 		{
 			"ID": "rammus",
-			"Name": "",
-			"Title": "",
+			"Name": "Rammus",
+			"Title": "The Armordillo",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "spiked_shell",
+				"Q": "powerball",
+				"W": "defensive_ball_curl",
+				"E": "puncturing_taunt",
+				"R": "tremors"
 			}
 		},
 		{
 			"ID": "renekton",
-			"Name": "",
-			"Title": "",
+			"Name": "Renekton",
+			"Title": "The Butcher of the Sands",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
+				"Passive": "reign_of_anger",
+				"Q": "cull_the_meek",
+				"W": "ruthless_predator",
 				"E": "",
-				"R": ""
+				"R": "dominus"
 			}
 		},
 		{
 			"ID": "rengar",
-			"Name": "",
-			"Title": "",
+			"Name": "Rengar",
+			"Title": "The Pridestalker",
 			"Abilities": {
-				"Passive": "",
+				"Passive": "unseen_predator",
 				"Q": "",
 				"W": "",
 				"E": "",
-				"R": ""
+				"R": "thrill_of_the_hunt"
 			}
 		},
 		{
 			"ID": "riven",
-			"Name": "",
-			"Title": "",
+			"Name": "Riven",
+			"Title": "The Exile",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "runic_blade",
+				"Q": "broken_wings",
+				"W": "ki_burst",
+				"E": "valor",
+				"R": "blade_of_the_exile"
 			}
 		},
 		{
 			"ID": "rumble",
-			"Name": "",
-			"Title": "",
+			"Name": "Rumble",
+			"Title": "The Mechanized Menace",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "junkyard_titan",
+				"Q": "flamespitter",
+				"W": "scrap_shield",
+				"E": "electro-harpoon",
+				"R": "the_equalizer"
 			}
 		},
 		{
 			"ID": "ryze",
-			"Name": "",
-			"Title": "",
+			"Name": "Ryze",
+			"Title": "The Rogue Mage",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "arcane_mastery",
+				"Q": "overload",
+				"W": "rune_prison",
+				"E": "spell_flux",
+				"R": "desperate_power"
 			}
 		},
 		{
@@ -957,17 +957,17 @@ angular.module('App').factory('Enums', function() {
 			"Name": "",
 			"Title": "",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "backstacb",
+				"Q": "deceive",
+				"W": "jack_in_the_box",
+				"E": "two-shiv_poison",
+				"R": "hallucinate"
 			}
 		},
 		{
 			"ID": "shaco",
-			"Name": "",
-			"Title": "",
+			"Name": "Shaco",
+			"Title": "The Demon Jester",
 			"Abilities": {
 				"Passive": "",
 				"Q": "",
@@ -978,458 +978,458 @@ angular.module('App').factory('Enums', function() {
 		},
 		{
 			"ID": "shen",
-			"Name": "",
-			"Title": "",
+			"Name": "Shen",
+			"Title": "Eye of Twilight",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "ki_strike",
+				"Q": "vorpal_blade",
+				"W": "feint",
+				"E": "shadow_dash",
+				"R": "stand_united"
 			}
 		},
 		{
 			"ID": "shyvana",
-			"Name": "",
-			"Title": "",
+			"Name": "Shyvana",
+			"Title": "The Half-Dragon",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "dragonborn",
+				"Q": "twin_bite",
+				"W": "burnout",
+				"E": "flame_breath",
+				"R": "dragons_descent"
 			}
 		},
 		{
 			"ID": "singed",
-			"Name": "",
-			"Title": "",
+			"Name": "Singed",
+			"Title": "The Mad Chemist",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "empowered_bulwark",
+				"Q": "poison_trail",
+				"W": "mega_adhesive",
+				"E": "fling",
+				"R": "insanity_potion"
 			}
 		},
 		{
 			"ID": "sion",
-			"Name": "",
-			"Title": "",
+			"Name": "Sion",
+			"Title": "The Undead Champion",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "feel_no_pain",
+				"Q": "cryptic_gaze",
+				"W": "deaths_caress",
+				"E": "enrage",
+				"R": "cannibalism"
 			}
 		},
 		{
 			"ID": "sivir",
-			"Name": "",
-			"Title": "",
+			"Name": "Sivir",
+			"Title": "The Battle Mistress",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "fleet_of_foot",
+				"Q": "boomerang_blade",
+				"W": "ricochet",
+				"E": "spell_shield",
+				"R": "on_the_hunt"
 			}
 		},
 		{
 			"ID": "skarner",
-			"Name": "",
-			"Title": "",
+			"Name": "Skarner",
+			"Title": "The Crystal Vanguard",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "energize",
+				"Q": "crystal_slash",
+				"W": "crystalline_exoskeleton",
+				"E": "fracture",
+				"R": "impale"
 			}
 		},
 		{
 			"ID": "sona",
-			"Name": "",
-			"Title": "",
+			"Name": "Sona",
+			"Title": "Maven of the Strings",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "power_chord",
+				"Q": "hymn_of_valor",
+				"W": "aria_of_perseverance",
+				"E": "song_of_celerity",
+				"R": "crescendo"
 			}
 		},
 		{
 			"ID": "soraka",
-			"Name": "",
-			"Title": "",
+			"Name": "Soraka",
+			"Title": "The Starchild",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "salvation",
+				"Q": "starcall",
+				"W": "astral_blessing",
+				"E": "infuse",
+				"R": "wish"
 			}
 		},
 		{
 			"ID": "swain",
-			"Name": "",
-			"Title": "",
+			"Name": "Swain",
+			"Title": "The Master Tactician",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "carrion_renewal",
+				"Q": "decrepify",
+				"W": "nevermove",
+				"E": "torment",
+				"R": "ravenous_flock"
 			}
 		},
 		{
 			"ID": "syndra",
-			"Name": "",
-			"Title": "",
+			"Name": "Syndra",
+			"Title": "The Dark Sovereign",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
+				"Passive": "transcendent",
+				"Q": "dark_sphere",
 				"W": "",
-				"E": "",
-				"R": ""
+				"E": "scatter_the_weak",
+				"R": "unleashed_power"
 			}
 		},
 		{
 			"ID": "talon",
-			"Name": "",
-			"Title": "",
+			"Name": "Talon",
+			"Title": "The Blade's Shadow",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "mercy",
+				"Q": "noxian_diplomacy",
+				"W": "rake",
+				"E": "cutthroat",
+				"R": "shadow_assault"
 			}
 		},
 		{
 			"ID": "taric",
-			"Name": "",
-			"Title": "",
+			"Name": "Taric",
+			"Title": "The Gem Knight",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "gemcraft",
+				"Q": "imbue",
+				"W": "shatter",
+				"E": "dazzle",
+				"R": "radiance"
 			}
 		},
 		{
 			"ID": "teemo",
-			"Name": "",
-			"Title": "",
+			"Name": "Teemo",
+			"Title": "The Swift Scout",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "camouflage",
+				"Q": "blinding_dart",
+				"W": "move_quick",
+				"E": "toxic_shot",
+				"R": "noxious_trap"
 			}
 		},
 		{
 			"ID": "thresh",
-			"Name": "",
-			"Title": "",
+			"Name": "Thresh",
+			"Title": "The Chain Warden",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "damnation",
+				"Q": "death_sentence",
+				"W": "dark_passage",
+				"E": "flay",
+				"R": "the_box"
 			}
 		},
 		{
 			"ID": "tristana",
-			"Name": "",
-			"Title": "",
+			"Name": "Tristana",
+			"Title": "The Megling Gunner",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "draw_a_bead",
+				"Q": "rapid_fire",
+				"W": "rocket_jump",
+				"E": "explosive_shot",
+				"R": "buster_shot"
 			}
 		},
 		{
 			"ID": "trundle",
-			"Name": "",
-			"Title": "",
+			"Name": "Trundle",
+			"Title": "The Troll King",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "kings_tribute",
+				"Q": "chomp",
+				"W": "frozen_domain",
+				"E": "pillar_of_ice",
+				"R": "subjugate"
 			}
 		},
 		{
 			"ID": "tryndamere",
-			"Name": "",
-			"Title": "",
+			"Name": "Tryndamere",
+			"Title": "The Barbarian King",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "battle_fury",
+				"Q": "bloodlust",
+				"W": "mocking_shout",
+				"E": "spinning_slash",
+				"R": "undying_rage"
 			}
 		},
 		{
 			"ID": "twistedfate",
-			"Name": "",
-			"Title": "",
+			"Name": "Twisted Fate",
+			"Title": "The Card Master",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
+				"Passive": "loaded_dice",
+				"Q": "wild_cards",
 				"W": "",
-				"E": "",
+				"E": "stacked_deck",
 				"R": ""
 			}
 		},
 		{
 			"ID": "twitch",
-			"Name": "",
-			"Title": "",
+			"Name": "Twitch",
+			"Title": "The Plague Rat",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "deadly_venom",
+				"Q": "ambush",
+				"W": "venom_cask",
+				"E": "expunge",
+				"R": "spray_and_pray"
 			}
 		},
 		{
 			"ID": "udyr",
-			"Name": "",
-			"Title": "",
+			"Name": "Udyr",
+			"Title": "The Spirit Walker",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "monkeys_agility",
+				"Q": "tiger_stance",
+				"W": "turtle_stance",
+				"E": "bear_stance",
+				"R": "phoenix_stance"
 			}
 		},
 		{
 			"ID": "urgot",
-			"Name": "",
-			"Title": "",
+			"Name": "Urgot",
+			"Title": "The Headsman's Pride",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "zaun-touched_bolt_augmenter",
+				"Q": "acid_hunter",
+				"W": "terror_capacitor",
+				"E": "noxian_corrosive_charge",
+				"R": "hyper-kinetic_position_reverser"
 			}
 		},
 		{
 			"ID": "varus",
-			"Name": "",
-			"Title": "",
+			"Name": "Varus",
+			"Title": "The Arrow of Retribution",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "living_vengeance",
+				"Q": "piercing_arrow",
+				"W": "blighted_quiver",
+				"E": "hail_of_arrows",
+				"R": "chain_of_corruption"
 			}
 		},
 		{
 			"ID": "vayne",
-			"Name": "",
-			"Title": "",
+			"Name": "Vayne",
+			"Title": "The Night Hunter",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "night_hunter",
+				"Q": "tumble",
+				"W": "silver_bolts",
+				"E": "condemn",
+				"R": "final_hour"
 			}
 		},
 		{
 			"ID": "veigar",
-			"Name": "",
-			"Title": "",
+			"Name": "Veigar",
+			"Title": "The Tiny Master of Evil",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "equilibrium",
+				"Q": "baleful_strike",
+				"W": "dark_matter",
+				"E": "event_horizon",
+				"R": "primordial_burst"
 			}
 		},
 		{
 			"ID": "vi",
-			"Name": "",
-			"Title": "",
+			"Name": "Vi",
+			"Title": "The Piltover Enforcer",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "blast_shield",
+				"Q": "vault_breaker",
+				"W": "denting_blows",
+				"E": "excessive_force",
+				"R": "assault_and_battery"
 			}
 		},
 		{
 			"ID": "viktor",
-			"Name": "",
-			"Title": "",
+			"Name": "Viktor",
+			"Title": "The Machine Herald",
 			"Abilities": {
-				"Passive": "",
+				"Passive": "evolving_technology",
 				"Q": "",
 				"W": "",
 				"E": "",
-				"R": ""
+				"R": "chaos_storm"
 			}
 		},
 		{
-			"ID": "vladamir",
-			"Name": "",
-			"Title": "",
+			"ID": "vladimir",
+			"Name": "Vladimir",
+			"Title": "The Crimson Reaper",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "crimson_pact",
+				"Q": "transfusion",
+				"W": "sanguine_pool",
+				"E": "tides_of_blood",
+				"R": "hemoplague"
 			}
 		},
 		{
 			"ID": "volibear",
-			"Name": "",
-			"Title": "",
+			"Name": "Volibear",
+			"Title": "The Thunder's Roar",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "chosen_of_the_storm",
+				"Q": "rolling_thunder",
+				"W": "frenzy",
+				"E": "majestic_roar",
+				"R": "thunder_claws"
 			}
 		},
 		{
 			"ID": "warwick",
-			"Name": "",
-			"Title": "",
+			"Name": "Warwick",
+			"Title": "The Blood Hunter",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "eternal_thirst",
+				"Q": "hungering_strike",
+				"W": "hunters_call",
+				"E": "blood_scent",
+				"R": "infinite_duress"
 			}
 		},
 		{
 			"ID": "xerath",
-			"Name": "",
-			"Title": "",
+			"Name": "Xerath",
+			"Title": "The Magus Ascendant",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "ascended_form",
+				"Q": "arcanopulse",
+				"W": "locus_of_power",
+				"E": "mage_chains",
+				"R": "arcane_barrage"
 			}
 		},
 		{
 			"ID": "xinzhao",
-			"Name": "",
-			"Title": "",
+			"Name": "Xin Zhao",
+			"Title": "The Seneschal of Demacia",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "challenge",
+				"Q": "three_talon_strike",
+				"W": "battle_cry",
+				"E": "audacious_charge",
+				"R": "crescent_sweep"
 			}
 		},
 		{
 			"ID": "yasuo",
-			"Name": "",
-			"Title": "",
+			"Name": "Yasuo",
+			"Title": "The Unforgiven",
 			"Abilities": {
-				"Passive": "",
+				"Passive": "way_of_the_wanderer",
 				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"W": "wind_wall",
+				"E": "sweeping_blade",
+				"R": "last_breath"
 			}
 		},
 		{
 			"ID": "yorick",
-			"Name": "",
-			"Title": "",
+			"Name": "Yorick",
+			"Title": "The Gravedigger",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "unholy_covenant",
+				"Q": "omen_of_war",
+				"W": "omen_of_pestilence",
+				"E": "omen_of_famine",
+				"R": "omen_of_death"
 			}
 		},
 		{
 			"ID": "zac",
-			"Name": "",
-			"Title": "",
+			"Name": "Zac",
+			"Title": "The Secret Weapon",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "cell_division",
+				"Q": "stretching_strike",
+				"W": "unstable_matter",
+				"E": "elastic_slingshot",
+				"R": "lets_bounce"
 			}
 		},
 		{
 			"ID": "zed",
-			"Name": "",
-			"Title": "",
+			"Name": "Zed",
+			"Title": "The Master of Shadows",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "contempt_for_the_weak",
+				"Q": "razor_shuriken",
+				"W": "living_shadow",
+				"E": "shadow_slash",
+				"R": "death_mark"
 			}
 		},
 		{
 			"ID": "ziggs",
-			"Name": "",
-			"Title": "",
+			"Name": "Ziggs",
+			"Title": "The Hexsplosives Expert",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "short_fuse",
+				"Q": "bouncing_bomb",
+				"W": "satchel_charge",
+				"E": "hexplosive_minefield",
+				"R": "mega_inferno_bomb"
 			}
 		},
 		{
 			"ID": "zilean",
-			"Name": "",
-			"Title": "",
+			"Name": "Zilean",
+			"Title": "The Chronokeeper",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "heightened_learning",
+				"Q": "time_bomb",
+				"W": "rewind",
+				"E": "time_warp",
+				"R": "chrono_shift"
 			}
 		},
 		{
 			"ID": "zyra",
-			"Name": "",
-			"Title": "",
+			"Name": "Zyra",
+			"Title": "Rise of the Thorns",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "rise_of_the_thorns",
+				"Q": "deadly_bloom",
+				"W": "rampant_growth",
+				"E": "grasping_roots",
+				"R": "stranglethorns"
 			}
 		},
 		// {
