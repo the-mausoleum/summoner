@@ -1,7 +1,5 @@
 function Index($scope, API, Enums) {
-	console.log(Enums.Champions)
 
-	console.log(Enums.Champions.filter(function(o) { return o.ID === "aatrox"; })[0]);
 }
 
 function ChampionList($scope, API) {
@@ -31,9 +29,10 @@ function ChampionList($scope, API) {
 }
 
 function ChampionDetail($scope, $routeParams, API, Enums) {
-	$scope.Champion = Enums.Champions.filter(function(o) { return o.ID === $routeParams.name; })[0];
+	$scope.ChampionID = $routeParams.name;
+	$scope.Champion = Enums.Champions[$scope.ChampionID]
 
-	$scope.Abilities = Enums.Abilities[$routeParams.name];
+	$scope.Abilities = Enums.Abilities[$scope.ChampionID];
 
 	console.log($scope.Champion);
 	console.log($scope.Abilities);

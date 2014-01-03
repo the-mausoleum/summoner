@@ -26,9 +26,8 @@ angular.module('App').factory('Enums', function() {
 		},
 	]);
 
-	var Champions = Object.freeze([
-		{
-			"ID": "aatrox",
+	var Champions = Object.freeze({
+		"aatrox": {
 			"Name": "Aatrox",
 			"Title": "The Darkin Blade",
 			"Abilities": {
@@ -42,8 +41,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "massacre"
 			}
 		},
-		{
-			"ID": "ahri",
+		"ahri": {
 			"Name": "Ahri",
 			"Title": "The Nine-Tailed Fox",
 			"Abilities": {
@@ -54,8 +52,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "spirit_rush"
 			}
 		},
-		{
-			"ID": "akali",
+		"akali": {
 			"Name": "Akali",
 			"Title": "The Fist of Shadow",
 			"Abilities": {
@@ -66,8 +63,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "shadow_dance"
 			}
 		},
-		{
-			"ID": "alistar",
+		"alistar": {
 			"Name": "Alistar",
 			"Title": "The Minotaur",
 			"Abilities": {
@@ -78,8 +74,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "unbreakable_will"
 			}
 		},
-		{
-			"ID": "amumu",
+		"amumu": {
 			"Name": "Amumu",
 			"Title": "The Sad Mummy",
 			"Abilities": {
@@ -90,8 +85,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "curse_of_the_sad_mummy"
 			}
 		},
-		{
-			"ID": "anivia",
+		"anivia": {
 			"Name": "Anivia",
 			"Title": "The Cryophoenix",
 			"Abilities": {
@@ -102,8 +96,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "glacial_storm"
 			}
 		},
-		{
-			"ID": "annie",
+		"annie": {
 			"Name": "Annie",
 			"Title": "The Dark Child",
 			"Abilities": {
@@ -114,8 +107,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "summon_tibbers"
 			}
 		},
-		{
-			"ID": "ashe",
+		"ashe": {
 			"Name": "Ashe",
 			"Title": "The Frost Archer",
 			"Abilities": {
@@ -126,8 +118,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "enchanted_crystal_arrow"
 			}
 		},
-		{
-			"ID": "blitzcrank",
+		"blitzcrank": {
 			"Name": "Blitzcrank",
 			"Title": "The Great Steam Golem",
 			"Abilities": {
@@ -138,8 +129,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "static_field"
 			}
 		},
-		{
-			"ID": "brand",
+		"brand": {
 			"Name": "Brand",
 			"Title": "The Burning Vengeance",
 			"Abilities": {
@@ -150,8 +140,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "pyroclasm"
 			}
 		},
-		{
-			"ID": "caitlyn",
+		"caitlyn": {
 			"Name": "Caitlyn",
 			"Title": "The Sheriff of Piltover",
 			"Abilities": {
@@ -162,8 +151,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "ace_in_the_hole"
 			}
 		},
-		{
-			"ID": "cassiopeia",
+		"cassiopeia": {
 			"Name": "Cassiopeia",
 			"Title": "The Serpent's Embrace",
 			"Abilities": {
@@ -174,8 +162,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "petrifying_gaze"
 			}
 		},
-		{
-			"ID": "chogath",
+		"chogath": {
 			"Name": "Cho'Gath",
 			"Title": "The Terror of the Void",
 			"Abilities": {
@@ -186,8 +173,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "feast"
 			}
 		},
-		{
-			"ID": "corki",
+		"corki": {
 			"Name": "Corki",
 			"Title": "The Daring Bombadier",
 			"Abilities": {
@@ -198,8 +184,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "missile_barrage"
 			}
 		},
-		{
-			"ID": "darius",
+		"darius": {
 			"Name": "Darius",
 			"Title": "The Hand of Noxus",
 			"Abilities": {
@@ -210,8 +195,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "noxian_guillotine"
 			}
 		},
-		{
-			"ID": "diana",
+		"diana": {
 			"Name": "Diana",
 			"Title": "Scorn of the Moon",
 			"Abilities": {
@@ -222,8 +206,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "lunar_rush"
 			}
 		},
-		{
-			"ID": "draven",
+		"draven": {
 			"Name": "Draven",
 			"Title": "The Glorious Executioner",
 			"Abilities": {
@@ -234,8 +217,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "whirling_death"
 			}
 		},
-		{
-			"ID": "drmundo",
+		"drmundo": {
 			"Name": "Dr. Mundo",
 			"Title": "The Madman of Zaun",
 			"Abilities": {
@@ -246,8 +228,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "sadism"
 			}
 		},
-		{
-			"ID": "elise",
+		"elise": {
 			"Name": "",
 			"Title": "",
 			"Abilities": {
@@ -258,8 +239,7 @@ angular.module('App').factory('Enums', function() {
 				"R": ""
 			}
 		},
-		{
-			"ID": "evelynn",
+		"evelynn": {
 			"Name": "Evelynn",
 			"Title": "The Widowmaker",
 			"Abilities": {
@@ -270,8 +250,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "agonys_embrace"
 			}
 		},
-		{
-			"ID": "ezreal",
+		"ezreal": {
 			"Name": "Ezreal",
 			"Title": "The Prodigal Explorer",
 			"Abilities": {
@@ -282,8 +261,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "trueshot_barrage"
 			}
 		},
-		{
-			"ID": "fiddlesticks",
+		"fiddlesticks": {
 			"Name": "Fiddlesticks",
 			"Title": "The Harbinger of Doom",
 			"Abilities": {
@@ -294,8 +272,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "crowstorm"
 			}
 		},
-		{
-			"ID": "fiora",
+		"fiora": {
 			"Name": "Fiora",
 			"Title": "The Grand Duelist",
 			"Abilities": {
@@ -306,8 +283,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "bldae_waltz"
 			}
 		},
-		{
-			"ID": "fizz",
+		"fizz": {
 			"Name": "Fizz",
 			"Title": "The Tidal Trickster",
 			"Abilities": {
@@ -318,8 +294,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "chum_the_waters"
 			}
 		},
-		{
-			"ID": "galio",
+		"galio": {
 			"Name": "Galio",
 			"Title": "The Sentinel's Sorrow",
 			"Abilities": {
@@ -330,8 +305,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "idol_of_durand"
 			}
 		},
-		{
-			"ID": "gangplank",
+		"gangplank": {
 			"Name": "Gangplank",
 			"Title": "The Saltwater Scourge",
 			"Abilities": {
@@ -342,8 +316,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "cannon_barrage"
 			}
 		},
-		{
-			"ID": "garen",
+		"garen": {
 			"Name": "Garen",
 			"Title": "The Might of Demacia",
 			"Abilities": {
@@ -353,8 +326,8 @@ angular.module('App').factory('Enums', function() {
 				"E": "judgement",
 				"R": "demacian_justice"
 			}
-		},{
-			"ID": "gragas",
+		},
+		"gragas": {
 			"Name": "Gragas",
 			"Title": "The Rabble Rouser",
 			"Abilities": {
@@ -364,8 +337,8 @@ angular.module('App').factory('Enums', function() {
 				"E": "body_slam",
 				"R": "explosive_cask"
 			}
-		},{
-			"ID": "graves",
+		},
+		"graves": {
 			"Name": "Graves",
 			"Title": "The Outlaw",
 			"Abilities": {
@@ -376,8 +349,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "collateral_damage"
 			}
 		},
-		{
-			"ID": "hecarim",
+		"hecarim": {
 			"Name": "Hecarim",
 			"Title": "The Shadow of War",
 			"Abilities": {
@@ -388,8 +360,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "onslaught_of_shadows"
 			}
 		},
-		{
-			"ID": "heimerdinger",
+		"heimerdinger": {
 			"Name": "Heimerdinger",
 			"Title": "The Revered Inventor",
 			"Abilities": {
@@ -400,8 +371,7 @@ angular.module('App').factory('Enums', function() {
 				"R": ""
 			}
 		},
-		{
-			"ID": "irelia",
+		"irelia": {
 			"Name": "Irelia",
 			"Title": "The Will of the Blades",
 			"Abilities": {
@@ -412,8 +382,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "transcendent_blades"
 			}
 		},
-		{
-			"ID": "janna",
+		"janna": {
 			"Name": "Janna",
 			"Title": "The Storm's Fury",
 			"Abilities": {
@@ -424,8 +393,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "monsoon"
 			}
 		},
-		{
-			"ID": "jarvaniv",
+		"jarvaniv": {
 			"Name": "Jarvan IV",
 			"Title": "The Exemplar of Demacia",
 			"Abilities": {
@@ -436,8 +404,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "cataclysm"
 			}
 		},
-		{
-			"ID": "jax",
+		"jax": {
 			"Name": "",
 			"Title": "",
 			"Abilities": {
@@ -448,8 +415,7 @@ angular.module('App').factory('Enums', function() {
 				"R": ""
 			}
 		},
-		{
-			"ID": "jayce",
+		"jayce": {
 			"Name": "Jax",
 			"Title": "Grandmaster at Arms",
 			"Abilities": {
@@ -460,8 +426,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "grandmasters_might"
 			}
 		},
-		{
-			"ID": "jinx",
+		"jinx": {
 			"Name": "Jinx",
 			"Title": "The Loose Cannon",
 			"Abilities": {
@@ -472,8 +437,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "super_mega_death_rocket"
 			}
 		},
-		{
-			"ID": "karma",
+		"karma": {
 			"Name": "Karma",
 			"Title": "The Enlightened One",
 			"Abilities": {
@@ -484,8 +448,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "manta"
 			}
 		},
-		{
-			"ID": "karthus",
+		"karthus": {
 			"Name": "Karthus",
 			"Title": "The Deathsinger",
 			"Abilities": {
@@ -496,8 +459,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "requiem"
 			}
 		},
-		{
-			"ID": "kassadin",
+		"kassadin": {
 			"Name": "Kassadin",
 			"Title": "The Void Walker",
 			"Abilities": {
@@ -508,8 +470,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "riftwalk"
 			}
 		},
-		{
-			"ID": "katarina",
+		"katarina": {
 			"Name": "Katarina",
 			"Title": "The Sinister Blade",
 			"Abilities": {
@@ -520,8 +481,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "death_lotus"
 			}
 		},
-		{
-			"ID": "kayle",
+		"kayle": {
 			"Name": "Kayle",
 			"Title": "The Judicator",
 			"Abilities": {
@@ -532,8 +492,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "intervention"
 			}
 		},
-		{
-			"ID": "kennen",
+		"kennen": {
 			"Name": "Kennen",
 			"Title": "The Heart of the Tempest",
 			"Abilities": {
@@ -544,8 +503,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "slicing_maelstrom"
 			}
 		},
-		{
-			"ID": "khazix",
+		"khazix": {
 			"Name": "Kha'Zix",
 			"Title": "The Voidreaver",
 			"Abilities": {
@@ -556,8 +514,7 @@ angular.module('App').factory('Enums', function() {
 				"R": ""
 			}
 		},
-		{
-			"ID": "kogmaw",
+		"kogmaw": {
 			"Name": "Kog'Maw",
 			"Title": "The Mouth of the Abyss",
 			"Abilities": {
@@ -568,8 +525,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "living_artillery"
 			}
 		},
-		{
-			"ID": "leblanc",
+		"leblanc": {
 			"Name": "LeBlanc",
 			"Title": "The Deceiver",
 			"Abilities": {
@@ -580,8 +536,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "mimic"
 			}
 		},
-		{
-			"ID": "leesin",
+		"leesin": {
 			"Name": "Lee Sin",
 			"Title": "The Blind Monk",
 			"Abilities": {
@@ -592,8 +547,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "dragons_rage"
 			}
 		},
-		{
-			"ID": "leona",
+		"leona": {
 			"Name": "Leona",
 			"Title": "The Radiant Dawn",
 			"Abilities": {
@@ -604,8 +558,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "solar_flare"
 			}
 		},
-		{
-			"ID": "lissandra",
+		"lissandra": {
 			"Name": "Lissandra",
 			"Title": "The Ice WItch",
 			"Abilities": {
@@ -616,8 +569,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "frozen_tomb"
 			}
 		},
-		{
-			"ID": "lucian",
+		"lucian": {
 			"Name": "Lucian",
 			"Title": "The Purifierw",
 			"Abilities": {
@@ -628,8 +580,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "the_culling"
 			}
 		},
-		{
-			"ID": "lulu",
+		"lulu": {
 			"Name": "Lulu",
 			"Title": "The Fae Sorceress",
 			"Abilities": {
@@ -640,8 +591,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "wild_growth"
 			}
 		},
-		{
-			"ID": "lux",
+		"lux": {
 			"Name": "Lux",
 			"Title": "The Lady of Luminosity",
 			"Abilities": {
@@ -652,8 +602,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "final_spark"
 			}
 		},
-		{
-			"ID": "malphite",
+		"malphite": {
 			"Name": "Malphite",
 			"Title": "Shard of the Monolith",
 			"Abilities": {
@@ -664,8 +613,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "unstoppable_force"
 			}
 		},
-		{
-			"ID": "malzahar",
+		"malzahar": {
 			"Name": "Malzahar",
 			"Title": "The Prophet of the Void",
 			"Abilities": {
@@ -676,8 +624,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "nether_grasp"
 			}
 		},
-		{
-			"ID": "maokai",
+		"maokai": {
 			"Name": "Maokai",
 			"Title": "The Twisted Treant",
 			"Abilities": {
@@ -688,8 +635,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "vengeful_maelstrom"
 			}
 		},
-		{
-			"ID": "masteryi",
+		"masteryi": {
 			"Name": "Master Yi",
 			"Title": "The Wuju Bladesmanw",
 			"Abilities": {
@@ -700,8 +646,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "highlander"
 			}
 		},
-		{
-			"ID": "missfortune",
+		"missfortune": {
 			"Name": "Miss Fortune",
 			"Title": "",
 			"Abilities": {
@@ -712,8 +657,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "bullet_time"
 			}
 		},
-		{
-			"ID": "monkeyking",
+		"monkeyking": {
 			"Name": "Wukong",
 			"Title": "The Monkey King",
 			"Abilities": {
@@ -724,10 +668,9 @@ angular.module('App').factory('Enums', function() {
 				"R": "cyclone"
 			}
 		},
-		{
-			"ID": "mordekaiser",
+		"mordekaiser": {
 			"Name": "Mordekaiser",
-			"Title": "The Master of Metalw",
+			"Title": "The Master of Metal",
 			"Abilities": {
 				"Passive": "iron_man",
 				"Q": "mace_of_spades",
@@ -736,8 +679,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "children_of_the_grave"
 			}
 		},
-		{
-			"ID": "morgana",
+		"morgana": {
 			"Name": "Morgana",
 			"Title": "Fallen Angel",
 			"Abilities": {
@@ -748,8 +690,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "soul_shackles"
 			}
 		},
-		{
-			"ID": "nami",
+		"nami": {
 			"Name": "Nami",
 			"Title": "The Tidecaller",
 			"Abilities": {
@@ -760,8 +701,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "tidal_wave"
 			}
 		},
-		{
-			"ID": "nasus",
+		"nasus": {
 			"Name": "Nasus",
 			"Title": "The Curator of the Sands",
 			"Abilities": {
@@ -772,8 +712,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "fury_of_the_sands"
 			}
 		},
-		{
-			"ID": "nautilus",
+		"nautilus": {
 			"Name": "Nautilus",
 			"Title": "The Titan of the Depths",
 			"Abilities": {
@@ -784,8 +723,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "depth_charge"
 			}
 		},
-		{
-			"ID": "nidalee",
+		"nidalee": {
 			"Name": "Nidalee",
 			"Title": "The Bestial Huntress",
 			"Abilities": {
@@ -796,8 +734,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "aspect of the Cougar"
 			}
 		},
-		{
-			"ID": "noctourne",
+		"noctourne": {
 			"Name": "Nocturne",
 			"Title": "The Eternal Nightmare",
 			"Abilities": {
@@ -808,10 +745,9 @@ angular.module('App').factory('Enums', function() {
 				"R": "paranoia"
 			}
 		},
-		{
-			"ID": "nunu",
+		"nunu": {
 			"Name": "Nunu",
-			"Title": "The Yeti_Rider",
+			"Title": "The Yeti Rider",
 			"Abilities": {
 				"Passive": "visionary",
 				"Q": "consume",
@@ -820,8 +756,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "absolute_zero"
 			}
 		},
-		{
-			"ID": "olaf",
+		"olaf": {
 			"Name": "Olaf",
 			"Title": "The Berserker",
 			"Abilities": {
@@ -832,8 +767,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "ragnarok"
 			}
 		},
-		{
-			"ID": "orianna",
+		"orianna": {
 			"Name": "Orianna",
 			"Title": "The Lady of Clockwork",
 			"Abilities": {
@@ -844,8 +778,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "command_shockwave"
 			}
 		},
-		{
-			"ID": "pantheon",
+		"pantheon": {
 			"Name": "Pantheon",
 			"Title": "The Artisan of War",
 			"Abilities": {
@@ -856,8 +789,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "grand_skyfall"
 			}
 		},
-		{
-			"ID": "poppy",
+		"poppy": {
 			"Name": "Poppy",
 			"Title": "The Iron Ambassador",
 			"Abilities": {
@@ -868,8 +800,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "diplomatic_immunity"
 			}
 		},
-		{
-			"ID": "quinn",
+		"quinn": {
 			"Name": "Quinn and Valor",
 			"Title": "Demacia's Wings",
 			"Abilities": {
@@ -880,8 +811,7 @@ angular.module('App').factory('Enums', function() {
 				"R": ""
 			}
 		},
-		{
-			"ID": "rammus",
+		"rammus": {
 			"Name": "Rammus",
 			"Title": "The Armordillo",
 			"Abilities": {
@@ -892,8 +822,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "tremors"
 			}
 		},
-		{
-			"ID": "renekton",
+		"renekton": {
 			"Name": "Renekton",
 			"Title": "The Butcher of the Sands",
 			"Abilities": {
@@ -904,8 +833,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "dominus"
 			}
 		},
-		{
-			"ID": "rengar",
+		"rengar": {
 			"Name": "Rengar",
 			"Title": "The Pridestalker",
 			"Abilities": {
@@ -916,8 +844,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "thrill_of_the_hunt"
 			}
 		},
-		{
-			"ID": "riven",
+		"riven": {
 			"Name": "Riven",
 			"Title": "The Exile",
 			"Abilities": {
@@ -928,8 +855,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "blade_of_the_exile"
 			}
 		},
-		{
-			"ID": "rumble",
+		"rumble": {
 			"Name": "Rumble",
 			"Title": "The Mechanized Menace",
 			"Abilities": {
@@ -940,8 +866,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "the_equalizer"
 			}
 		},
-		{
-			"ID": "ryze",
+		"ryze": {
 			"Name": "Ryze",
 			"Title": "The Rogue Mage",
 			"Abilities": {
@@ -952,8 +877,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "desperate_power"
 			}
 		},
-		{
-			"ID": "sejuani",
+		"sejuani": {
 			"Name": "",
 			"Title": "",
 			"Abilities": {
@@ -964,8 +888,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "hallucinate"
 			}
 		},
-		{
-			"ID": "shaco",
+		"shaco": {
 			"Name": "Shaco",
 			"Title": "The Demon Jester",
 			"Abilities": {
@@ -976,8 +899,7 @@ angular.module('App').factory('Enums', function() {
 				"R": ""
 			}
 		},
-		{
-			"ID": "shen",
+		"shen": {
 			"Name": "Shen",
 			"Title": "Eye of Twilight",
 			"Abilities": {
@@ -988,8 +910,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "stand_united"
 			}
 		},
-		{
-			"ID": "shyvana",
+		"shyvana": {
 			"Name": "Shyvana",
 			"Title": "The Half-Dragon",
 			"Abilities": {
@@ -1000,8 +921,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "dragons_descent"
 			}
 		},
-		{
-			"ID": "singed",
+		"singed": {
 			"Name": "Singed",
 			"Title": "The Mad Chemist",
 			"Abilities": {
@@ -1012,8 +932,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "insanity_potion"
 			}
 		},
-		{
-			"ID": "sion",
+		"sion": {
 			"Name": "Sion",
 			"Title": "The Undead Champion",
 			"Abilities": {
@@ -1024,8 +943,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "cannibalism"
 			}
 		},
-		{
-			"ID": "sivir",
+		"sivir": {
 			"Name": "Sivir",
 			"Title": "The Battle Mistress",
 			"Abilities": {
@@ -1036,8 +954,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "on_the_hunt"
 			}
 		},
-		{
-			"ID": "skarner",
+		"skarner": {
 			"Name": "Skarner",
 			"Title": "The Crystal Vanguard",
 			"Abilities": {
@@ -1048,8 +965,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "impale"
 			}
 		},
-		{
-			"ID": "sona",
+		"sona": {
 			"Name": "Sona",
 			"Title": "Maven of the Strings",
 			"Abilities": {
@@ -1060,8 +976,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "crescendo"
 			}
 		},
-		{
-			"ID": "soraka",
+		"soraka": {
 			"Name": "Soraka",
 			"Title": "The Starchild",
 			"Abilities": {
@@ -1072,8 +987,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "wish"
 			}
 		},
-		{
-			"ID": "swain",
+		"swain": {
 			"Name": "Swain",
 			"Title": "The Master Tactician",
 			"Abilities": {
@@ -1084,8 +998,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "ravenous_flock"
 			}
 		},
-		{
-			"ID": "syndra",
+		"syndra": {
 			"Name": "Syndra",
 			"Title": "The Dark Sovereign",
 			"Abilities": {
@@ -1096,8 +1009,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "unleashed_power"
 			}
 		},
-		{
-			"ID": "talon",
+		"talon": {
 			"Name": "Talon",
 			"Title": "The Blade's Shadow",
 			"Abilities": {
@@ -1108,8 +1020,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "shadow_assault"
 			}
 		},
-		{
-			"ID": "taric",
+		"taric": {
 			"Name": "Taric",
 			"Title": "The Gem Knight",
 			"Abilities": {
@@ -1120,8 +1031,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "radiance"
 			}
 		},
-		{
-			"ID": "teemo",
+		"teemo": {
 			"Name": "Teemo",
 			"Title": "The Swift Scout",
 			"Abilities": {
@@ -1132,8 +1042,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "noxious_trap"
 			}
 		},
-		{
-			"ID": "thresh",
+		"thresh": {
 			"Name": "Thresh",
 			"Title": "The Chain Warden",
 			"Abilities": {
@@ -1144,8 +1053,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "the_box"
 			}
 		},
-		{
-			"ID": "tristana",
+		"tristana": {
 			"Name": "Tristana",
 			"Title": "The Megling Gunner",
 			"Abilities": {
@@ -1156,8 +1064,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "buster_shot"
 			}
 		},
-		{
-			"ID": "trundle",
+		"trundle": {
 			"Name": "Trundle",
 			"Title": "The Troll King",
 			"Abilities": {
@@ -1168,8 +1075,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "subjugate"
 			}
 		},
-		{
-			"ID": "tryndamere",
+		"tryndamere": {
 			"Name": "Tryndamere",
 			"Title": "The Barbarian King",
 			"Abilities": {
@@ -1180,8 +1086,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "undying_rage"
 			}
 		},
-		{
-			"ID": "twistedfate",
+		"twistedfate": {
 			"Name": "Twisted Fate",
 			"Title": "The Card Master",
 			"Abilities": {
@@ -1192,8 +1097,7 @@ angular.module('App').factory('Enums', function() {
 				"R": ""
 			}
 		},
-		{
-			"ID": "twitch",
+		"twitch": {
 			"Name": "Twitch",
 			"Title": "The Plague Rat",
 			"Abilities": {
@@ -1204,8 +1108,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "spray_and_pray"
 			}
 		},
-		{
-			"ID": "udyr",
+		"udyr": {
 			"Name": "Udyr",
 			"Title": "The Spirit Walker",
 			"Abilities": {
@@ -1216,8 +1119,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "phoenix_stance"
 			}
 		},
-		{
-			"ID": "urgot",
+		"urgot": {
 			"Name": "Urgot",
 			"Title": "The Headsman's Pride",
 			"Abilities": {
@@ -1228,8 +1130,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "hyper-kinetic_position_reverser"
 			}
 		},
-		{
-			"ID": "varus",
+		"varus": {
 			"Name": "Varus",
 			"Title": "The Arrow of Retribution",
 			"Abilities": {
@@ -1240,8 +1141,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "chain_of_corruption"
 			}
 		},
-		{
-			"ID": "vayne",
+		"vayne": {
 			"Name": "Vayne",
 			"Title": "The Night Hunter",
 			"Abilities": {
@@ -1252,8 +1152,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "final_hour"
 			}
 		},
-		{
-			"ID": "veigar",
+		"veiger": {
 			"Name": "Veigar",
 			"Title": "The Tiny Master of Evil",
 			"Abilities": {
@@ -1264,8 +1163,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "primordial_burst"
 			}
 		},
-		{
-			"ID": "vi",
+		"vi": {
 			"Name": "Vi",
 			"Title": "The Piltover Enforcer",
 			"Abilities": {
@@ -1276,8 +1174,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "assault_and_battery"
 			}
 		},
-		{
-			"ID": "viktor",
+		"viktor": {
 			"Name": "Viktor",
 			"Title": "The Machine Herald",
 			"Abilities": {
@@ -1288,8 +1185,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "chaos_storm"
 			}
 		},
-		{
-			"ID": "vladimir",
+		"vladimir": {
 			"Name": "Vladimir",
 			"Title": "The Crimson Reaper",
 			"Abilities": {
@@ -1300,8 +1196,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "hemoplague"
 			}
 		},
-		{
-			"ID": "volibear",
+		"volibear": {
 			"Name": "Volibear",
 			"Title": "The Thunder's Roar",
 			"Abilities": {
@@ -1312,8 +1207,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "thunder_claws"
 			}
 		},
-		{
-			"ID": "warwick",
+		"warwick": {
 			"Name": "Warwick",
 			"Title": "The Blood Hunter",
 			"Abilities": {
@@ -1324,8 +1218,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "infinite_duress"
 			}
 		},
-		{
-			"ID": "xerath",
+		"xerath": {
 			"Name": "Xerath",
 			"Title": "The Magus Ascendant",
 			"Abilities": {
@@ -1336,8 +1229,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "arcane_barrage"
 			}
 		},
-		{
-			"ID": "xinzhao",
+		"xinzhao": {
 			"Name": "Xin Zhao",
 			"Title": "The Seneschal of Demacia",
 			"Abilities": {
@@ -1348,8 +1240,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "crescent_sweep"
 			}
 		},
-		{
-			"ID": "yasuo",
+		"yasuo": {
 			"Name": "Yasuo",
 			"Title": "The Unforgiven",
 			"Abilities": {
@@ -1360,8 +1251,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "last_breath"
 			}
 		},
-		{
-			"ID": "yorick",
+		"yorick": {
 			"Name": "Yorick",
 			"Title": "The Gravedigger",
 			"Abilities": {
@@ -1372,8 +1262,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "omen_of_death"
 			}
 		},
-		{
-			"ID": "zac",
+		"zac": {
 			"Name": "Zac",
 			"Title": "The Secret Weapon",
 			"Abilities": {
@@ -1384,8 +1273,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "lets_bounce"
 			}
 		},
-		{
-			"ID": "zed",
+		"zed": {
 			"Name": "Zed",
 			"Title": "The Master of Shadows",
 			"Abilities": {
@@ -1396,8 +1284,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "death_mark"
 			}
 		},
-		{
-			"ID": "ziggs",
+		"ziggs": {
 			"Name": "Ziggs",
 			"Title": "The Hexsplosives Expert",
 			"Abilities": {
@@ -1408,8 +1295,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "mega_inferno_bomb"
 			}
 		},
-		{
-			"ID": "zilean",
+		"zilean": {
 			"Name": "Zilean",
 			"Title": "The Chronokeeper",
 			"Abilities": {
@@ -1420,8 +1306,7 @@ angular.module('App').factory('Enums', function() {
 				"R": "chrono_shift"
 			}
 		},
-		{
-			"ID": "zyra",
+		"zyra": {
 			"Name": "Zyra",
 			"Title": "Rise of the Thorns",
 			"Abilities": {
@@ -1433,7 +1318,7 @@ angular.module('App').factory('Enums', function() {
 			}
 		},
 		// {
-		// 	"ID": "",
+		// 	
 		// 	"Name": "",
 		// 	"Title": "",
 		// 	"Abilities": {
@@ -1444,7 +1329,7 @@ angular.module('App').factory('Enums', function() {
 		// 		"R": ""
 		// 	}
 		// },
-	]);
+	});
 
 	var Abilities = Object.freeze({
 		"aatrox": {
@@ -1516,6 +1401,70 @@ angular.module('App').factory('Enums', function() {
 				"ID": "spirit_rush",
 				"Name": "Spirit Rush",
 				"Icon": "assets/abilities/Spirit_Rush.png",
+				"Description": ""
+			}
+		},
+		"akali": {
+			"Passive": {
+				"ID": "twin_disciplines",
+				"Name": "Twin Disciplines",
+				"Icon": "assets/abilities/Twin_Disciplines.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "mark_of_the_assassin",
+				"Name": "Mark of the Assassin",
+				"Icon": "assets/abilities/Mark_of_the_Assassin.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "twilight_shroud",
+				"Name": "Twilight Shroud",
+				"Icon": "assets/abilities/Twilight_Shroud.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "crescent_slash",
+				"Name": "Crescent Slash",
+				"Icon": "assets/abilities/Crescent_Slash.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "shadow_dance",
+				"Name": "Shadow Dance",
+				"Icon": "assets/abilities/Shadow_Dance.png",
+				"Description": ""
+			}
+		},
+		"alistar": {
+			"Passive": {
+				"ID": "",
+				"Name": "",
+				"Icon": "assets/abilities/",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "",
+				"Name": "",
+				"Icon": "assets/abilities/",
+				"Description": ""
+			},
+			"W": {
+				"ID": "",
+				"Name": "",
+				"Icon": "assets/abilities/",
+				"Description": ""
+			},
+			"E": {
+				"ID": "",
+				"Name": "",
+				"Icon": "assets/abilities/",
+				"Description": ""
+			},
+			"R": {
+				"ID": "",
+				"Name": "",
+				"Icon": "assets/abilities/",
 				"Description": ""
 			}
 		},
