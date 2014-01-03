@@ -24,5 +24,9 @@ App.config(function($routeProvider) {
 		controller: 'SummonerDetail',
 		templateUrl: 'partials/summoner-detail.html'
 	})
+	.when('/summoners/:region/:id/stats', {
+		controller: 'SummonerStats',
+		templateUrl: 'partials/summoner-stats.html'
+	})
 	.otherwise({ redirectTo: '/' });
 });

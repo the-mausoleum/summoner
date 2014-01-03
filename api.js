@@ -35,12 +35,12 @@ angular.module('App').factory('API', function($http) {
 
 	// Get player stats summaries by summoner ID. One summary is returned per queue type
 	API.getStatsSummary = function(id) {
-		return GET(versions["stats"] + "stats/by-summoner/" + id + "/summary");
+		return GET(versions["stats"] + "/stats/by-summoner/" + id + "/summary");
 	}
 
 	// Get ranked stats by summoner ID. Includes statistics for Twisted Treeline and Summoner's Rift
 	API.getRankedStats = function(id) {
-		return GET(versions["stats"] + "stats/by-summoner/" + id + "/ranked");
+		return GET(versions["stats"] + "/stats/by-summoner/" + id + "/ranked");
 	}
 
 	API.Summoner = {};
