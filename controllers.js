@@ -1,5 +1,7 @@
 function Index($scope, API, Enums) {
 	console.log(Enums.Champions)
+
+	console.log(Enums.Champions.filter(function(o) { return o.ID === "aatrox"; })[0]);
 }
 
 function ChampionList($scope, API) {
