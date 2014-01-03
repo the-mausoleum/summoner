@@ -1,6 +1,21 @@
 <section style="padding: 100px 0; width: 100%; width: 960px; margin: 0 auto;">
 	<h1 style="color: #fff; text-transform: uppercase; font-size: 48px;">{{Champion.Name}}</h1>
+	<p style="color: #fff; text-align: center; text-transform: uppercase; font-size: 12px; padding-top: 20px; letter-spacing: 3px; font-weight: bold;">
+		{{Champion.Title}}
+	</p>
+	<br>
 	<section style="width: 240px; margin: 0 auto;">
-		<img src="assets/champions/{{Champion.Name}}.png" alt="" width="64" height="64"></img>
+		<img src="assets/champions/{{Champion.ID}}.png" alt="" width="64" height="64"></img>
+		<p style="color: #fff; text-align: left; text-transform: uppercase; font-size: 12px; padding-top: 20px; letter-spacing: 3px; font-weight: bold;">
+			Passive: {{Abilities["Passive"].Name}}
+			<br><br>
+			Q: {{Abilities["Q"].Name}}
+			<br><br>
+			W: {{Abilities["W"].Name}}
+			<br><br>
+			E: {{Abilities["E"].Name}}
+			<br><br>
+			R: {{Abilities["R"].Name}}
+		</p>
 	</section>
 </section>

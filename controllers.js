@@ -30,9 +30,13 @@ function ChampionList($scope, API) {
 	}
 }
 
-function ChampionDetail($scope, $routeParams, API) {
-	$scope.Champion = {};
-	$scope.Champion.Name = $routeParams.name;
+function ChampionDetail($scope, $routeParams, API, Enums) {
+	$scope.Champion = Enums.Champions.filter(function(o) { return o.ID === $routeParams.name; })[0];
+
+	$scope.Abilities = Enums.Abilities[$routeParams.name];
+
+	console.log($scope.Champion);
+	console.log($scope.Abilities);
 }
 
 function SummonerSearch($scope, $location, API, Enums) {

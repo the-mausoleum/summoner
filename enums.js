@@ -47,7 +47,7 @@ angular.module('App').factory('Enums', function() {
 			"Name": "Ahri",
 			"Title": "The Nine-Tailed Fox",
 			"Abilities": {
-				"Passive": "essence-theft",
+				"Passive": "essence_theft",
 				"Q": "orb_of_deception",
 				"W": "fox-fire",
 				"E": "charm",
@@ -59,7 +59,7 @@ angular.module('App').factory('Enums', function() {
 			"Name": "Akali",
 			"Title": "The Fist of Shadow",
 			"Abilities": {
-				"Passive": "twin-disciplines",
+				"Passive": "twin_disciplines",
 				"Q": "mark_of_the_assassin",
 				"W": "twilight_shroud",
 				"E": "crescent_slash",
@@ -425,7 +425,7 @@ angular.module('App').factory('Enums', function() {
 			}
 		},
 		{
-			"ID": "jarviniv",
+			"ID": "jarvaniv",
 			"Name": "Jarvan IV",
 			"Title": "The Exemplar of Demacia",
 			"Abilities": {
@@ -1446,76 +1446,112 @@ angular.module('App').factory('Enums', function() {
 		// },
 	]);
 
-	var Abilities = Object.freeze([
-		// Aatrox
-		{
-			"ID": "blood_well",
-			"Name": "Blood Well",
-			"Icon": "assets/abilities/Blood_Well.png",
-			"Description": ""
+	var Abilities = Object.freeze({
+		"aatrox": {
+			"Passive": {
+				"ID": "blood_well",
+				"Name": "Blood Well",
+				"Icon": "assets/abilities/Blood_Well.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "dark_flight",
+				"Name": "Dark Flight",
+				"Icon": "assets/abilities/Dark_Flight.png", 
+				"Description": ""
+			},
+			"W": {
+				"ToggleOn": {
+					"ID": "blood_thirst",
+					"Name": "Blood Thirst",
+					"Icon": "assets/abilities/Blood_Thirst.png", 
+					"Description": ""
+				},
+				"ToggleOff": {
+					"ID": "blood_price",
+					"Name": "Blood Price",
+					"Icon": "assets/abilities/Blood_Price.png", 
+					"Description": ""
+				}
+			},
+			"E": {
+				"ID": "blades_of_torment",
+				"Name": "Blades of Torment",
+				"Icon": "assets/abilities/Blades_of_Torment.png", 
+				"Description": ""
+			},
+			"R": {
+				"ID": "massacre",
+				"Name": "Massacre",
+				"Icon": "assets/abilities/Massacre.png", 
+				"Description": ""
+			}
 		},
-		{
-			"ID": "dark_flight",
-			"Name": "Dark Flight",
-			"Icon": "assets/abilities/Dark_Flight.png", 
-			"Description": ""
+		"ahri": {
+			"Passive": {
+				"ID": "essence_theft",
+				"Name": "Essence Theft",
+				"Icon": "assets/abilities/Essence_Theft.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "orb_of_deception",
+				"Name": "Orb of Deception",
+				"Icon": "assets/abilities/Orb_of_Deception.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "fox-fire",
+				"Name": "Fox-Fire",
+				"Icon": "assets/abilities/Fox-Fire.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "charm",
+				"Name": "Charm",
+				"Icon": "assets/abilities/Charm.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "spirit_rush",
+				"Name": "Spirit Rush",
+				"Icon": "assets/abilities/Spirit_Rush.png",
+				"Description": ""
+			}
 		},
-		{
-			"ID": "blood_thirst",
-			"Name": "Blood Thirst",
-			"Icon": "assets/abilities/Blood_Thirst.png", 
-			"Description": ""
-		},
-		{
-			"ID": "blood_price",
-			"Name": "Blood Price",
-			"Icon": "assets/abilities/Blood_Price.png", 
-			"Description": ""
-		},
-		{
-			"ID": "blades_of_torment",
-			"Name": "Blades of Torment",
-			"Icon": "assets/abilities/Blades_of_Torment.png", 
-			"Description": ""
-		},
-		{
-			"ID": "massacre",
-			"Name": "Massacre",
-			"Icon": "assets/abilities/Massacre.png", 
-			"Description": ""
-		},
-		// Ahri
-		{
-			"ID": "essence-theft",
-			"Name": "",
-			"Icon": "assets/abilities/", 
-			"Description": ""
-		},
-		{
-			"ID": "",
-			"Name": "",
-			"Icon": "assets/abilities/", 
-			"Description": ""
-		},
-		{
-			"ID": "",
-			"Name": "",
-			"Icon": "assets/abilities/", 
-			"Description": ""
-		},
-		{
-			"ID": "",
-			"Name": "",
-			"Icon": "assets/abilities/", 
-			"Description": ""
-		},
-		// {
-		// 	"ID": "",
-		// 	"Name": "",
-		// 	"Icon": "assets/abilities/", 
-		// 	"Description": ""
+		// "": {
+		// 	"Passive": {
+		// 		"ID": "",
+		// 		"Name": "",
+		// 		"Icon": "assets/abilities/",
+		// 		"Description": ""
+		// 	},
+		// 	"Q": {
+		// 		"ID": "",
+		// 		"Name": "",
+		// 		"Icon": "assets/abilities/",
+		// 		"Description": ""
+		// 	},
+		// 	"W": {
+		// 		"ID": "",
+		// 		"Name": "",
+		// 		"Icon": "assets/abilities/",
+		// 		"Description": ""
+		// 	},
+		// 	"E": {
+		// 		"ID": "",
+		// 		"Name": "",
+		// 		"Icon": "assets/abilities/",
+		// 		"Description": ""
+		// 	},
+		// 	"R": {
+		// 		"ID": "",
+		// 		"Name": "",
+		// 		"Icon": "assets/abilities/",
+		// 		"Description": ""
+		// 	}
 		// },
-	]);
+	});
 
 	var SummonerIcons = Object.freeze([
 		{
