@@ -60,11 +60,11 @@ function SummonerDetail($scope, $routeParams, API, Enums) {
 			"Icon": Enums.SummonerIcons.filter(function(o) { return o.ID === data.profileIconId })[0].Icon
 		}
 
-		API.getTeams($scope.Summoner.ID).success(function(data) {
-			console.log(data);
-		}).error(function(data) {
-			console.log(data);
-		});
+		// API.getTeams($scope.Summoner.ID).success(function(data) {
+		// 	console.log(data);
+		// }).error(function(data) {
+		// 	console.log(data);
+		// });
 	}).error(function(data) {
 		console.log(data);
 	});
@@ -86,14 +86,12 @@ function SummonerStats($scope, $routeParams, API, Enums) {
 
 		API.getRankedStats($scope.Summoner.ID).success(function(data) {
 			console.log(data);
-			// var combined = data.filter(function(o) { return o.name === "Combined" });
 			for (var key in data.champions) {
 				if (data.champions[key].id === 0) {
 					var combined = data.champions[key].stats;
 					break;
 				}
 			}
-			// var combined = 
 
 			$scope.Games = {
 				"Total": combined.totalSessionsPlayed,
