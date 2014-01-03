@@ -1,5 +1,5 @@
 function Index($scope, API) {
-	
+
 }
 
 function ChampionList($scope, API) {
@@ -61,6 +61,12 @@ function SummonerDetail($scope, $routeParams, API, Enums) {
 			"Icon": Enums.SummonerIcons.filter(function(o) { return o.ID === data.profileIconId })[0].Icon
 		}
 
+		// API.getStatsSummary($scope.Summoner.ID).success(function(data) {
+		// 	console.log(data);
+		// }).error(function(data) {
+		// 	console.log(data);
+		// });
+
 		// API.getTeams($scope.Summoner.ID).success(function(data) {
 		// 	console.log(data);
 		// }).error(function(data) {
@@ -74,6 +80,12 @@ function SummonerDetail($scope, $routeParams, API, Enums) {
 function SummonerStats($scope, $routeParams, API, Enums) {
 	$scope.Summoner = {};
 	$scope.Summoner.ID = $routeParams.id;
+	$scope.Stats = {
+		"WinRate": {
+			"Ranked3v3": null,
+			"Ranked5v5Solo": null
+		}
+	};
 
 	API.Summoner.getByID($scope.Summoner.ID).success(function(data) {
 		console.log(data);
@@ -85,31 +97,95 @@ function SummonerStats($scope, $routeParams, API, Enums) {
 			"Icon": Enums.SummonerIcons.filter(function(o) { return o.ID === data.profileIconId })[0].Icon
 		}
 
-		API.getRankedStats($scope.Summoner.ID).success(function(data) {
+		API.getStatsSummary($scope.Summoner.ID).success(function(data) {
 			console.log(data);
-			for (var key in data.champions) {
-				if (data.champions[key].id === 0) {
-					var combined = data.champions[key].stats;
-					break;
+			for (var index in data.playerStatSummaries) {
+				if (data.playerStatSummaries[index].playerStatSummaryType === "RankedTeam3x3") {
+					var ranked3 = data.playerStatSummaries[index];
+				} else if (data.playerStatSummaries[index].playerStatSummaryType === "RankedSolo5x5") {
+					var ranked5solo = data.playerStatSummaries[index];
 				}
 			}
 
-			$scope.Games = {
-				"Total": combined.totalSessionsPlayed,
-				"Wins": combined.totalSessionsWon
+			$scope.Ranked = {
+				"3v3": {},
+				"Solo5v5": {}
+			};
+
+			if (ranked3) {
+				$scope.Ranked["3v3"] = {
+					"Wins": ranked3.wins,
+					"Losses": ranked3.losses,
+					"Total": ranked3.wins + ranked3.losses
+				}
+			}
+
+			if (ranked5solo) {
+				$scope.Ranked["Solo5v5"] = {
+					"Wins": ranked5solo.wins,
+					"Losses": ranked5solo.losses,
+					"Total": ranked5solo.wins + ranked5solo.losses
+				}
+			}
+
+			// $scope.Ranked = {
+			// 	"3v3": {
+			// 		"Wins": ranked3.wins,
+			// 		"Losses": ranked3.losses,
+			// 		"Total": ranked3.wins + ranked3.losses
+			// 	},
+			// 	"Solo5v5": {
+			// 		"Wins": ranked5solo.wins,
+			// 		"Losses": ranked5solo.losses,
+			// 		"Total": ranked5solo.wins + ranked5solo.losses
+			// 	}
+			// }
+
+			$scope.Stats.WinRate = {
+				"Ranked3v3": getWinRate("Ranked3v3"),
+				"Ranked5v5Solo": getWinRate("Ranked5v5Solo"),
 			}
 		}).error(function(data) {
 			console.log(data);
 		});
+
+		// API.getRankedStats($scope.Summoner.ID).success(function(data) {
+		// 	console.log(data);
+		// 	for (var key in data.champions) {
+		// 		if (data.champions[key].id === 0) {
+		// 			var combined = data.champions[key].stats;
+		// 			break;
+		// 		}
+		// 	}
+
+		// 	$scope.Games = {
+		// 		"Total": combined.totalSessionsPlayed,
+		// 		"Wins": combined.totalSessionsWon
+		// 	}
+		// }).error(function(data) {
+		// 	console.log(data);
+		// });
 	}).error(function(data) {
 		console.log(data);
 	});
 
-	$scope.getWinRate = function() {
-		if ($scope.Games) {
-			return Math.round($scope.Games.Wins / $scope.Games.Total * 100);
+	// $scope.getWinRate = function() {
+	// 	if ($scope.Games) {
+	// 		return Math.round($scope.Games.Wins / $scope.Games.Total * 100);
+	// 	}
+
+	// 	return null;
+	// }
+
+	function getWinRate(queue) {
+		var win_rate = 0;
+
+		if (queue === "Ranked3v3" ) {
+			win_rate = $scope.Ranked["3v3"].Wins / $scope.Ranked["3v3"].Total * 100;
+		} else if (queue === "Ranked5v5Solo") {
+			win_rate = $scope.Ranked["Solo5v5"].Wins / $scope.Ranked["Solo5v5"].Total * 100;
 		}
 
-		return null;
+		return Math.round(win_rate);
 	}
 }

@@ -24,7 +24,13 @@
 </style>
 <section style="padding: 100px 0; width: 100%; width: 960px; margin: 0 auto;">
 	<h1 style="color: #fff; text-transform: uppercase; font-size: 48px;">{{Summoner.Name}} | Stats</h1>
+	Ranked 3v3
 	<div class="statbar">
-		<span id="wins" style="width: {{getWinRate()}}%">Wins ({{getWinRate()}}%)</span>
+		<span id="wins" style="width: {{Stats.WinRate.Ranked3v3}}%">Wins ({{Stats.WinRate.Ranked3v3}}%)</span>
+	</div>
+
+	Ranked 5v5 - Solo Queue
+	<div class="statbar">
+		<span id="wins" style="width: {{Stats.WinRate.Ranked5v5Solo}}%">Wins ({{Stats.WinRate.Ranked5v5Solo}}%)</span>
 	</div>
 </section>
