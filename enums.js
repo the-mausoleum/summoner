@@ -495,12 +495,6 @@ angular.module('App').factory('Enums', function() {
 			"Name": "Zyra",
 			"Title": "Rise of the Thorns",
 		},
-		// {
-		// 	
-		// 	"Name": "",
-		// 	"Title": "",
-		// 	
-		// },
 	});
 
 	var Abilities = Object.freeze({
@@ -676,52 +670,116 @@ angular.module('App').factory('Enums', function() {
 
 	var SummonerIcons = Object.freeze([
 		{
+			"ID": 5,
+			"Icon": "assets/summoner_icons/5.jpg"
+		},
+		{
 			"ID": 7,
-			"Icon": "assets/summoner_icons/ProfileIcon08.jpg"
+			"Icon": "assets/summoner_icons/7.jpg"
 		},
 		{
 			"ID": 11,
-			"Icon": "assets/summoner_icons/ProfileIcon12.jpg"
+			"Icon": "assets/summoner_icons/11.jpg"
+		},
+		{
+			"ID": 13,
+			"Icon": "assets/summoner_icons/13.jpg"
+		},
+		{
+			"ID": 17,
+			"Icon": "assets/summoner_icons/17.jpg"
+		},
+		{
+			"ID": 20,
+			"Icon": "assets/summoner_icons/20.jpg"
 		},
 		{
 			"ID": 21,
-			"Icon": "assets/summoner_icons/ProfileIcon22.jpg"
+			"Icon": "assets/summoner_icons/21.jpg"
+		},
+		{
+			"ID": 22,
+			"Icon": "assets/summoner_icons/22.jpg"
+		},
+		{
+			"ID": 23,
+			"Icon": "assets/summoner_icons/23.jpg"
+		},
+		{
+			"ID": 26,
+			"Icon": "assets/summoner_icons/26.jpg"
+		},
+		{
+			"ID": 28,
+			"Icon": "assets/summoner_icons/28.jpg"
+		},
+		{
+			"ID": 518,
+			"Icon": "assets/summoner_icons/518.jpg"
+		},
+		{
+			"ID": 533,
+			"Icon": "assets/summoner_icons/533.jpg"
 		},
 		{
 			"ID": 539,
-			"Icon": "assets/summoner_icons/ProfileIcon62.jpg"
+			"Icon": "assets/summoner_icons/539.jpg"
+		},
+		{
+			"ID": 543,
+			"Icon": "assets/summoner_icons/543.jpg"
+		},
+		{
+			"ID": 550,
+			"Icon": "assets/summoner_icons/550.png"
+		},
+		{
+			"ID": 552,
+			"Icon": "assets/summoner_icons/552.png"
 		},
 		{
 			"ID": 555,
-			"Icon": "assets/summoner_icons/ProfileIcon73.jpg"
+			"Icon": "assets/summoner_icons/555.jpg"
+		},
+		{
+			"ID": 556,
+			"Icon": "assets/summoner_icons/556.jpg"
 		},
 		{
 			"ID": 579,
-			"Icon": "assets/summoner_icons/ProfileIcon_Tome.png"
+			"Icon": "assets/summoner_icons/579.png"
+		},
+		{
+			"ID": 580,
+			"Icon": "assets/summoner_icons/580.jpg"
+		},
+		{
+			"ID": 582,
+			"Icon": "assets/summoner_icons/582.jpg"
 		},
 		{
 			"ID": 585,
-			"Icon": "assets/summoner_icons/image_104.jpg"
+			"Icon": "assets/summoner_icons/585.jpg"
 		},
 		{
 			"ID": 586,
-			"Icon": "assets/summoner_icons/image_108.jpg"
+			"Icon": "assets/summoner_icons/586.jpg"
 		},
 		{
 			"ID": 588,
-			"Icon": "assets/summoner_icons/ProfileIcon_Poro.png"
+			"Icon": "assets/summoner_icons/588.png"
 		},
 		{
 			"ID": 589,
-			"Icon": "assets/summoner_icons/ProfileIcon_BadSanta.png"
+			"Icon": "assets/summoner_icons/589.png"
 		},
 		{
 			"ID": 591,
-			"Icon": "assets/summoner_icons/ProfileIcon_Teemo.png"
+			"Icon": "assets/summoner_icons/591.png"
 		},
 		{
 			"ID": 592,
-			"Icon": "assets/summoner_icons/ProfileIcon_Santa.png"
+			"Icon": "assets/summoner_icons/592.png"
 		},
 		// {
 		// 	"ID": ,
