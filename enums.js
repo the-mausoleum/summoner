@@ -28,6 +28,18 @@ angular.module('App').factory('Enums', function() {
 
 	var SummonerIcons = Object.freeze([
 		{
+			"ID": 7,
+			"Icon": "assets/summoner_icons/ProfileIcon08.jpg"
+		},
+		{
+			"ID": 21,
+			"Icon": "assets/summoner_icons/ProfileIcon22.jpg"
+		},
+		{
+			"ID": 539,
+			"Icon": "assets/summoner_icons/ProfileIcon62.jpg"
+		},
+		{
 			"ID": 579,
 			"Icon": "assets/summoner_icons/ProfileIcon_Tome.png"
 		},
@@ -35,8 +47,13 @@ angular.module('App').factory('Enums', function() {
 			"ID": 588,
 			"Icon": "assets/summoner_icons/ProfileIcon_Poro.png"
 		},
+		{
+			"ID": 591,
+			"Icon": "assets/summoner_icons/ProfileIcon_Teemo.png"
+		}
 		// {
-
+		// 	"ID": ,
+		// 	"Icon": "assets/summoner_icons/"
 		// },
 	]);
 
