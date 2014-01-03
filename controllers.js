@@ -10,9 +10,10 @@ function ChampionList($scope, API) {
 		var output = "";
 
 		for (var i = 0; i < Champions.length; i++) {
-			var img_path = "assets/champions/" + Champions[i].name + ".png";
+			var champion = Champions[i].name.toLowerCase()
+			var img_path = "assets/champions/" + champion + ".png";
 
-			output += '<div id="' + Champions[i].name + '"><a href="#/champions/' + Champions[i].name + '"><img class="champions" src="' + img_path + '" alt="" width="64" height="64"</img></a></div>'
+			output += '<div id="' + champion + '"><a href="#/champions/' + champion + '"><img class="champions" src="' + img_path + '" alt="" width="64" height="64"</img></a></div>'
 		}
 
 		$('.champions').html(output);

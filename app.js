@@ -2,7 +2,7 @@
 
 var App = angular.module('App', ['ngRoute']);
 
-App.config(function($routeProvider) {
+App.config(function($routeProvider, $locationProvider) {
 	$routeProvider
 	.when('/', {
 		controller: 'Index',
@@ -29,4 +29,6 @@ App.config(function($routeProvider) {
 		templateUrl: 'partials/summoner-stats.html'
 	})
 	.otherwise({ redirectTo: '/' });
+
+	// $locationProvider.html5Mode(true);
 });
