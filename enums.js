@@ -26,7 +26,7 @@ angular.module('App').factory('Enums', function() {
 		},
 	]);
 
-	var Champions = Objects.freeze([
+	var Champions = Object.freeze([
 		{
 			"ID": "aatrox",
 			"Name": "Aatrox",
@@ -45,205 +45,205 @@ angular.module('App').factory('Enums', function() {
 		{
 			"ID": "ahri",
 			"Name": "Ahri",
-			"Title": "",
+			"Title": "The Nine-Tailed Fox",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "essence-theft",
+				"Q": "orb_of_deception",
+				"W": "fox-fire",
+				"E": "charm",
+				"R": "spirit_rush"
 			}
 		},
 		{
 			"ID": "akali",
-			"Name": "",
-			"Title": "",
+			"Name": "Akali",
+			"Title": "The Fist of Shadow",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "twin-disciplines",
+				"Q": "mark_of_the_assassin",
+				"W": "twilight_shroud",
+				"E": "crescent_slash",
+				"R": "shadow_dance"
 			}
 		},
 		{
 			"ID": "alistar",
-			"Name": "",
-			"Title": "",
+			"Name": "Alistar",
+			"Title": "The Minotaur",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "trample",
+				"Q": "pulverize",
+				"W": "headbutt",
+				"E": "triumphant_roar",
+				"R": "unbreakable_will"
 			}
 		},
 		{
 			"ID": "amumu",
-			"Name": "",
-			"Title": "",
+			"Name": "Amumu",
+			"Title": "The Sad Mummy",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "cursed_touch",
+				"Q": "bandage_toss",
+				"W": "despair",
+				"E": "tantrum",
+				"R": "curse_of_the_sad_mummy"
 			}
 		},
 		{
 			"ID": "anivia",
-			"Name": "",
-			"Title": "",
+			"Name": "Anivia",
+			"Title": "The Cryophoenix",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "rebirth",
+				"Q": "flash_frost",
+				"W": "crystallize",
+				"E": "frostbite",
+				"R": "glacial_storm"
 			}
 		},
 		{
 			"ID": "annie",
-			"Name": "",
-			"Title": "",
+			"Name": "Annie",
+			"Title": "The Dark Child",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "pryomania",
+				"Q": "disintegrate",
+				"W": "incinerate",
+				"E": "molten_shield",
+				"R": "summon_tibbers"
 			}
 		},
 		{
 			"ID": "ashe",
-			"Name": "",
-			"Title": "",
+			"Name": "Ashe",
+			"Title": "The Frost Archer",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "focus",
+				"Q": "frost-shot",
+				"W": "volley",
+				"E": "hawkshot",
+				"R": "enchanted_crystal_arrow"
 			}
 		},
 		{
 			"ID": "blitzcrank",
-			"Name": "",
-			"Title": "",
+			"Name": "Blitzcrank",
+			"Title": "The Great Steam Golem",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "mana_barrier",
+				"Q": "rocket_grab",
+				"W": "overdrive",
+				"E": "power_fist",
+				"R": "static_field"
 			}
 		},
 		{
 			"ID": "brand",
-			"Name": "",
-			"Title": "",
+			"Name": "Brand",
+			"Title": "The Burning Vengeance",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "blaze",
+				"Q": "sear",
+				"W": "pillar_of_flame",
+				"E": "conflagration",
+				"R": "pyroclasm"
 			}
 		},
 		{
 			"ID": "caitlyn",
-			"Name": "",
-			"Title": "",
+			"Name": "Caitlyn",
+			"Title": "The Sheriff of Piltover",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "headshot",
+				"Q": "piltover_peacemaker",
+				"W": "yordle_snap_trap",
+				"E": "90_caliber_net",
+				"R": "ace_in_the_hole"
 			}
 		},
 		{
 			"ID": "cassiopeia",
-			"Name": "",
-			"Title": "",
+			"Name": "Cassiopeia",
+			"Title": "The Serpent's Embrace",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "deadly_cadence",
+				"Q": "noxious_blast",
+				"W": "miasma",
+				"E": "twin_fang",
+				"R": "petrifying_gaze"
 			}
 		},
 		{
 			"ID": "chogath",
-			"Name": "",
-			"Title": "",
+			"Name": "Cho'Gath",
+			"Title": "The Terror of the Void",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "carnivore",
+				"Q": "rupture",
+				"W": "feral_scream",
+				"E": "vorpal_spikes",
+				"R": "feast"
 			}
 		},
 		{
 			"ID": "corki",
-			"Name": "",
-			"Title": "",
+			"Name": "Corki",
+			"Title": "The Daring Bombadier",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "hextech_shrapnel_shells",
+				"Q": "phosphorous_bomb",
+				"W": "valkyrie",
+				"E": "gatling_gun",
+				"R": "missile_barrage"
 			}
 		},
 		{
 			"ID": "darius",
-			"Name": "",
-			"Title": "",
+			"Name": "Darius",
+			"Title": "The Hand of Noxus",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "hemorrhage",
+				"Q": "decimate",
+				"W": "crippling_strike",
+				"E": "apprehend",
+				"R": "noxian_guillotine"
 			}
 		},
 		{
 			"ID": "diana",
-			"Name": "",
-			"Title": "",
+			"Name": "Diana",
+			"Title": "Scorn of the Moon",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "moonsilver_blade",
+				"Q": "crescent_strike",
+				"W": "pale_cascade",
+				"E": "moonfall",
+				"R": "lunar_rush"
 			}
 		},
 		{
 			"ID": "draven",
-			"Name": "",
-			"Title": "",
+			"Name": "Draven",
+			"Title": "The Glorious Executioner",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "league_of_draven",
+				"Q": "spinning_axe",
+				"W": "blood_rush",
+				"E": "stand_aside",
+				"R": "whirling_death"
 			}
 		},
 		{
 			"ID": "drmundo",
-			"Name": "",
-			"Title": "",
+			"Name": "Dr. Mundo",
+			"Title": "The Madman of Zaun",
 			"Abilities": {
-				"Passive": "",
-				"Q": "",
-				"W": "",
-				"E": "",
-				"R": ""
+				"Passive": "adrenaline_rush",
+				"Q": "infected_cleaver",
+				"W": "burning_agony",
+				"E": "masochism",
+				"R": "sadism"
 			}
 		},
 		{
@@ -1446,7 +1446,8 @@ angular.module('App').factory('Enums', function() {
 		// },
 	]);
 
-	var Abilities = Objects.freeze([
+	var Abilities = Object.freeze([
+		// Aatrox
 		{
 			"ID": "blood_well",
 			"Name": "Blood Well",
@@ -1481,6 +1482,31 @@ angular.module('App').factory('Enums', function() {
 			"ID": "massacre",
 			"Name": "Massacre",
 			"Icon": "assets/abilities/Massacre.png", 
+			"Description": ""
+		},
+		// Ahri
+		{
+			"ID": "essence-theft",
+			"Name": "",
+			"Icon": "assets/abilities/", 
+			"Description": ""
+		},
+		{
+			"ID": "",
+			"Name": "",
+			"Icon": "assets/abilities/", 
+			"Description": ""
+		},
+		{
+			"ID": "",
+			"Name": "",
+			"Icon": "assets/abilities/", 
+			"Description": ""
+		},
+		{
+			"ID": "",
+			"Name": "",
+			"Icon": "assets/abilities/", 
 			"Description": ""
 		},
 		// {

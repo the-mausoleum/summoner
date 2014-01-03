@@ -1,5 +1,5 @@
-function Index($scope, API) {
-
+function Index($scope, API, Enums) {
+	console.log(Enums.Champions)
 }
 
 function ChampionList($scope, API) {
