@@ -670,16 +670,60 @@ angular.module('App').factory('Enums', function() {
 
 	var SummonerIcons = Object.freeze([
 		{
+			"ID": -1,
+			"Icon": "assets/summoner_icons/-1.png"
+		},
+		{
+			"ID": 0,
+			"Icon": "assets/summoner_icons/0.jpg"
+		},
+		{
+			"ID": 1,
+			"Icon": "assets/summoner_icons/1.jpg"
+		},
+		{
+			"ID": 2,
+			"Icon": "assets/summoner_icons/2.jpg"
+		},
+		{
+			"ID": 3,
+			"Icon": "assets/summoner_icons/3.jpg"
+		},
+		{
+			"ID": 4,
+			"Icon": "assets/summoner_icons/4.jpg"
+		},
+		{
 			"ID": 5,
 			"Icon": "assets/summoner_icons/5.jpg"
+		},
+		{
+			"ID": 6,
+			"Icon": "assets/summoner_icons/6.jpg"
 		},
 		{
 			"ID": 7,
 			"Icon": "assets/summoner_icons/7.jpg"
 		},
 		{
+			"ID": 8,
+			"Icon": "assets/summoner_icons/8.jpg"
+		},
+		{
+			"ID": 9,
+			"Icon": "assets/summoner_icons/9.jpg"
+		},
+		{
+			"ID": 10,
+			"Icon": "assets/summoner_icons/10.jpg"
+		},
+		{
 			"ID": 11,
 			"Icon": "assets/summoner_icons/11.jpg"
+		},
+		{
+			"ID": 12,
+			"Icon": "assets/summoner_icons/12.jpg"
 		},
 		{
 			"ID": 13,
@@ -688,6 +732,14 @@ angular.module('App').factory('Enums', function() {
 		{
 			"ID": 17,
 			"Icon": "assets/summoner_icons/17.jpg"
+		},
+		{
+			"ID": 18,
+			"Icon": "assets/summoner_icons/18.jpg"
+		},
+		{
+			"ID": 19,
+			"Icon": "assets/summoner_icons/19.jpg"
 		},
 		{
 			"ID": 20,
@@ -706,12 +758,29 @@ angular.module('App').factory('Enums', function() {
 			"Icon": "assets/summoner_icons/23.jpg"
 		},
 		{
+			"ID": 24,
+			"Icon": "assets/summoner_icons/24.jpg"
+		},
+		{
 			"ID": 26,
 			"Icon": "assets/summoner_icons/26.jpg"
 		},
 		{
+			"ID": 27,
+			"Icon": "assets/summoner_icons/27.jpg"
+		},
+		{
 			"ID": 28,
 			"Icon": "assets/summoner_icons/28.jpg"
+
+		},
+		{
+			"ID": 502,
+			"Icon": "assets/summoner_icons/502.jpg"
+		},
+		{
+			"ID": 508,
+			"Icon": "assets/summoner_icons/508.jpg"
 		},
 		{
 			"ID": 518,
@@ -722,12 +791,20 @@ angular.module('App').factory('Enums', function() {
 			"Icon": "assets/summoner_icons/533.jpg"
 		},
 		{
+			"ID": 538,
+			"Icon": "assets/summoner_icons/538.jpg"
+		},
+		{
 			"ID": 539,
 			"Icon": "assets/summoner_icons/539.jpg"
 		},
 		{
 			"ID": 543,
 			"Icon": "assets/summoner_icons/543.jpg"
+		},
+		{
+			"ID": 546,
+			"Icon": "assets/summoner_icons/546.png"
 		},
 		{
 			"ID": 550,
@@ -758,6 +835,10 @@ angular.module('App').factory('Enums', function() {
 			"Icon": "assets/summoner_icons/582.jpg"
 		},
 		{
+			"ID": 583,
+			"Icon": "assets/summoner_icons/583.jpg"
+		},
+		{
 			"ID": 585,
 			"Icon": "assets/summoner_icons/585.jpg"
 		},
@@ -772,6 +853,10 @@ angular.module('App').factory('Enums', function() {
 		{
 			"ID": 589,
 			"Icon": "assets/summoner_icons/589.png"
+		},
+		{
+			"ID": 590,
+			"Icon": "assets/summoner_icons/590.png"
 		},
 		{
 			"ID": 591,
