@@ -8,7 +8,7 @@ angular.module('App').factory('API', function($http) {
 		"summoner": "v1.2",
 		"team": "v2.2"
 	});
-	var key = "4e5378a0-1af3-41e2-a571-3723af9ab9e8"
+	var key = window.atob("NGU1Mzc4YTAtMWFmMy00MWUyLWE1NzEtMzcyM2FmOWFiOWU4");
 	var baseURL = "https://prod.api.pvp.net/api/lol/" + region + "/";
 
 	function GET(url) {

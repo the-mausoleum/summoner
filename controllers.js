@@ -1,5 +1,5 @@
 function Index($scope, API) {
-
+	
 }
 
 function ChampionList($scope, API) {
