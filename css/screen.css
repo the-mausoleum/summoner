@@ -31,7 +31,7 @@ a { text-decoration: none; }
 
 /* = Custom style starts here = */
 
-html, body, .wrapper { height: 100%; }
+html, body, .wrapper { height: 100%; padding-bottom: 50px; }
 
 h1 { color: #00a14b; font-size: 36px; line-height: 1.3; text-align: center; font-weight: 700; }
 
