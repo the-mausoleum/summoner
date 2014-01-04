@@ -604,33 +604,289 @@ angular.module('App').factory('Enums', function() {
 		},
 		"alistar": {
 			"Passive": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/",
+				"ID": "trample",
+				"Name": "Trample",
+				"Icon": "assets/abilities/Trample.png",
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/",
+				"ID": "pulverize",
+				"Name": "Pulverize",
+				"Icon": "assets/abilities/Pulverize.png",
 				"Description": ""
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/",
+				"ID": "headbutt",
+				"Name": "Headbutt",
+				"Icon": "assets/abilities/Headbutt.png",
 				"Description": ""
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/",
+				"ID": "triumphant_roar",
+				"Name": "Triumphant Roar",
+				"Icon": "assets/abilities/Triumphant_Roar.png",
 				"Description": ""
 			},
 			"R": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/",
+				"ID": "unbreakable_will",
+				"Name": "Unbreakable Will",
+				"Icon": "assets/abilities/Unbreakable_Will.png",
+				"Description": ""
+			}
+		},
+		"amumu": {
+			"Passive": {
+				"ID": "cursed_touch",
+				"Name": "Cursed Touch",
+				"Icon": "assets/abilities/Cursed_Touch.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "bandage_toss",
+				"Name": "Bandage Toss",
+				"Icon": "assets/abilities/Bandage_Toss.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "despair",
+				"Name": "Despair",
+				"Icon": "assets/abilities/Despair.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "tantrum",
+				"Name": "Tantrum",
+				"Icon": "assets/abilities/Tantrum.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "curse_of_the_sad_mummy",
+				"Name": "Curse of the Sad Mummy",
+				"Icon": "assets/abilities/Curse_of_the_Sad_Mummy.png",
+				"Description": ""
+			}
+		},
+		"anivia": {
+			"Passive": {
+				"ID": "rebirth",
+				"Name": "Rebirth",
+				"Icon": "assets/abilities/Rebirth.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "flash_frost",
+				"Name": "Flash Frost",
+				"Icon": "assets/abilities/Flash_Frost.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "crystallize",
+				"Name": "Crystallize",
+				"Icon": "assets/abilities/Crystallize.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "frostbite",
+				"Name": "Frostbite",
+				"Icon": "assets/abilities/Frostbite.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "glacial_storm",
+				"Name": "Glacial Storm",
+				"Icon": "assets/abilities/Glacial_Storm.png",
+				"Description": ""
+			}
+		},
+		"annie": {
+			"Passive": {
+				"ID": "pyromania",
+				"Name": "Pyromania",
+				"Icon": "assets/abilities/Pyromania.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "disintegrate",
+				"Name": "Disintegrate",
+				"Icon": "assets/abilities/Disintegrate.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "incinerate",
+				"Name": "Incinerate",
+				"Icon": "assets/abilities/Incinerate.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "molten_shield",
+				"Name": "Molten Shield",
+				"Icon": "assets/abilities/Molten_Shield.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "summon_tibbers",
+				"Name": "Summon Tibbers",
+				"Icon": "assets/abilities/Summon_Tibbers.png",
+				"Description": ""
+			}
+		},
+		"ashe": {
+			"Passive": {
+				"ID": "focus",
+				"Name": "Focus",
+				"Icon": "assets/abilities/Focus.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "frost_shot",
+				"Name": "Frost Shot",
+				"Icon": "assets/abilities/Frost_Shot.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "volley",
+				"Name": "Volley",
+				"Icon": "assets/abilities/Volley.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "hawkshot",
+				"Name": "Hawkshot",
+				"Icon": "assets/abilities/Hawkshot.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "enchanted_crystal_arrow",
+				"Name": "Enchanted Crystal Arrow",
+				"Icon": "assets/abilities/Enchanted_Crystal_Arrow.png",
+				"Description": ""
+			}
+		},
+		"blitzcrank": {
+			"Passive": {
+				"ID": "mana_barrier",
+				"Name": "Mana Barrier",
+				"Icon": "assets/abilities/Mana_Barrier.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "rocket_grab",
+				"Name": "Rocket Grab",
+				"Icon": "assets/abilities/Rocket_Grab.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "overdrive",
+				"Name": "Overdrive",
+				"Icon": "assets/abilities/Overdrive.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "power_fist",
+				"Name": "Power Fist",
+				"Icon": "assets/abilities/Power_Fist.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "static_field",
+				"Name": "Static Field",
+				"Icon": "assets/abilities/Static_Field.png",
+				"Description": ""
+			}
+		},
+		"brand": {
+			"Passive": {
+				"ID": "blaze",
+				"Name": "Blaze",
+				"Icon": "assets/abilities/Blaze.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "sear",
+				"Name": "Sear",
+				"Icon": "assets/abilities/Sear.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "pillar_of_flame",
+				"Name": "Pillar of Flame",
+				"Icon": "assets/abilities/Pillar_of_Flame.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "conflagration",
+				"Name": "Conflagration",
+				"Icon": "assets/abilities/Conflagration.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "pyroclasm",
+				"Name": "Pyroclasm",
+				"Icon": "assets/abilities/Pyroclasm.png",
+				"Description": ""
+			}
+		},
+		"caitlyn": {
+			"Passive": {
+				"ID": "headshot",
+				"Name": "Headshot",
+				"Icon": "assets/abilities/Headshot.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "piltover_peacemaker",
+				"Name": "Piltover Peacemaker",
+				"Icon": "assets/abilities/Piltover_Peacemaker.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "yordle_snap_trap",
+				"Name": "Yordle Snap Trap",
+				"Icon": "assets/abilities/Yordle_Snap_Trap.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "90_caliber_net",
+				"Name": "90 Caliber Net",
+				"Icon": "assets/abilities/90_Caliber_Net.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "ace_in_the_hole",
+				"Name": "Ace in the Hole",
+				"Icon": "assets/abilities/Ace_in_the_Hole.png",
+				"Description": ""
+			}
+		},
+		"cassiopeia": {
+			"Passive": {
+				"ID": "deadly_cadence",
+				"Name": "Deadly Cadence",
+				"Icon": "assets/abilities/Deadly_Cadence.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "noxious_blast",
+				"Name": "Noxious Blast",
+				"Icon": "assets/abilities/Noxious_Blast.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "miasma",
+				"Name": "Miasma",
+				"Icon": "assets/abilities/Miasma.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "twin_fang",
+				"Name": "Twin Fang",
+				"Icon": "assets/abilities/Twin_Fang.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "petrifying_gaze",
+				"Name": "Petrifying Gaze",
+				"Icon": "assets/abilities/Petrifying_Gaze.png",
 				"Description": ""
 			}
 		},
@@ -772,7 +1028,10 @@ angular.module('App').factory('Enums', function() {
 		{
 			"ID": 28,
 			"Icon": "assets/summoner_icons/28.jpg"
-
+		},
+		{
+			"ID": 39,
+			"Icon": "assets/summoner_icons/39.jpg"
 		},
 		{
 			"ID": 502,
