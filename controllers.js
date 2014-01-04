@@ -1,5 +1,21 @@
 function Index($scope, API, Enums) {
+	// var out = "";
+	// angular.forEach(Enums.Abilities, function(value, key) {
+	// 	var curr = Enums.Abilities[key];
+	// 	var passive = '"Passive": {\n\t\t"ID": "' + curr['Passive'].ID + '",\n\t\t"Name": "' + curr['Passive'].Name + '",\n\t\t"Icon": "' + curr['Passive'].Icon + '",\n\t\t"Description": "' + curr['Passive'].Description + '"\n\t},\n\t';
+	// 	var q = '"Q": {\n\t\t"Active": {\n\t\t\t"ID": "' + curr['Q'].ID + '",\n\t\t\t"Name": "' + curr['Q'].Name + '",\n\t\t\t"Icon": "' + curr['Q'].Icon + '",\n\t\t\t"Description": "' + curr['Q'].Description + '"\n\t\t}\n\t},\n\t';
+	// 	var w = '"W": {\n\t\t"Active": {\n\t\t\t"ID": "' + curr['W'].ID + '",\n\t\t\t"Name": "' + curr['W'].Name + '",\n\t\t\t"Icon": "' + curr['W'].Icon + '",\n\t\t\t"Description": "' + curr['W'].Description + '"\n\t\t}\n\t},\n\t';
+	// 	var e = '"E": {\n\t\t"Active": {\n\t\t\t"ID": "' + curr['E'].ID + '",\n\t\t\t"Name": "' + curr['E'].Name + '",\n\t\t\t"Icon": "' + curr['E'].Icon + '",\n\t\t\t"Description": "' + curr['E'].Description + '"\n\t\t}\n\t},\n\t';
+	// 	var r = '"R": {\n\t\t"Active": {\n\t\t\t"ID": "' + curr['R'].ID + '",\n\t\t\t"Name": "' + curr['R'].Name + '",\n\t\t\t"Icon": "' + curr['R'].Icon + '",\n\t\t\t"Description": "' + curr['R'].Description + '"\n\t\t}\n\t}';
 
+	// 	var str = '"' + key + '": {\n\t' + passive + q + w + e + r + '\n},\n';
+
+	// 	out += str;
+
+	// 	// console.log(q + w + e + r);
+	// })
+
+	// console.log(out);
 }
 
 function ChampionList($scope, API) {

@@ -506,36 +506,42 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "dark_flight",
-				"Name": "Dark Flight",
-				"Icon": "assets/abilities/Dark_Flight.png", 
-				"Description": ""
+				"Active": {
+					"ID": "dark_flight",
+					"Name": "Dark Flight",
+					"Icon": "assets/abilities/Dark_Flight.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ToggleOn": {
+				"ToggleOff": {
 					"ID": "blood_thirst",
 					"Name": "Blood Thirst",
-					"Icon": "assets/abilities/Blood_Thirst.png", 
+					"Icon": "assets/abilities/Blood_Thirst.png",
 					"Description": ""
 				},
-				"ToggleOff": {
+				"ToggleOn": {
 					"ID": "blood_price",
 					"Name": "Blood Price",
-					"Icon": "assets/abilities/Blood_Price.png", 
+					"Icon": "assets/abilities/Blood_Price.png",
 					"Description": ""
 				}
 			},
 			"E": {
-				"ID": "blades_of_torment",
-				"Name": "Blades of Torment",
-				"Icon": "assets/abilities/Blades_of_Torment.png", 
-				"Description": ""
+				"Active": {
+					"ID": "blades_of_torment",
+					"Name": "Blades of Torment",
+					"Icon": "assets/abilities/Blades_of_Torment.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "massacre",
-				"Name": "Massacre",
-				"Icon": "assets/abilities/Massacre.png", 
-				"Description": ""
+				"Active": {
+					"ID": "massacre",
+					"Name": "Massacre",
+					"Icon": "assets/abilities/Massacre.png",
+					"Description": ""
+				}
 			}
 		},
 		"ahri": {
@@ -546,28 +552,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "orb_of_deception",
-				"Name": "Orb of Deception",
-				"Icon": "assets/abilities/Orb_of_Deception.png",
-				"Description": ""
+				"Active": {
+					"ID": "orb_of_deception",
+					"Name": "Orb of Deception",
+					"Icon": "assets/abilities/Orb_of_Deception.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "fox-fire",
-				"Name": "Fox-Fire",
-				"Icon": "assets/abilities/Fox-Fire.png",
-				"Description": ""
+				"Active": {
+					"ID": "fox-fire",
+					"Name": "Fox-Fire",
+					"Icon": "assets/abilities/Fox-Fire.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "charm",
-				"Name": "Charm",
-				"Icon": "assets/abilities/Charm.png",
-				"Description": ""
+				"Active": {
+					"ID": "charm",
+					"Name": "Charm",
+					"Icon": "assets/abilities/Charm.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "spirit_rush",
-				"Name": "Spirit Rush",
-				"Icon": "assets/abilities/Spirit_Rush.png",
-				"Description": ""
+				"Active": {
+					"ID": "spirit_rush",
+					"Name": "Spirit Rush",
+					"Icon": "assets/abilities/Spirit_Rush.png",
+					"Description": ""
+				}
 			}
 		},
 		"akali": {
@@ -578,28 +592,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "mark_of_the_assassin",
-				"Name": "Mark of the Assassin",
-				"Icon": "assets/abilities/Mark_of_the_Assassin.png",
-				"Description": ""
+				"Active": {
+					"ID": "mark_of_the_assassin",
+					"Name": "Mark of the Assassin",
+					"Icon": "assets/abilities/Mark_of_the_Assassin.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "twilight_shroud",
-				"Name": "Twilight Shroud",
-				"Icon": "assets/abilities/Twilight_Shroud.png",
-				"Description": ""
+				"Active": {
+					"ID": "twilight_shroud",
+					"Name": "Twilight Shroud",
+					"Icon": "assets/abilities/Twilight_Shroud.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "crescent_slash",
-				"Name": "Crescent Slash",
-				"Icon": "assets/abilities/Crescent_Slash.png",
-				"Description": ""
+				"Active": {
+					"ID": "crescent_slash",
+					"Name": "Crescent Slash",
+					"Icon": "assets/abilities/Crescent_Slash.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "shadow_dance",
-				"Name": "Shadow Dance",
-				"Icon": "assets/abilities/Shadow_Dance.png",
-				"Description": ""
+				"Active": {
+					"ID": "shadow_dance",
+					"Name": "Shadow Dance",
+					"Icon": "assets/abilities/Shadow_Dance.png",
+					"Description": ""
+				}
 			}
 		},
 		"alistar": {
@@ -610,28 +632,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "pulverize",
-				"Name": "Pulverize",
-				"Icon": "assets/abilities/Pulverize.png",
-				"Description": ""
+				"Active": {
+					"ID": "pulverize",
+					"Name": "Pulverize",
+					"Icon": "assets/abilities/Pulverize.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "headbutt",
-				"Name": "Headbutt",
-				"Icon": "assets/abilities/Headbutt.png",
-				"Description": ""
+				"Active": {
+					"ID": "headbutt",
+					"Name": "Headbutt",
+					"Icon": "assets/abilities/Headbutt.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "triumphant_roar",
-				"Name": "Triumphant Roar",
-				"Icon": "assets/abilities/Triumphant_Roar.png",
-				"Description": ""
+				"Active": {
+					"ID": "triumphant_roar",
+					"Name": "Triumphant Roar",
+					"Icon": "assets/abilities/Triumphant_Roar.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "unbreakable_will",
-				"Name": "Unbreakable Will",
-				"Icon": "assets/abilities/Unbreakable_Will.png",
-				"Description": ""
+				"Active": {
+					"ID": "unbreakable_will",
+					"Name": "Unbreakable Will",
+					"Icon": "assets/abilities/Unbreakable_Will.png",
+					"Description": ""
+				}
 			}
 		},
 		"amumu": {
@@ -642,28 +672,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "bandage_toss",
-				"Name": "Bandage Toss",
-				"Icon": "assets/abilities/Bandage_Toss.png",
-				"Description": ""
+				"Active": {
+					"ID": "bandage_toss",
+					"Name": "Bandage Toss",
+					"Icon": "assets/abilities/Bandage_Toss.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "despair",
-				"Name": "Despair",
-				"Icon": "assets/abilities/Despair.png",
-				"Description": ""
+				"Active": {
+					"ID": "despair",
+					"Name": "Despair",
+					"Icon": "assets/abilities/Despair.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "tantrum",
-				"Name": "Tantrum",
-				"Icon": "assets/abilities/Tantrum.png",
-				"Description": ""
+				"Active": {
+					"ID": "tantrum",
+					"Name": "Tantrum",
+					"Icon": "assets/abilities/Tantrum.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "curse_of_the_sad_mummy",
-				"Name": "Curse of the Sad Mummy",
-				"Icon": "assets/abilities/Curse_of_the_Sad_Mummy.png",
-				"Description": ""
+				"Active": {
+					"ID": "curse_of_the_sad_mummy",
+					"Name": "Curse of the Sad Mummy",
+					"Icon": "assets/abilities/Curse_of_the_Sad_Mummy.png",
+					"Description": ""
+				}
 			}
 		},
 		"anivia": {
@@ -674,28 +712,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "flash_frost",
-				"Name": "Flash Frost",
-				"Icon": "assets/abilities/Flash_Frost.png",
-				"Description": ""
+				"Active": {
+					"ID": "flash_frost",
+					"Name": "Flash Frost",
+					"Icon": "assets/abilities/Flash_Frost.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "crystallize",
-				"Name": "Crystallize",
-				"Icon": "assets/abilities/Crystallize.png",
-				"Description": ""
+				"Active": {
+					"ID": "crystallize",
+					"Name": "Crystallize",
+					"Icon": "assets/abilities/Crystallize.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "frostbite",
-				"Name": "Frostbite",
-				"Icon": "assets/abilities/Frostbite.png",
-				"Description": ""
+				"Active": {
+					"ID": "frostbite",
+					"Name": "Frostbite",
+					"Icon": "assets/abilities/Frostbite.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "glacial_storm",
-				"Name": "Glacial Storm",
-				"Icon": "assets/abilities/Glacial_Storm.png",
-				"Description": ""
+				"Active": {
+					"ID": "glacial_storm",
+					"Name": "Glacial Storm",
+					"Icon": "assets/abilities/Glacial_Storm.png",
+					"Description": ""
+				}
 			}
 		},
 		"annie": {
@@ -706,28 +752,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "disintegrate",
-				"Name": "Disintegrate",
-				"Icon": "assets/abilities/Disintegrate.png",
-				"Description": ""
+				"Active": {
+					"ID": "disintegrate",
+					"Name": "Disintegrate",
+					"Icon": "assets/abilities/Disintegrate.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "incinerate",
-				"Name": "Incinerate",
-				"Icon": "assets/abilities/Incinerate.png",
-				"Description": ""
+				"Active": {
+					"ID": "incinerate",
+					"Name": "Incinerate",
+					"Icon": "assets/abilities/Incinerate.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "molten_shield",
-				"Name": "Molten Shield",
-				"Icon": "assets/abilities/Molten_Shield.png",
-				"Description": ""
+				"Active": {
+					"ID": "molten_shield",
+					"Name": "Molten Shield",
+					"Icon": "assets/abilities/Molten_Shield.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "summon_tibbers",
-				"Name": "Summon Tibbers",
-				"Icon": "assets/abilities/Summon_Tibbers.png",
-				"Description": ""
+				"Active": {
+					"ID": "summon_tibbers",
+					"Name": "Summon Tibbers",
+					"Icon": "assets/abilities/Summon_Tibbers.png",
+					"Description": ""
+				}
 			}
 		},
 		"ashe": {
@@ -738,28 +792,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "frost_shot",
-				"Name": "Frost Shot",
-				"Icon": "assets/abilities/Frost_Shot.png",
-				"Description": ""
+				"Active": {
+					"ID": "frost_shot",
+					"Name": "Frost Shot",
+					"Icon": "assets/abilities/Frost_Shot.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "volley",
-				"Name": "Volley",
-				"Icon": "assets/abilities/Volley.png",
-				"Description": ""
+				"Active": {
+					"ID": "volley",
+					"Name": "Volley",
+					"Icon": "assets/abilities/Volley.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "hawkshot",
-				"Name": "Hawkshot",
-				"Icon": "assets/abilities/Hawkshot.png",
-				"Description": ""
+				"Active": {
+					"ID": "hawkshot",
+					"Name": "Hawkshot",
+					"Icon": "assets/abilities/Hawkshot.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "enchanted_crystal_arrow",
-				"Name": "Enchanted Crystal Arrow",
-				"Icon": "assets/abilities/Enchanted_Crystal_Arrow.png",
-				"Description": ""
+				"Active": {
+					"ID": "enchanted_crystal_arrow",
+					"Name": "Enchanted Crystal Arrow",
+					"Icon": "assets/abilities/Enchanted_Crystal_Arrow.png",
+					"Description": ""
+				}
 			}
 		},
 		"blitzcrank": {
@@ -770,28 +832,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "rocket_grab",
-				"Name": "Rocket Grab",
-				"Icon": "assets/abilities/Rocket_Grab.png",
-				"Description": ""
+				"Active": {
+					"ID": "rocket_grab",
+					"Name": "Rocket Grab",
+					"Icon": "assets/abilities/Rocket_Grab.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "overdrive",
-				"Name": "Overdrive",
-				"Icon": "assets/abilities/Overdrive.png",
-				"Description": ""
+				"Active": {
+					"ID": "overdrive",
+					"Name": "Overdrive",
+					"Icon": "assets/abilities/Overdrive.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "power_fist",
-				"Name": "Power Fist",
-				"Icon": "assets/abilities/Power_Fist.png",
-				"Description": ""
+				"Active": {
+					"ID": "power_fist",
+					"Name": "Power Fist",
+					"Icon": "assets/abilities/Power_Fist.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "static_field",
-				"Name": "Static Field",
-				"Icon": "assets/abilities/Static_Field.png",
-				"Description": ""
+				"Active": {
+					"ID": "static_field",
+					"Name": "Static Field",
+					"Icon": "assets/abilities/Static_Field.png",
+					"Description": ""
+				}
 			}
 		},
 		"brand": {
@@ -802,28 +872,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "sear",
-				"Name": "Sear",
-				"Icon": "assets/abilities/Sear.png",
-				"Description": ""
+				"Active": {
+					"ID": "sear",
+					"Name": "Sear",
+					"Icon": "assets/abilities/Sear.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "pillar_of_flame",
-				"Name": "Pillar of Flame",
-				"Icon": "assets/abilities/Pillar_of_Flame.png",
-				"Description": ""
+				"Active": {
+					"ID": "pillar_of_flame",
+					"Name": "Pillar of Flame",
+					"Icon": "assets/abilities/Pillar_of_Flame.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "conflagration",
-				"Name": "Conflagration",
-				"Icon": "assets/abilities/Conflagration.png",
-				"Description": ""
+				"Active": {
+					"ID": "conflagration",
+					"Name": "Conflagration",
+					"Icon": "assets/abilities/Conflagration.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "pyroclasm",
-				"Name": "Pyroclasm",
-				"Icon": "assets/abilities/Pyroclasm.png",
-				"Description": ""
+				"Active": {
+					"ID": "pyroclasm",
+					"Name": "Pyroclasm",
+					"Icon": "assets/abilities/Pyroclasm.png",
+					"Description": ""
+				}
 			}
 		},
 		"caitlyn": {
@@ -834,28 +912,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "piltover_peacemaker",
-				"Name": "Piltover Peacemaker",
-				"Icon": "assets/abilities/Piltover_Peacemaker.png",
-				"Description": ""
+				"Active": {
+					"ID": "piltover_peacemaker",
+					"Name": "Piltover Peacemaker",
+					"Icon": "assets/abilities/Piltover_Peacemaker.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "yordle_snap_trap",
-				"Name": "Yordle Snap Trap",
-				"Icon": "assets/abilities/Yordle_Snap_Trap.png",
-				"Description": ""
+				"Active": {
+					"ID": "yordle_snap_trap",
+					"Name": "Yordle Snap Trap",
+					"Icon": "assets/abilities/Yordle_Snap_Trap.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "90_caliber_net",
-				"Name": "90 Caliber Net",
-				"Icon": "assets/abilities/90_Caliber_Net.png",
-				"Description": ""
+				"Active": {
+					"ID": "90_caliber_net",
+					"Name": "90 Caliber Net",
+					"Icon": "assets/abilities/90_Caliber_Net.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "ace_in_the_hole",
-				"Name": "Ace in the Hole",
-				"Icon": "assets/abilities/Ace_in_the_Hole.png",
-				"Description": ""
+				"Active": {
+					"ID": "ace_in_the_hole",
+					"Name": "Ace in the Hole",
+					"Icon": "assets/abilities/Ace_in_the_Hole.png",
+					"Description": ""
+				}
 			}
 		},
 		"cassiopeia": {
@@ -866,28 +952,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "noxious_blast",
-				"Name": "Noxious Blast",
-				"Icon": "assets/abilities/Noxious_Blast.png",
-				"Description": ""
+				"Active": {
+					"ID": "noxious_blast",
+					"Name": "Noxious Blast",
+					"Icon": "assets/abilities/Noxious_Blast.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "miasma",
-				"Name": "Miasma",
-				"Icon": "assets/abilities/Miasma.png",
-				"Description": ""
+				"Active": {
+					"ID": "miasma",
+					"Name": "Miasma",
+					"Icon": "assets/abilities/Miasma.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "twin_fang",
-				"Name": "Twin Fang",
-				"Icon": "assets/abilities/Twin_Fang.png",
-				"Description": ""
+				"Active": {
+					"ID": "twin_fang",
+					"Name": "Twin Fang",
+					"Icon": "assets/abilities/Twin_Fang.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "petrifying_gaze",
-				"Name": "Petrifying Gaze",
-				"Icon": "assets/abilities/Petrifying_Gaze.png",
-				"Description": ""
+				"Active": {
+					"ID": "petrifying_gaze",
+					"Name": "Petrifying Gaze",
+					"Icon": "assets/abilities/Petrifying_Gaze.png",
+					"Description": ""
+				}
 			}
 		},
 		"chogath": {
@@ -898,28 +992,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "rupture",
-				"Name": "Rupture",
-				"Icon": "assets/abilities/Rupture.png",
-				"Description": ""
+				"Active": {
+					"ID": "rupture",
+					"Name": "Rupture",
+					"Icon": "assets/abilities/Rupture.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "feral_scream",
-				"Name": "Feral Scream",
-				"Icon": "assets/abilities/Feral_Scream.png",
-				"Description": ""
+				"Active": {
+					"ID": "feral_scream",
+					"Name": "Feral Scream",
+					"Icon": "assets/abilities/Feral_Scream.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "vorpal_spikes",
-				"Name": "Vorpal Spikes",
-				"Icon": "assets/abilities/Vorpal_Spikes.png",
-				"Description": ""
+				"Active": {
+					"ID": "vorpal_spikes",
+					"Name": "Vorpal Spikes",
+					"Icon": "assets/abilities/Vorpal_Spikes.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "feast",
-				"Name": "Feast",
-				"Icon": "assets/abilities/Feast.png",
-				"Description": ""
+				"Active": {
+					"ID": "feast",
+					"Name": "Feast",
+					"Icon": "assets/abilities/Feast.png",
+					"Description": ""
+				}
 			}
 		},
 		"corki": {
@@ -930,28 +1032,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "phosphorus_bomb",
-				"Name": "Phosphorus Bomb",
-				"Icon": "assets/abilities/Phosphorus_Bomb.png",
-				"Description": ""
+				"Active": {
+					"ID": "phosphorus_bomb",
+					"Name": "Phosphorus Bomb",
+					"Icon": "assets/abilities/Phosphorus_Bomb.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "valkyrie",
-				"Name": "Valkyrie",
-				"Icon": "assets/abilities/Valkyrie.png",
-				"Description": ""
+				"Active": {
+					"ID": "valkyrie",
+					"Name": "Valkyrie",
+					"Icon": "assets/abilities/Valkyrie.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "gatling_gun",
-				"Name": "Gatling Gun",
-				"Icon": "assets/abilities/Gatling_Gun.png",
-				"Description": ""
+				"Active": {
+					"ID": "gatling_gun",
+					"Name": "Gatling Gun",
+					"Icon": "assets/abilities/Gatling_Gun.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "missile_barrage",
-				"Name": "Missile Barrage",
-				"Icon": "assets/abilities/Missile_Barrage.png",
-				"Description": ""
+				"Active": {
+					"ID": "missile_barrage",
+					"Name": "Missile Barrage",
+					"Icon": "assets/abilities/Missile_Barrage.png",
+					"Description": ""
+				}
 			}
 		},
 		"darius": {
@@ -962,28 +1072,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "decimate",
-				"Name": "Decimate",
-				"Icon": "assets/abilities/Decimate.png",
-				"Description": ""
+				"Active": {
+					"ID": "decimate",
+					"Name": "Decimate",
+					"Icon": "assets/abilities/Decimate.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "crippling_strike",
-				"Name": "Crippling Strike",
-				"Icon": "assets/abilities/Crippling_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "crippling_strike",
+					"Name": "Crippling Strike",
+					"Icon": "assets/abilities/Crippling_Strike.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "apprehend",
-				"Name": "Apprehend",
-				"Icon": "assets/abilities/Apprehend.png",
-				"Description": ""
+				"Active": {
+					"ID": "apprehend",
+					"Name": "Apprehend",
+					"Icon": "assets/abilities/Apprehend.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "noxian_guillotine",
-				"Name": "Noxian Guillotine",
-				"Icon": "assets/abilities/Noxian_Guillotine.png",
-				"Description": ""
+				"Active": {
+					"ID": "noxian_guillotine",
+					"Name": "Noxian Guillotine",
+					"Icon": "assets/abilities/Noxian_Guillotine.png",
+					"Description": ""
+				}
 			}
 		},
 		"diana": {
@@ -994,28 +1112,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "crescent_strike",
-				"Name": "Crescent Strike",
-				"Icon": "assets/abilities/Crescent_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "crescent_strike",
+					"Name": "Crescent Strike",
+					"Icon": "assets/abilities/Crescent_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "pale_cascade",
-				"Name": "Pale Cascade",
-				"Icon": "assets/abilities/Pale_Cascade.png",
-				"Description": ""
+				"Active": {
+					"ID": "pale_cascade",
+					"Name": "Pale Cascade",
+					"Icon": "assets/abilities/Pale_Cascade.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "moonfall",
-				"Name": "Moonfall",
-				"Icon": "assets/abilities/Moonfall.png",
-				"Description": ""
+				"Active": {
+					"ID": "moonfall",
+					"Name": "Moonfall",
+					"Icon": "assets/abilities/Moonfall.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "lunar_rush",
-				"Name": "Lunar Rush",
-				"Icon": "assets/abilities/Lunar_Rush.png",
-				"Description": ""
+				"Active": {
+					"ID": "lunar_rush",
+					"Name": "Lunar Rush",
+					"Icon": "assets/abilities/Lunar_Rush.png",
+					"Description": ""
+				}
 			}
 		},
 		"drmundo": {
@@ -1026,28 +1152,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "infected_cleaver",
-				"Name": "Infected Cleaver",
-				"Icon": "assets/abilities/Infected_Cleaver.png",
-				"Description": ""
+				"Active": {
+					"ID": "infected_cleaver",
+					"Name": "Infected Cleaver",
+					"Icon": "assets/abilities/Infected_Cleaver.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "burning_agony",
-				"Name": "Burning Agony",
-				"Icon": "assets/abilities/Burning_Agony.png",
-				"Description": ""
+				"Active": {
+					"ID": "burning_agony",
+					"Name": "Burning Agony",
+					"Icon": "assets/abilities/Burning_Agony.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "masochism",
-				"Name": "Masochism",
-				"Icon": "assets/abilities/Masochism.png",
-				"Description": ""
+				"Active": {
+					"ID": "masochism",
+					"Name": "Masochism",
+					"Icon": "assets/abilities/Masochism.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "sadism",
-				"Name": "Sadism",
-				"Icon": "assets/abilities/Sadism.png",
-				"Description": ""
+				"Active": {
+					"ID": "sadism",
+					"Name": "Sadism",
+					"Icon": "assets/abilities/Sadism.png",
+					"Description": ""
+				}
 			}
 		},
 		"draven": {
@@ -1058,28 +1192,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "spinning_axe",
-				"Name": "Spinning Axe",
-				"Icon": "assets/abilities/Spinning_Axe.png",
-				"Description": ""
+				"Active": {
+					"ID": "spinning_axe",
+					"Name": "Spinning Axe",
+					"Icon": "assets/abilities/Spinning_Axe.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "blood_rush",
-				"Name": "Blood Rush",
-				"Icon": "assets/abilities/Blood_Rush.png",
-				"Description": ""
+				"Active": {
+					"ID": "blood_rush",
+					"Name": "Blood Rush",
+					"Icon": "assets/abilities/Blood_Rush.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "stand_aside",
-				"Name": "Stand Aside",
-				"Icon": "assets/abilities/Stand_Aside.png",
-				"Description": ""
+				"Active": {
+					"ID": "stand_aside",
+					"Name": "Stand Aside",
+					"Icon": "assets/abilities/Stand_Aside.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "whirling_death",
-				"Name": "Whirling Death",
-				"Icon": "assets/abilities/Whirling_Death.png",
-				"Description": ""
+				"Active": {
+					"ID": "whirling_death",
+					"Name": "Whirling Death",
+					"Icon": "assets/abilities/Whirling_Death.png",
+					"Description": ""
+				}
 			}
 		},
 		"elise": {
@@ -1090,28 +1232,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			}
 		},
 		"evelynn": {
@@ -1122,28 +1272,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "hate_spike",
-				"Name": "Hate Spike",
-				"Icon": "assets/abilities/Hate_Spike.png",
-				"Description": ""
+				"Active": {
+					"ID": "hate_spike",
+					"Name": "Hate Spike",
+					"Icon": "assets/abilities/Hate_Spike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "dark_frenzy",
-				"Name": "Dark Frenzy",
-				"Icon": "assets/abilities/Dark_Frenzy.png",
-				"Description": ""
+				"Active": {
+					"ID": "dark_frenzy",
+					"Name": "Dark Frenzy",
+					"Icon": "assets/abilities/Dark_Frenzy.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "ravage",
-				"Name": "Ravage",
-				"Icon": "assets/abilities/Ravage.png",
-				"Description": ""
+				"Active": {
+					"ID": "ravage",
+					"Name": "Ravage",
+					"Icon": "assets/abilities/Ravage.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "agonys_embrace",
-				"Name": "Agony's Embrace",
-				"Icon": "assets/abilities/Agony's_Embrace.png",
-				"Description": ""
+				"Active": {
+					"ID": "agonys_embrace",
+					"Name": "Agony's Embrace",
+					"Icon": "assets/abilities/Agony's_Embrace.png",
+					"Description": ""
+				}
 			}
 		},
 		"ezreal": {
@@ -1154,28 +1312,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "mystic_shot",
-				"Name": "Mystic Shot",
-				"Icon": "assets/abilities/Mystic_Shot.png",
-				"Description": ""
+				"Active": {
+					"ID": "mystic_shot",
+					"Name": "Mystic Shot",
+					"Icon": "assets/abilities/Mystic_Shot.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "essence_flux",
-				"Name": "Essence Flux",
-				"Icon": "assets/abilities/Essence_Flux.png",
-				"Description": ""
+				"Active": {
+					"ID": "essence_flux",
+					"Name": "Essence Flux",
+					"Icon": "assets/abilities/Essence_Flux.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "arcane_shift",
-				"Name": "Arcane Shift",
-				"Icon": "assets/abilities/Arcane_Shift.png",
-				"Description": ""
+				"Active": {
+					"ID": "arcane_shift",
+					"Name": "Arcane Shift",
+					"Icon": "assets/abilities/Arcane_Shift.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "trueshot_barrage",
-				"Name": "Trueshot Barrage",
-				"Icon": "assets/abilities/Trueshot_Barrage.png",
-				"Description": ""
+				"Active": {
+					"ID": "trueshot_barrage",
+					"Name": "Trueshot Barrage",
+					"Icon": "assets/abilities/Trueshot_Barrage.png",
+					"Description": ""
+				}
 			}
 		},
 		"fiddlesticks": {
@@ -1186,28 +1352,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "terrify",
-				"Name": "Terrify",
-				"Icon": "assets/abilities/Terrify.png",
-				"Description": ""
+				"Active": {
+					"ID": "terrify",
+					"Name": "Terrify",
+					"Icon": "assets/abilities/Terrify.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "drain",
-				"Name": "Drain",
-				"Icon": "assets/abilities/Drain.png",
-				"Description": ""
+				"Active": {
+					"ID": "drain",
+					"Name": "Drain",
+					"Icon": "assets/abilities/Drain.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "dark_wind",
-				"Name": "Dark Wind",
-				"Icon": "assets/abilities/Dark_Wind.png",
-				"Description": ""
+				"Active": {
+					"ID": "dark_wind",
+					"Name": "Dark Wind",
+					"Icon": "assets/abilities/Dark_Wind.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "crowstorm",
-				"Name": "Crowstorm",
-				"Icon": "assets/abilities/Crowstorm.png",
-				"Description": ""
+				"Active": {
+					"ID": "crowstorm",
+					"Name": "Crowstorm",
+					"Icon": "assets/abilities/Crowstorm.png",
+					"Description": ""
+				}
 			}
 		},
 		"fiora": {
@@ -1218,28 +1392,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "lunge",
-				"Name": "Lunge",
-				"Icon": "assets/abilities/Lunge.png",
-				"Description": ""
+				"Active": {
+					"ID": "lunge",
+					"Name": "Lunge",
+					"Icon": "assets/abilities/Lunge.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "riposte",
-				"Name": "Riposte",
-				"Icon": "assets/abilities/Riposte.png",
-				"Description": ""
+				"Active": {
+					"ID": "riposte",
+					"Name": "Riposte",
+					"Icon": "assets/abilities/Riposte.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "burst_of_speed",
-				"Name": "Burst of Speed",
-				"Icon": "assets/abilities/Burst_of_Speed.png",
-				"Description": ""
+				"Active": {
+					"ID": "burst_of_speed",
+					"Name": "Burst of Speed",
+					"Icon": "assets/abilities/Burst_of_Speed.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "blade_waltz",
-				"Name": "Blade Waltz",
-				"Icon": "assets/abilities/Blade_Waltz.png",
-				"Description": ""
+				"Active": {
+					"ID": "blade_waltz",
+					"Name": "Blade Waltz",
+					"Icon": "assets/abilities/Blade_Waltz.png",
+					"Description": ""
+				}
 			}
 		},
 		"fizz": {
@@ -1250,28 +1432,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "urchin_strike",
-				"Name": "Urchin Strike",
-				"Icon": "assets/abilities/Urchin_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "urchin_strike",
+					"Name": "Urchin Strike",
+					"Icon": "assets/abilities/Urchin_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "seastone_trident",
-				"Name": "Seastone Trident",
-				"Icon": "assets/abilities/Seastone_Trident.png",
-				"Description": ""
+				"Active": {
+					"ID": "seastone_trident",
+					"Name": "Seastone Trident",
+					"Icon": "assets/abilities/Seastone_Trident.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "chum_the_waters",
-				"Name": "Chum the Waters",
-				"Icon": "assets/abilities/Chum_the_Waters.png",
-				"Description": ""
+				"Active": {
+					"ID": "chum_the_waters",
+					"Name": "Chum the Waters",
+					"Icon": "assets/abilities/Chum_the_Waters.png",
+					"Description": ""
+				}
 			}
 		},
 		"galio": {
@@ -1282,28 +1472,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "resolute_smite",
-				"Name": "Resolute Smite",
-				"Icon": "assets/abilities/Resolute_Smite.png",
-				"Description": ""
+				"Active": {
+					"ID": "resolute_smite",
+					"Name": "Resolute Smite",
+					"Icon": "assets/abilities/Resolute_Smite.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "bulwark",
-				"Name": "Bulwark",
-				"Icon": "assets/abilities/Bulwark.png",
-				"Description": ""
+				"Active": {
+					"ID": "bulwark",
+					"Name": "Bulwark",
+					"Icon": "assets/abilities/Bulwark.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "righteous_gust",
-				"Name": "Righteous Gust",
-				"Icon": "assets/abilities/Righteous_Gust.png",
-				"Description": ""
+				"Active": {
+					"ID": "righteous_gust",
+					"Name": "Righteous Gust",
+					"Icon": "assets/abilities/Righteous_Gust.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "idol_of_durand",
-				"Name": "Idol of Durand",
-				"Icon": "assets/abilities/Idol_of_Durand.png",
-				"Description": ""
+				"Active": {
+					"ID": "idol_of_durand",
+					"Name": "Idol of Durand",
+					"Icon": "assets/abilities/Idol_of_Durand.png",
+					"Description": ""
+				}
 			}
 		},
 		"gangplank": {
@@ -1314,28 +1512,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "parrrley",
-				"Name": "Parrrley",
-				"Icon": "assets/abilities/Parrrley.png",
-				"Description": ""
+				"Active": {
+					"ID": "parrrley",
+					"Name": "Parrrley",
+					"Icon": "assets/abilities/Parrrley.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "remove_scurvy",
-				"Name": "Remove Scurvy",
-				"Icon": "assets/abilities/Remove_Scurvy.png",
-				"Description": ""
+				"Active": {
+					"ID": "remove_scurvy",
+					"Name": "Remove Scurvy",
+					"Icon": "assets/abilities/Remove_Scurvy.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "raise_morale",
-				"Name": "Raise Morale",
-				"Icon": "assets/abilities/Raise_Morale.png",
-				"Description": ""
+				"Active": {
+					"ID": "raise_morale",
+					"Name": "Raise Morale",
+					"Icon": "assets/abilities/Raise_Morale.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "cannon_barrage",
-				"Name": "Cannon Barrage",
-				"Icon": "assets/abilities/Cannon_Barrage.png",
-				"Description": ""
+				"Active": {
+					"ID": "cannon_barrage",
+					"Name": "Cannon Barrage",
+					"Icon": "assets/abilities/Cannon_Barrage.png",
+					"Description": ""
+				}
 			}
 		},
 		"garen": {
@@ -1346,28 +1552,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "decisive_strike",
-				"Name": "Decisive Strike",
-				"Icon": "assets/abilities/Decisive_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "decisive_strike",
+					"Name": "Decisive Strike",
+					"Icon": "assets/abilities/Decisive_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "courage",
-				"Name": "Courage",
-				"Icon": "assets/abilities/Courage.png",
-				"Description": ""
+				"Active": {
+					"ID": "courage",
+					"Name": "Courage",
+					"Icon": "assets/abilities/Courage.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "judgment",
-				"Name": "Judgment",
-				"Icon": "assets/abilities/Judgment.png",
-				"Description": ""
+				"Active": {
+					"ID": "judgment",
+					"Name": "Judgment",
+					"Icon": "assets/abilities/Judgment.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "demacian_justice",
-				"Name": "Demacian Justice",
-				"Icon": "assets/abilities/Demacian_Justice.png",
-				"Description": ""
+				"Active": {
+					"ID": "demacian_justice",
+					"Name": "Demacian Justice",
+					"Icon": "assets/abilities/Demacian_Justice.png",
+					"Description": ""
+				}
 			}
 		},
 		"gragas": {
@@ -1378,28 +1592,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "barrel_roll",
-				"Name": "Barrel Roll",
-				"Icon": "assets/abilities/Barrel_Roll.png",
-				"Description": ""
+				"Active": {
+					"ID": "barrel_roll",
+					"Name": "Barrel Roll",
+					"Icon": "assets/abilities/Barrel_Roll.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "drunken_rage",
-				"Name": "Drunken Rage",
-				"Icon": "assets/abilities/Drunken_Rage.png",
-				"Description": ""
+				"Active": {
+					"ID": "drunken_rage",
+					"Name": "Drunken Rage",
+					"Icon": "assets/abilities/Drunken_Rage.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "body_slam",
-				"Name": "Body Slam",
-				"Icon": "assets/abilities/Body_Slam.png",
-				"Description": ""
+				"Active": {
+					"ID": "body_slam",
+					"Name": "Body Slam",
+					"Icon": "assets/abilities/Body_Slam.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "explosive_cask",
-				"Name": "Explosive Cask",
-				"Icon": "assets/abilities/Explosive_Cask.png",
-				"Description": ""
+				"Active": {
+					"ID": "explosive_cask",
+					"Name": "Explosive Cask",
+					"Icon": "assets/abilities/Explosive_Cask.png",
+					"Description": ""
+				}
 			}
 		},
 		"graves": {
@@ -1410,28 +1632,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "buckshot",
-				"Name": "Buckshot",
-				"Icon": "assets/abilities/Buckshot.png",
-				"Description": ""
+				"Active": {
+					"ID": "buckshot",
+					"Name": "Buckshot",
+					"Icon": "assets/abilities/Buckshot.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "smoke_screen",
-				"Name": "Smoke Screen",
-				"Icon": "assets/abilities/Smoke_Screen.png",
-				"Description": ""
+				"Active": {
+					"ID": "smoke_screen",
+					"Name": "Smoke Screen",
+					"Icon": "assets/abilities/Smoke_Screen.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "quickdraw",
-				"Name": "Quickdraw",
-				"Icon": "assets/abilities/Quickdraw.png",
-				"Description": ""
+				"Active": {
+					"ID": "quickdraw",
+					"Name": "Quickdraw",
+					"Icon": "assets/abilities/Quickdraw.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "collateral_damage",
-				"Name": "Collateral Damage",
-				"Icon": "assets/abilities/Collateral_Damage.png",
-				"Description": ""
+				"Active": {
+					"ID": "collateral_damage",
+					"Name": "Collateral Damage",
+					"Icon": "assets/abilities/Collateral_Damage.png",
+					"Description": ""
+				}
 			}
 		},
 		"hecarim": {
@@ -1442,28 +1672,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "rampage",
-				"Name": "Rampage",
-				"Icon": "assets/abilities/Rampage.png",
-				"Description": ""
+				"Active": {
+					"ID": "rampage",
+					"Name": "Rampage",
+					"Icon": "assets/abilities/Rampage.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "spirit_of_dread",
-				"Name": "Spirit of Dread",
-				"Icon": "assets/abilities/Spirit_of_Dread.png",
-				"Description": ""
+				"Active": {
+					"ID": "spirit_of_dread",
+					"Name": "Spirit of Dread",
+					"Icon": "assets/abilities/Spirit_of_Dread.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "devastating_charge",
-				"Name": "Devastating Charge",
-				"Icon": "assets/abilities/Devastating_Charge.png",
-				"Description": ""
+				"Active": {
+					"ID": "devastating_charge",
+					"Name": "Devastating Charge",
+					"Icon": "assets/abilities/Devastating_Charge.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "onslaught_of_shadows",
-				"Name": "Onslaught of Shadows",
-				"Icon": "assets/abilities/Onslaught_of_Shadows.png",
-				"Description": ""
+				"Active": {
+					"ID": "onslaught_of_shadows",
+					"Name": "Onslaught of Shadows",
+					"Icon": "assets/abilities/Onslaught_of_Shadows.png",
+					"Description": ""
+				}
 			}
 		},
 		"heimerdinger": {
@@ -1474,28 +1712,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "upgrade",
-				"Name": "UPGRADE!!!",
-				"Icon": "assets/abilities/Upgrade.png",
-				"Description": ""
+				"Active": {
+					"ID": "upgrade",
+					"Name": "UPGRADE!!!",
+					"Icon": "assets/abilities/Upgrade.png",
+					"Description": ""
+				}
 			}
 		},
 		"irelia": {
@@ -1506,28 +1752,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "bladesurge",
-				"Name": "Bladesurge",
-				"Icon": "assets/abilities/Bladesurge.png",
-				"Description": ""
+				"Active": {
+					"ID": "bladesurge",
+					"Name": "Bladesurge",
+					"Icon": "assets/abilities/Bladesurge.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "hiten_style",
-				"Name": "Hiten Style",
-				"Icon": "assets/abilities/Hiten_Style.png",
-				"Description": ""
+				"Active": {
+					"ID": "hiten_style",
+					"Name": "Hiten Style",
+					"Icon": "assets/abilities/Hiten_Style.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "equilibrium_strike",
-				"Name": "Equilibrium Strike",
-				"Icon": "assets/abilities/Equilibrium_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "equilibrium_strike",
+					"Name": "Equilibrium Strike",
+					"Icon": "assets/abilities/Equilibrium_Strike.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "transcendent_blades",
-				"Name": "Transcendent Blades",
-				"Icon": "assets/abilities/Transcendent_Blades.png",
-				"Description": ""
+				"Active": {
+					"ID": "transcendent_blades",
+					"Name": "Transcendent Blades",
+					"Icon": "assets/abilities/Transcendent_Blades.png",
+					"Description": ""
+				}
 			}
 		},
 		"janna": {
@@ -1538,28 +1792,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "howling_gale",
-				"Name": "Howling Gale",
-				"Icon": "assets/abilities/Howling_Gale.png",
-				"Description": ""
+				"Active": {
+					"ID": "howling_gale",
+					"Name": "Howling Gale",
+					"Icon": "assets/abilities/Howling_Gale.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "zephyr",
-				"Name": "Zephyr",
-				"Icon": "assets/abilities/Zephyr.png",
-				"Description": ""
+				"Active": {
+					"ID": "zephyr",
+					"Name": "Zephyr",
+					"Icon": "assets/abilities/Zephyr.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "eye_of_the_storm",
-				"Name": "Eye of the Storm",
-				"Icon": "assets/abilities/Eye_of_the_Storm.png",
-				"Description": ""
+				"Active": {
+					"ID": "eye_of_the_storm",
+					"Name": "Eye of the Storm",
+					"Icon": "assets/abilities/Eye_of_the_Storm.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "monsoon",
-				"Name": "Monsoon",
-				"Icon": "assets/abilities/Monsoon.png",
-				"Description": ""
+				"Active": {
+					"ID": "monsoon",
+					"Name": "Monsoon",
+					"Icon": "assets/abilities/Monsoon.png",
+					"Description": ""
+				}
 			}
 		},
 		"jarvaniv": {
@@ -1570,28 +1832,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "dragon_strike",
-				"Name": "Dragon Strike",
-				"Icon": "assets/abilities/Dragon_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "dragon_strike",
+					"Name": "Dragon Strike",
+					"Icon": "assets/abilities/Dragon_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "golden_aegis",
-				"Name": "Golden Aegis",
-				"Icon": "assets/abilities/Golden_Aegis.png",
-				"Description": ""
+				"Active": {
+					"ID": "golden_aegis",
+					"Name": "Golden Aegis",
+					"Icon": "assets/abilities/Golden_Aegis.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "demacian_standard",
-				"Name": "Demacian Standard",
-				"Icon": "assets/abilities/Demacian_Standard.png",
-				"Description": ""
+				"Active": {
+					"ID": "demacian_standard",
+					"Name": "Demacian Standard",
+					"Icon": "assets/abilities/Demacian_Standard.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "cataclysm",
-				"Name": "Cataclysm",
-				"Icon": "assets/abilities/Cataclysm.png",
-				"Description": ""
+				"Active": {
+					"ID": "cataclysm",
+					"Name": "Cataclysm",
+					"Icon": "assets/abilities/Cataclysm.png",
+					"Description": ""
+				}
 			}
 		},
 		"jax": {
@@ -1602,28 +1872,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "leap_strike",
-				"Name": "Leap Strike",
-				"Icon": "assets/abilities/Leap_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "leap_strike",
+					"Name": "Leap Strike",
+					"Icon": "assets/abilities/Leap_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "empower",
-				"Name": "Empower",
-				"Icon": "assets/abilities/Empower.png",
-				"Description": ""
+				"Active": {
+					"ID": "empower",
+					"Name": "Empower",
+					"Icon": "assets/abilities/Empower.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "counter_strike",
-				"Name": "Counter Strike",
-				"Icon": "assets/abilities/Counter_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "counter_strike",
+					"Name": "Counter Strike",
+					"Icon": "assets/abilities/Counter_Strike.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "grandmasters_might",
-				"Name": "Grandmaster's Might",
-				"Icon": "assets/abilities/Grandmaster's_Might.png",
-				"Description": ""
+				"Active": {
+					"ID": "grandmasters_might",
+					"Name": "Grandmaster's Might",
+					"Icon": "assets/abilities/Grandmaster's_Might.png",
+					"Description": ""
+				}
 			}
 		},
 		"jayce": {
@@ -1634,28 +1912,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			}
 		},
 		"jinx": {
@@ -1666,28 +1952,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "switcheroo",
-				"Name": "Switcheroo!",
-				"Icon": "assets/abilities/Switcheroo.png",
-				"Description": ""
+				"Active": {
+					"ID": "switcheroo",
+					"Name": "Switcheroo!",
+					"Icon": "assets/abilities/Switcheroo.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "zap",
-				"Name": "Zap!",
-				"Icon": "assets/abilities/Zap.png",
-				"Description": ""
+				"Active": {
+					"ID": "zap",
+					"Name": "Zap!",
+					"Icon": "assets/abilities/Zap.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "flame_chompers",
-				"Name": "Flame Chompers!",
-				"Icon": "assets/abilities/Flame_Chompers.png",
-				"Description": ""
+				"Active": {
+					"ID": "flame_chompers",
+					"Name": "Flame Chompers!",
+					"Icon": "assets/abilities/Flame_Chompers.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "super_mega_death_rocket",
-				"Name": "Super Mega Death Rocket!",
-				"Icon": "assets/abilities/Super_Mega_Death_Rocket.png",
-				"Description": ""
+				"Active": {
+					"ID": "super_mega_death_rocket",
+					"Name": "Super Mega Death Rocket!",
+					"Icon": "assets/abilities/Super_Mega_Death_Rocket.png",
+					"Description": ""
+				}
 			}
 		},
 		"karma": {
@@ -1698,28 +1992,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "mantra",
-				"Name": "Mantra",
-				"Icon": "assets/abilities/Mantra.png",
-				"Description": ""
+				"Active": {
+					"ID": "mantra",
+					"Name": "Mantra",
+					"Icon": "assets/abilities/Mantra.png",
+					"Description": ""
+				}
 			}
 		},
 		"karthus": {
@@ -1730,28 +2032,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "lay_waste",
-				"Name": "Lay Waste",
-				"Icon": "assets/abilities/Lay_Waste.png",
-				"Description": ""
+				"Active": {
+					"ID": "lay_waste",
+					"Name": "Lay Waste",
+					"Icon": "assets/abilities/Lay_Waste.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "wall_of_pain",
-				"Name": "Wall of Pain",
-				"Icon": "assets/abilities/Wall_of_Pain.png",
-				"Description": ""
+				"Active": {
+					"ID": "wall_of_pain",
+					"Name": "Wall of Pain",
+					"Icon": "assets/abilities/Wall_of_Pain.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "defile",
-				"Name": "Defile",
-				"Icon": "assets/abilities/Defile.png",
-				"Description": ""
+				"Active": {
+					"ID": "defile",
+					"Name": "Defile",
+					"Icon": "assets/abilities/Defile.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "requiem",
-				"Name": "Requiem",
-				"Icon": "assets/abilities/Requiem.png",
-				"Description": ""
+				"Active": {
+					"ID": "requiem",
+					"Name": "Requiem",
+					"Icon": "assets/abilities/Requiem.png",
+					"Description": ""
+				}
 			}
 		},
 		"kassadin": {
@@ -1762,28 +2072,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "null_sphere",
-				"Name": "Null Sphere",
-				"Icon": "assets/abilities/Null_Sphere.png",
-				"Description": ""
+				"Active": {
+					"ID": "null_sphere",
+					"Name": "Null Sphere",
+					"Icon": "assets/abilities/Null_Sphere.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "nether_blade",
-				"Name": "Nether Blade",
-				"Icon": "assets/abilities/Nether_Blade.png",
-				"Description": ""
+				"Active": {
+					"ID": "nether_blade",
+					"Name": "Nether Blade",
+					"Icon": "assets/abilities/Nether_Blade.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "force_pulse",
-				"Name": "Force Pulse",
-				"Icon": "assets/abilities/Force_Pulse.png",
-				"Description": ""
+				"Active": {
+					"ID": "force_pulse",
+					"Name": "Force Pulse",
+					"Icon": "assets/abilities/Force_Pulse.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "riftwalk",
-				"Name": "Riftwalk",
-				"Icon": "assets/abilities/Riftwalk.png",
-				"Description": ""
+				"Active": {
+					"ID": "riftwalk",
+					"Name": "Riftwalk",
+					"Icon": "assets/abilities/Riftwalk.png",
+					"Description": ""
+				}
 			}
 		},
 		"katarina": {
@@ -1794,28 +2112,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "bouncing_blades",
-				"Name": "Bouncing Blades",
-				"Icon": "assets/abilities/Bouncing_Blades.png",
-				"Description": ""
+				"Active": {
+					"ID": "bouncing_blades",
+					"Name": "Bouncing Blades",
+					"Icon": "assets/abilities/Bouncing_Blades.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "sinister_steel",
-				"Name": "Sinister Steel",
-				"Icon": "assets/abilities/Sinister_Steel.png",
-				"Description": ""
+				"Active": {
+					"ID": "sinister_steel",
+					"Name": "Sinister Steel",
+					"Icon": "assets/abilities/Sinister_Steel.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "shunpo",
-				"Name": "Shunpo",
-				"Icon": "assets/abilities/Shunpo.png",
-				"Description": ""
+				"Active": {
+					"ID": "shunpo",
+					"Name": "Shunpo",
+					"Icon": "assets/abilities/Shunpo.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "death_lotus",
-				"Name": "Death Lotus",
-				"Icon": "assets/abilities/Death_Lotus.png",
-				"Description": ""
+				"Active": {
+					"ID": "death_lotus",
+					"Name": "Death Lotus",
+					"Icon": "assets/abilities/Death_Lotus.png",
+					"Description": ""
+				}
 			}
 		},
 		"kayle": {
@@ -1826,28 +2152,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "reckoning",
-				"Name": "Reckoning",
-				"Icon": "assets/abilities/Reckoning.png",
-				"Description": ""
+				"Active": {
+					"ID": "reckoning",
+					"Name": "Reckoning",
+					"Icon": "assets/abilities/Reckoning.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "divine_blessing",
-				"Name": "Divine Blessing",
-				"Icon": "assets/abilities/Divine_Blessing.png",
-				"Description": ""
+				"Active": {
+					"ID": "divine_blessing",
+					"Name": "Divine Blessing",
+					"Icon": "assets/abilities/Divine_Blessing.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "righteous_fury",
-				"Name": "Righteous Fury",
-				"Icon": "assets/abilities/Righteous_Fury.png",
-				"Description": ""
+				"Active": {
+					"ID": "righteous_fury",
+					"Name": "Righteous Fury",
+					"Icon": "assets/abilities/Righteous_Fury.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "intervention",
-				"Name": "Intervention",
-				"Icon": "assets/abilities/Intervention.png",
-				"Description": ""
+				"Active": {
+					"ID": "intervention",
+					"Name": "Intervention",
+					"Icon": "assets/abilities/Intervention.png",
+					"Description": ""
+				}
 			}
 		},
 		"kennen": {
@@ -1858,28 +2192,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "thundering_shuriken",
-				"Name": "Thundering Shuriken",
-				"Icon": "assets/abilities/Thundering_Shuriken.png",
-				"Description": ""
+				"Active": {
+					"ID": "thundering_shuriken",
+					"Name": "Thundering Shuriken",
+					"Icon": "assets/abilities/Thundering_Shuriken.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "electrical_surge",
-				"Name": "Electrical Surge",
-				"Icon": "assets/abilities/Electrical_Surge.png",
-				"Description": ""
+				"Active": {
+					"ID": "electrical_surge",
+					"Name": "Electrical Surge",
+					"Icon": "assets/abilities/Electrical_Surge.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "lightning_rush",
-				"Name": "Lightning Rush",
-				"Icon": "assets/abilities/Lightning_Rush.png",
-				"Description": ""
+				"Active": {
+					"ID": "lightning_rush",
+					"Name": "Lightning Rush",
+					"Icon": "assets/abilities/Lightning_Rush.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "slicing_maelstrom",
-				"Name": "Slicing Maelstrom",
-				"Icon": "assets/abilities/Slicing_Maelstrom.png",
-				"Description": ""
+				"Active": {
+					"ID": "slicing_maelstrom",
+					"Name": "Slicing Maelstrom",
+					"Icon": "assets/abilities/Slicing_Maelstrom.png",
+					"Description": ""
+				}
 			}
 		},
 		"khazix": {
@@ -1890,28 +2232,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			}
 		},
 		"kogmaw": {
@@ -1922,28 +2272,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "caustic_spittle",
-				"Name": "Caustic Spittle",
-				"Icon": "assets/abilities/Caustic_Spittle.png",
-				"Description": ""
+				"Active": {
+					"ID": "caustic_spittle",
+					"Name": "Caustic Spittle",
+					"Icon": "assets/abilities/Caustic_Spittle.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "bio-arcane_barrage",
-				"Name": "Bio-Arcane Barrage",
-				"Icon": "assets/abilities/Bio-Arcane_Barrage.png",
-				"Description": ""
+				"Active": {
+					"ID": "bio-arcane_barrage",
+					"Name": "Bio-Arcane Barrage",
+					"Icon": "assets/abilities/Bio-Arcane_Barrage.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "void_ooze",
-				"Name": "Void Ooze",
-				"Icon": "assets/abilities/Void_Ooze.png",
-				"Description": ""
+				"Active": {
+					"ID": "void_ooze",
+					"Name": "Void Ooze",
+					"Icon": "assets/abilities/Void_Ooze.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "living_artillery",
-				"Name": "Living Artillery",
-				"Icon": "assets/abilities/Living_Artillery.png",
-				"Description": ""
+				"Active": {
+					"ID": "living_artillery",
+					"Name": "Living Artillery",
+					"Icon": "assets/abilities/Living_Artillery.png",
+					"Description": ""
+				}
 			}
 		},
 		"leblanc": {
@@ -1954,28 +2312,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "sigil_of_silence",
-				"Name": "Sigil of Silence",
-				"Icon": "assets/abilities/Sigil_of_Silence.png",
-				"Description": ""
+				"Active": {
+					"ID": "sigil_of_silence",
+					"Name": "Sigil of Silence",
+					"Icon": "assets/abilities/Sigil_of_Silence.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "distortion",
-				"Name": "Distortion",
-				"Icon": "assets/abilities/Distortion.png",
-				"Description": ""
+				"Active": {
+					"ID": "distortion",
+					"Name": "Distortion",
+					"Icon": "assets/abilities/Distortion.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "ethereal_chains",
-				"Name": "Ethereal Chains",
-				"Icon": "assets/abilities/Ethereal_Chains.png",
-				"Description": ""
+				"Active": {
+					"ID": "ethereal_chains",
+					"Name": "Ethereal Chains",
+					"Icon": "assets/abilities/Ethereal_Chains.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "mimic",
-				"Name": "Mimic",
-				"Icon": "assets/abilities/Mimic.png",
-				"Description": ""
+				"Active": {
+					"ID": "mimic",
+					"Name": "Mimic",
+					"Icon": "assets/abilities/Mimic.png",
+					"Description": ""
+				}
 			}
 		},
 		"leesin": {
@@ -1986,28 +2352,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "dragons_rage",
-				"Name": "Dragon's Rage",
-				"Icon": "assets/abilities/Dragons_Rage.png",
-				"Description": ""
+				"Active": {
+					"ID": "dragons_rage",
+					"Name": "Dragon's Rage",
+					"Icon": "assets/abilities/Dragons_Rage.png",
+					"Description": ""
+				}
 			}
 		},
 		"leona": {
@@ -2018,28 +2392,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "shield_of_daybreak",
-				"Name": "Shield of Daybreak",
-				"Icon": "assets/abilities/Shield_of_Daybreak.png",
-				"Description": ""
+				"Active": {
+					"ID": "shield_of_daybreak",
+					"Name": "Shield of Daybreak",
+					"Icon": "assets/abilities/Shield_of_Daybreak.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "eclipse",
-				"Name": "Eclipse",
-				"Icon": "assets/abilities/Eclipse.png",
-				"Description": ""
+				"Active": {
+					"ID": "eclipse",
+					"Name": "Eclipse",
+					"Icon": "assets/abilities/Eclipse.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "zenith_blade",
-				"Name": "Zenith Blade",
-				"Icon": "assets/abilities/Zenith_Blade.png",
-				"Description": ""
+				"Active": {
+					"ID": "zenith_blade",
+					"Name": "Zenith Blade",
+					"Icon": "assets/abilities/Zenith_Blade.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "solar_flare",
-				"Name": "Solar Flare",
-				"Icon": "assets/abilities/Solar_Flare.png",
-				"Description": ""
+				"Active": {
+					"ID": "solar_flare",
+					"Name": "Solar Flare",
+					"Icon": "assets/abilities/Solar_Flare.png",
+					"Description": ""
+				}
 			}
 		},
 		"lissandra": {
@@ -2050,28 +2432,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "ice_shard",
-				"Name": "Ice Shard",
-				"Icon": "assets/abilities/Ice_Shard.png",
-				"Description": ""
+				"Active": {
+					"ID": "ice_shard",
+					"Name": "Ice Shard",
+					"Icon": "assets/abilities/Ice_Shard.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "ring_of_frost",
-				"Name": "Ring of Frost",
-				"Icon": "assets/abilities/Ring_of_Frost.png",
-				"Description": ""
+				"Active": {
+					"ID": "ring_of_frost",
+					"Name": "Ring of Frost",
+					"Icon": "assets/abilities/Ring_of_Frost.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "glacial_path",
-				"Name": "Glacial Path",
-				"Icon": "assets/abilities/Glacial_Path.png",
-				"Description": ""
+				"Active": {
+					"ID": "glacial_path",
+					"Name": "Glacial Path",
+					"Icon": "assets/abilities/Glacial_Path.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "frozen_tomb",
-				"Name": "Frozen Tomb",
-				"Icon": "assets/abilities/Frozen_Tomb.png",
-				"Description": ""
+				"Active": {
+					"ID": "frozen_tomb",
+					"Name": "Frozen Tomb",
+					"Icon": "assets/abilities/Frozen_Tomb.png",
+					"Description": ""
+				}
 			}
 		},
 		"lucian": {
@@ -2082,28 +2472,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "piercing_light",
-				"Name": "Piercing Light",
-				"Icon": "assets/abilities/Piercing_Light.png",
-				"Description": ""
+				"Active": {
+					"ID": "piercing_light",
+					"Name": "Piercing Light",
+					"Icon": "assets/abilities/Piercing_Light.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "ardent_blaze",
-				"Name": "Ardent Blaze",
-				"Icon": "assets/abilities/Ardent_Blaze.png",
-				"Description": ""
+				"Active": {
+					"ID": "ardent_blaze",
+					"Name": "Ardent Blaze",
+					"Icon": "assets/abilities/Ardent_Blaze.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "relentless_pursuit",
-				"Name": "Relentless Pursuit",
-				"Icon": "assets/abilities/Relentless_Pursuit.png",
-				"Description": ""
+				"Active": {
+					"ID": "relentless_pursuit",
+					"Name": "Relentless Pursuit",
+					"Icon": "assets/abilities/Relentless_Pursuit.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "the_culling",
-				"Name": "The Culling",
-				"Icon": "assets/abilities/The_Culling.png",
-				"Description": ""
+				"Active": {
+					"ID": "the_culling",
+					"Name": "The Culling",
+					"Icon": "assets/abilities/The_Culling.png",
+					"Description": ""
+				}
 			}
 		},
 		"lulu": {
@@ -2114,28 +2512,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "glitterlance",
-				"Name": "Glitterlance",
-				"Icon": "assets/abilities/Glitterlance.png",
-				"Description": ""
+				"Active": {
+					"ID": "glitterlance",
+					"Name": "Glitterlance",
+					"Icon": "assets/abilities/Glitterlance.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "whimsy",
-				"Name": "Whimsy",
-				"Icon": "assets/abilities/Whimsy.png",
-				"Description": ""
+				"Active": {
+					"ID": "whimsy",
+					"Name": "Whimsy",
+					"Icon": "assets/abilities/Whimsy.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "help_pix",
-				"Name": "Help, Pix!",
-				"Icon": "assets/abilities/Help_Pix.png",
-				"Description": ""
+				"Active": {
+					"ID": "help_pix",
+					"Name": "Help, Pix!",
+					"Icon": "assets/abilities/Help_Pix.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "wild_growth",
-				"Name": "Wild Growth",
-				"Icon": "assets/abilities/Wild_Growth.png",
-				"Description": ""
+				"Active": {
+					"ID": "wild_growth",
+					"Name": "Wild Growth",
+					"Icon": "assets/abilities/Wild_Growth.png",
+					"Description": ""
+				}
 			}
 		},
 		"lux": {
@@ -2146,28 +2552,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "light_binding",
-				"Name": "Light Binding",
-				"Icon": "assets/abilities/Light_Binding.png",
-				"Description": ""
+				"Active": {
+					"ID": "light_binding",
+					"Name": "Light Binding",
+					"Icon": "assets/abilities/Light_Binding.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "prismatic_barrier",
-				"Name": "Prismatic Barrier",
-				"Icon": "assets/abilities/Prismatic_Barrier.png",
-				"Description": ""
+				"Active": {
+					"ID": "prismatic_barrier",
+					"Name": "Prismatic Barrier",
+					"Icon": "assets/abilities/Prismatic_Barrier.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "lucent_singularity",
-				"Name": "Lucent Singularity",
-				"Icon": "assets/abilities/Lucent_Singularity.png",
-				"Description": ""
+				"Active": {
+					"ID": "lucent_singularity",
+					"Name": "Lucent Singularity",
+					"Icon": "assets/abilities/Lucent_Singularity.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "final_spark",
-				"Name": "Final Spark",
-				"Icon": "assets/abilities/Final_Spark.png",
-				"Description": ""
+				"Active": {
+					"ID": "final_spark",
+					"Name": "Final Spark",
+					"Icon": "assets/abilities/Final_Spark.png",
+					"Description": ""
+				}
 			}
 		},
 		"malphite": {
@@ -2178,28 +2592,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "seismic_shard",
-				"Name": "Seismic Shard",
-				"Icon": "assets/abilities/Seismic_Shard.png",
-				"Description": ""
+				"Active": {
+					"ID": "seismic_shard",
+					"Name": "Seismic Shard",
+					"Icon": "assets/abilities/Seismic_Shard.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "brutal_strikes",
-				"Name": "Brutal Strikes",
-				"Icon": "assets/abilities/Brutal_Strikes.png",
-				"Description": ""
+				"Active": {
+					"ID": "brutal_strikes",
+					"Name": "Brutal Strikes",
+					"Icon": "assets/abilities/Brutal_Strikes.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "ground_slam",
-				"Name": "Ground Slam",
-				"Icon": "assets/abilities/Ground_Slam.png",
-				"Description": ""
+				"Active": {
+					"ID": "ground_slam",
+					"Name": "Ground Slam",
+					"Icon": "assets/abilities/Ground_Slam.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "unstoppable_force",
-				"Name": "Unstoppable Force",
-				"Icon": "assets/abilities/Unstoppable_Force.png",
-				"Description": ""
+				"Active": {
+					"ID": "unstoppable_force",
+					"Name": "Unstoppable Force",
+					"Icon": "assets/abilities/Unstoppable_Force.png",
+					"Description": ""
+				}
 			}
 		},
 		"malzahar": {
@@ -2210,28 +2632,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "call_of_the_void",
-				"Name": "Call of the Void",
-				"Icon": "assets/abilities/Call_of_the_Void.png",
-				"Description": ""
+				"Active": {
+					"ID": "call_of_the_void",
+					"Name": "Call of the Void",
+					"Icon": "assets/abilities/Call_of_the_Void.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "null_zone",
-				"Name": "Null Zone",
-				"Icon": "assets/abilities/Null_Zone.png",
-				"Description": ""
+				"Active": {
+					"ID": "null_zone",
+					"Name": "Null Zone",
+					"Icon": "assets/abilities/Null_Zone.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "malefic_visions",
-				"Name": "Malefic Visions",
-				"Icon": "assets/abilities/Malefic_Visions.png",
-				"Description": ""
+				"Active": {
+					"ID": "malefic_visions",
+					"Name": "Malefic Visions",
+					"Icon": "assets/abilities/Malefic_Visions.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "nether_grasp",
-				"Name": "Nether Grasp",
-				"Icon": "assets/abilities/Nether_Grasp.png",
-				"Description": ""
+				"Active": {
+					"ID": "nether_grasp",
+					"Name": "Nether Grasp",
+					"Icon": "assets/abilities/Nether_Grasp.png",
+					"Description": ""
+				}
 			}
 		},
 		"maokai": {
@@ -2242,28 +2672,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "arcane_smash",
-				"Name": "Arcane Smash",
-				"Icon": "assets/abilities/Arcane_Smash.png",
-				"Description": ""
+				"Active": {
+					"ID": "arcane_smash",
+					"Name": "Arcane Smash",
+					"Icon": "assets/abilities/Arcane_Smash.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "twisted_advance",
-				"Name": "Twisted Advance",
-				"Icon": "assets/abilities/Twisted_Advance.png",
-				"Description": ""
+				"Active": {
+					"ID": "twisted_advance",
+					"Name": "Twisted Advance",
+					"Icon": "assets/abilities/Twisted_Advance.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "sapling_toss",
-				"Name": "Sapling Toss",
-				"Icon": "assets/abilities/Sapling_Toss.png",
-				"Description": ""
+				"Active": {
+					"ID": "sapling_toss",
+					"Name": "Sapling Toss",
+					"Icon": "assets/abilities/Sapling_Toss.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "vengeful_maelstrom",
-				"Name": "Vengeful Maelstrom",
-				"Icon": "assets/abilities/Vengeful_Maelstrom.png",
-				"Description": ""
+				"Active": {
+					"ID": "vengeful_maelstrom",
+					"Name": "Vengeful Maelstrom",
+					"Icon": "assets/abilities/Vengeful_Maelstrom.png",
+					"Description": ""
+				}
 			}
 		},
 		"masteryi": {
@@ -2274,28 +2712,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "alpha_strike",
-				"Name": "Alpha Strike",
-				"Icon": "assets/abilities/Alpha_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "alpha_strike",
+					"Name": "Alpha Strike",
+					"Icon": "assets/abilities/Alpha_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "meditate",
-				"Name": "Meditate",
-				"Icon": "assets/abilities/Meditate.png",
-				"Description": ""
+				"Active": {
+					"ID": "meditate",
+					"Name": "Meditate",
+					"Icon": "assets/abilities/Meditate.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "wuju_style",
-				"Name": "Wuju Style",
-				"Icon": "assets/abilities/Wuju_Style.png",
-				"Description": ""
+				"Active": {
+					"ID": "wuju_style",
+					"Name": "Wuju Style",
+					"Icon": "assets/abilities/Wuju_Style.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "highlander",
-				"Name": "Highlander",
-				"Icon": "assets/abilities/Highlander.png",
-				"Description": ""
+				"Active": {
+					"ID": "highlander",
+					"Name": "Highlander",
+					"Icon": "assets/abilities/Highlander.png",
+					"Description": ""
+				}
 			}
 		},
 		"missfortune": {
@@ -2306,28 +2752,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "double_up",
-				"Name": "Double Up",
-				"Icon": "assets/abilities/Double_Up.png",
-				"Description": ""
+				"Active": {
+					"ID": "double_up",
+					"Name": "Double Up",
+					"Icon": "assets/abilities/Double_Up.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "impure_shots",
-				"Name": "Impure Shots",
-				"Icon": "assets/abilities/Impure_Shots.png",
-				"Description": ""
+				"Active": {
+					"ID": "impure_shots",
+					"Name": "Impure Shots",
+					"Icon": "assets/abilities/Impure_Shots.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "make_it_rain",
-				"Name": "Make It Rain",
-				"Icon": "assets/abilities/Make_It_Rain.png",
-				"Description": ""
+				"Active": {
+					"ID": "make_it_rain",
+					"Name": "Make It Rain",
+					"Icon": "assets/abilities/Make_It_Rain.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "bullet_time",
-				"Name": "Bullet Time",
-				"Icon": "assets/abilities/Bullet_Time.png",
-				"Description": ""
+				"Active": {
+					"ID": "bullet_time",
+					"Name": "Bullet Time",
+					"Icon": "assets/abilities/Bullet_Time.png",
+					"Description": ""
+				}
 			}
 		},
 		"mordekaiser": {
@@ -2338,28 +2792,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "mace_of_spades",
-				"Name": "Mace of Spades",
-				"Icon": "assets/abilities/Mace_of_Spades.png",
-				"Description": ""
+				"Active": {
+					"ID": "mace_of_spades",
+					"Name": "Mace of Spades",
+					"Icon": "assets/abilities/Mace_of_Spades.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "creeping_death",
-				"Name": "Creeping Death",
-				"Icon": "assets/abilities/Creeping_Death.png",
-				"Description": ""
+				"Active": {
+					"ID": "creeping_death",
+					"Name": "Creeping Death",
+					"Icon": "assets/abilities/Creeping_Death.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "siphon_of_destruction",
-				"Name": "Siphon of Destruction",
-				"Icon": "assets/abilities/Siphon_of_Destruction.png",
-				"Description": ""
+				"Active": {
+					"ID": "siphon_of_destruction",
+					"Name": "Siphon of Destruction",
+					"Icon": "assets/abilities/Siphon_of_Destruction.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "children_of_the_grave",
-				"Name": "Children of the Grave",
-				"Icon": "assets/abilities/Children_of_the_Grave.png",
-				"Description": ""
+				"Active": {
+					"ID": "children_of_the_grave",
+					"Name": "Children of the Grave",
+					"Icon": "assets/abilities/Children_of_the_Grave.png",
+					"Description": ""
+				}
 			}
 		},
 		"morgana": {
@@ -2370,28 +2832,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "dark_binding",
-				"Name": "Dark Binding",
-				"Icon": "assets/abilities/Dark_Binding.png",
-				"Description": ""
+				"Active": {
+					"ID": "dark_binding",
+					"Name": "Dark Binding",
+					"Icon": "assets/abilities/Dark_Binding.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "tormented_soil",
-				"Name": "Tormented Soil",
-				"Icon": "assets/abilities/Tormented_Soil.png",
-				"Description": ""
+				"Active": {
+					"ID": "tormented_soil",
+					"Name": "Tormented Soil",
+					"Icon": "assets/abilities/Tormented_Soil.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "black_shield",
-				"Name": "Black Shield",
-				"Icon": "assets/abilities/Black_Shield.png",
-				"Description": ""
+				"Active": {
+					"ID": "black_shield",
+					"Name": "Black Shield",
+					"Icon": "assets/abilities/Black_Shield.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "soul_shackles",
-				"Name": "Soul Shackles",
-				"Icon": "assets/abilities/Soul_Shackles.png",
-				"Description": ""
+				"Active": {
+					"ID": "soul_shackles",
+					"Name": "Soul Shackles",
+					"Icon": "assets/abilities/Soul_Shackles.png",
+					"Description": ""
+				}
 			}
 		},
 		"nami": {
@@ -2402,28 +2872,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "aqua_prison",
-				"Name": "Aqua Prison",
-				"Icon": "assets/abilities/Aqua_Prison.png",
-				"Description": ""
+				"Active": {
+					"ID": "aqua_prison",
+					"Name": "Aqua Prison",
+					"Icon": "assets/abilities/Aqua_Prison.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "ebb_and_flow",
-				"Name": "Ebb and Flow",
-				"Icon": "assets/abilities/Ebb_and_Flow.png",
-				"Description": ""
+				"Active": {
+					"ID": "ebb_and_flow",
+					"Name": "Ebb and Flow",
+					"Icon": "assets/abilities/Ebb_and_Flow.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "tidecallers_blessing",
-				"Name": "Tidecaller's Blessing",
-				"Icon": "assets/abilities/Tidecallers_Blessing.png",
-				"Description": ""
+				"Active": {
+					"ID": "tidecallers_blessing",
+					"Name": "Tidecaller's Blessing",
+					"Icon": "assets/abilities/Tidecallers_Blessing.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "tidal_wave",
-				"Name": "Tidal Wave",
-				"Icon": "assets/abilities/Tidal_Wave.png",
-				"Description": ""
+				"Active": {
+					"ID": "tidal_wave",
+					"Name": "Tidal Wave",
+					"Icon": "assets/abilities/Tidal_Wave.png",
+					"Description": ""
+				}
 			}
 		},
 		"nasus": {
@@ -2434,28 +2912,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "siphoning_strike",
-				"Name": "Siphoning Strike",
-				"Icon": "assets/abilities/Siphoning_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "siphoning_strike",
+					"Name": "Siphoning Strike",
+					"Icon": "assets/abilities/Siphoning_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "wither",
-				"Name": "Wither",
-				"Icon": "assets/abilities/Wither.png",
-				"Description": ""
+				"Active": {
+					"ID": "wither",
+					"Name": "Wither",
+					"Icon": "assets/abilities/Wither.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "spirit_fire",
-				"Name": "Spirit Fire",
-				"Icon": "assets/abilities/Spirit_Fire.png",
-				"Description": ""
+				"Active": {
+					"ID": "spirit_fire",
+					"Name": "Spirit Fire",
+					"Icon": "assets/abilities/Spirit_Fire.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "fury_of_the_sands",
-				"Name": "Fury of the Sands",
-				"Icon": "assets/abilities/Fury_of_the_Sands.png",
-				"Description": ""
+				"Active": {
+					"ID": "fury_of_the_sands",
+					"Name": "Fury of the Sands",
+					"Icon": "assets/abilities/Fury_of_the_Sands.png",
+					"Description": ""
+				}
 			}
 		},
 		"nautilus": {
@@ -2466,28 +2952,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "dredge_line",
-				"Name": "Dredge Line",
-				"Icon": "assets/abilities/Dredge_Line.png",
-				"Description": ""
+				"Active": {
+					"ID": "dredge_line",
+					"Name": "Dredge Line",
+					"Icon": "assets/abilities/Dredge_Line.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "titans_wrath",
-				"Name": "Titan's Wrath",
-				"Icon": "assets/abilities/Titan's_Wrath.png",
-				"Description": ""
+				"Active": {
+					"ID": "titans_wrath",
+					"Name": "Titan's Wrath",
+					"Icon": "assets/abilities/Titan's_Wrath.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "riptide",
-				"Name": "Riptide",
-				"Icon": "assets/abilities/Riptide.png",
-				"Description": ""
+				"Active": {
+					"ID": "riptide",
+					"Name": "Riptide",
+					"Icon": "assets/abilities/Riptide.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "depth_charge",
-				"Name": "Depth Charge",
-				"Icon": "assets/abilities/Depth_Charge.png",
-				"Description": ""
+				"Active": {
+					"ID": "depth_charge",
+					"Name": "Depth Charge",
+					"Icon": "assets/abilities/Depth_Charge.png",
+					"Description": ""
+				}
 			}
 		},
 		"nidalee": {
@@ -2498,28 +2992,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "aspect_of_the_cougar",
-				"Name": "Aspect of the Cougar",
-				"Icon": "assets/abilities/Aspect_of_the_Cougar.png",
-				"Description": ""
+				"Active": {
+					"ID": "aspect_of_the_cougar",
+					"Name": "Aspect of the Cougar",
+					"Icon": "assets/abilities/Aspect_of_the_Cougar.png",
+					"Description": ""
+				}
 			}
 		},
 		"nocturne": {
@@ -2530,28 +3032,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "duskbringer",
-				"Name": "Duskbringer",
-				"Icon": "assets/abilities/Duskbringer.png",
-				"Description": ""
+				"Active": {
+					"ID": "duskbringer",
+					"Name": "Duskbringer",
+					"Icon": "assets/abilities/Duskbringer.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "shroud_of_darkness",
-				"Name": "Shroud of Darkness",
-				"Icon": "assets/abilities/Shroud_of_Darkness.png",
-				"Description": ""
+				"Active": {
+					"ID": "shroud_of_darkness",
+					"Name": "Shroud of Darkness",
+					"Icon": "assets/abilities/Shroud_of_Darkness.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "unspeakable_horror",
-				"Name": "Unspeakable Horror",
-				"Icon": "assets/abilities/Unspeakable_Horror.png",
-				"Description": ""
+				"Active": {
+					"ID": "unspeakable_horror",
+					"Name": "Unspeakable Horror",
+					"Icon": "assets/abilities/Unspeakable_Horror.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "paranoia",
-				"Name": "Paranoia",
-				"Icon": "assets/abilities/Paranoia.png",
-				"Description": ""
+				"Active": {
+					"ID": "paranoia",
+					"Name": "Paranoia",
+					"Icon": "assets/abilities/Paranoia.png",
+					"Description": ""
+				}
 			}
 		},
 		"nunu": {
@@ -2562,28 +3072,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "consume",
-				"Name": "Consume",
-				"Icon": "assets/abilities/Consume.png",
-				"Description": ""
+				"Active": {
+					"ID": "consume",
+					"Name": "Consume",
+					"Icon": "assets/abilities/Consume.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "blood_boil",
-				"Name": "Blood Boil",
-				"Icon": "assets/abilities/Blood_Boil.png",
-				"Description": ""
+				"Active": {
+					"ID": "blood_boil",
+					"Name": "Blood Boil",
+					"Icon": "assets/abilities/Blood_Boil.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "ice_blast",
-				"Name": "Ice Blast",
-				"Icon": "assets/abilities/Ice_Blast.png",
-				"Description": ""
+				"Active": {
+					"ID": "ice_blast",
+					"Name": "Ice Blast",
+					"Icon": "assets/abilities/Ice_Blast.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "absolute_zero",
-				"Name": "Absolute Zero",
-				"Icon": "assets/abilities/Absolute_Zero.png",
-				"Description": ""
+				"Active": {
+					"ID": "absolute_zero",
+					"Name": "Absolute Zero",
+					"Icon": "assets/abilities/Absolute_Zero.png",
+					"Description": ""
+				}
 			}
 		},
 		"olaf": {
@@ -2594,28 +3112,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "undertow",
-				"Name": "Undertow",
-				"Icon": "assets/abilities/Undertow.png",
-				"Description": ""
+				"Active": {
+					"ID": "undertow",
+					"Name": "Undertow",
+					"Icon": "assets/abilities/Undertow.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "vicious_strikes",
-				"Name": "Vicious Strikes",
-				"Icon": "assets/abilities/Vicious_Strikes.png",
-				"Description": ""
+				"Active": {
+					"ID": "vicious_strikes",
+					"Name": "Vicious Strikes",
+					"Icon": "assets/abilities/Vicious_Strikes.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "reckless_swing",
-				"Name": "Reckless Swing",
-				"Icon": "assets/abilities/Reckless_Swing.png",
-				"Description": ""
+				"Active": {
+					"ID": "reckless_swing",
+					"Name": "Reckless Swing",
+					"Icon": "assets/abilities/Reckless_Swing.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "ragnarok",
-				"Name": "Ragnarok",
-				"Icon": "assets/abilities/Ragnarok.png",
-				"Description": ""
+				"Active": {
+					"ID": "ragnarok",
+					"Name": "Ragnarok",
+					"Icon": "assets/abilities/Ragnarok.png",
+					"Description": ""
+				}
 			}
 		},
 		"orianna": {
@@ -2626,28 +3152,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "command_attack",
-				"Name": "Command: Attack",
-				"Icon": "assets/abilities/Command_Attack.png",
-				"Description": ""
+				"Active": {
+					"ID": "command_attack",
+					"Name": "Command: Attack",
+					"Icon": "assets/abilities/Command_Attack.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "command_dissonance",
-				"Name": "Command: Dissonance",
-				"Icon": "assets/abilities/Command_Dissonance.png",
-				"Description": ""
+				"Active": {
+					"ID": "command_dissonance",
+					"Name": "Command: Dissonance",
+					"Icon": "assets/abilities/Command_Dissonance.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "command_protect",
-				"Name": "Command: Protect",
-				"Icon": "assets/abilities/Command_Protect.png",
-				"Description": ""
+				"Active": {
+					"ID": "command_protect",
+					"Name": "Command: Protect",
+					"Icon": "assets/abilities/Command_Protect.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "command_shockwave",
-				"Name": "Command: Shockwave",
-				"Icon": "assets/abilities/Command_Shockwave.png",
-				"Description": ""
+				"Active": {
+					"ID": "command_shockwave",
+					"Name": "Command: Shockwave",
+					"Icon": "assets/abilities/Command_Shockwave.png",
+					"Description": ""
+				}
 			}
 		},
 		"pantheon": {
@@ -2658,28 +3192,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "spear_shot",
-				"Name": "Spear Shot",
-				"Icon": "assets/abilities/Spear_Shot.png",
-				"Description": ""
+				"Active": {
+					"ID": "spear_shot",
+					"Name": "Spear Shot",
+					"Icon": "assets/abilities/Spear_Shot.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "aegis_of_zeonia",
-				"Name": "Aegis of Zeonia",
-				"Icon": "assets/abilities/Aegis_of_Zeonia.png",
-				"Description": ""
+				"Active": {
+					"ID": "aegis_of_zeonia",
+					"Name": "Aegis of Zeonia",
+					"Icon": "assets/abilities/Aegis_of_Zeonia.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "heartseeker_strike",
-				"Name": "Heartseeker Strike",
-				"Icon": "assets/abilities/Heartseeker_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "heartseeker_strike",
+					"Name": "Heartseeker Strike",
+					"Icon": "assets/abilities/Heartseeker_Strike.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "grand_skyfall",
-				"Name": "Grand Skyfall",
-				"Icon": "assets/abilities/Grand_Skyfall.png",
-				"Description": ""
+				"Active": {
+					"ID": "grand_skyfall",
+					"Name": "Grand Skyfall",
+					"Icon": "assets/abilities/Grand_Skyfall.png",
+					"Description": ""
+				}
 			}
 		},
 		"poppy": {
@@ -2690,28 +3232,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "devastating_blow",
-				"Name": "Devastating Blow",
-				"Icon": "assets/abilities/Devastating_Blow.png",
-				"Description": ""
+				"Active": {
+					"ID": "devastating_blow",
+					"Name": "Devastating Blow",
+					"Icon": "assets/abilities/Devastating_Blow.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "paragon_of_demacia",
-				"Name": "Paragon of Demacia",
-				"Icon": "assets/abilities/Paragon_of_Demacia.png",
-				"Description": ""
+				"Active": {
+					"ID": "paragon_of_demacia",
+					"Name": "Paragon of Demacia",
+					"Icon": "assets/abilities/Paragon_of_Demacia.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "heroic_charge",
-				"Name": "Heroic Charge",
-				"Icon": "assets/abilities/Heroic_Charge.png",
-				"Description": ""
+				"Active": {
+					"ID": "heroic_charge",
+					"Name": "Heroic Charge",
+					"Icon": "assets/abilities/Heroic_Charge.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "diplomatic_immunity",
-				"Name": "Diplomatic Immunity",
-				"Icon": "assets/abilities/Diplomatic_Immunity.png",
-				"Description": ""
+				"Active": {
+					"ID": "diplomatic_immunity",
+					"Name": "Diplomatic Immunity",
+					"Icon": "assets/abilities/Diplomatic_Immunity.png",
+					"Description": ""
+				}
 			}
 		},
 		"quinn": {
@@ -2722,28 +3272,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "blinding_assault",
-				"Name": "Blinding Assault",
-				"Icon": "assets/abilities/Blinding_Assault.png",
-				"Description": ""
+				"Active": {
+					"ID": "blinding_assault",
+					"Name": "Blinding Assault",
+					"Icon": "assets/abilities/Blinding_Assault.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "heightened_senses",
-				"Name": "Heightened Senses",
-				"Icon": "assets/abilities/Heightened_Senses.png",
-				"Description": ""
+				"Active": {
+					"ID": "heightened_senses",
+					"Name": "Heightened Senses",
+					"Icon": "assets/abilities/Heightened_Senses.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "vault",
-				"Name": "Vault",
-				"Icon": "assets/abilities/Vault.png",
-				"Description": ""
+				"Active": {
+					"ID": "vault",
+					"Name": "Vault",
+					"Icon": "assets/abilities/Vault.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			}
 		},
 		"rammus": {
@@ -2754,28 +3312,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "powerball",
-				"Name": "Powerball",
-				"Icon": "assets/abilities/Powerball.png",
-				"Description": ""
+				"Active": {
+					"ID": "powerball",
+					"Name": "Powerball",
+					"Icon": "assets/abilities/Powerball.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "defensive_ball_curl",
-				"Name": "Defensive Ball Curl",
-				"Icon": "assets/abilities/Defensive_Ball_Curl.png",
-				"Description": ""
+				"Active": {
+					"ID": "defensive_ball_curl",
+					"Name": "Defensive Ball Curl",
+					"Icon": "assets/abilities/Defensive_Ball_Curl.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "puncturing_taunt",
-				"Name": "Puncturing Taunt",
-				"Icon": "assets/abilities/Puncturing_Taunt.png",
-				"Description": ""
+				"Active": {
+					"ID": "puncturing_taunt",
+					"Name": "Puncturing Taunt",
+					"Icon": "assets/abilities/Puncturing_Taunt.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "tremors",
-				"Name": "Tremors",
-				"Icon": "assets/abilities/Tremors.png",
-				"Description": ""
+				"Active": {
+					"ID": "tremors",
+					"Name": "Tremors",
+					"Icon": "assets/abilities/Tremors.png",
+					"Description": ""
+				}
 			}
 		},
 		"renekton": {
@@ -2786,28 +3352,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "cull_the_meek",
-				"Name": "Cull the Meek",
-				"Icon": "assets/abilities/Cull_the_Meek.png",
-				"Description": ""
+				"Active": {
+					"ID": "cull_the_meek",
+					"Name": "Cull the Meek",
+					"Icon": "assets/abilities/Cull_the_Meek.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "ruthless_predator",
-				"Name": "Ruthless Predator",
-				"Icon": "assets/abilities/Ruthless_Predator.png",
-				"Description": ""
+				"Active": {
+					"ID": "ruthless_predator",
+					"Name": "Ruthless Predator",
+					"Icon": "assets/abilities/Ruthless_Predator.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "dominus",
-				"Name": "Dominus",
-				"Icon": "assets/abilities/Dominus.png",
-				"Description": ""
+				"Active": {
+					"ID": "dominus",
+					"Name": "Dominus",
+					"Icon": "assets/abilities/Dominus.png",
+					"Description": ""
+				}
 			}
 		},
 		"rengar": {
@@ -2818,28 +3392,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "thrill_of_the_hunt",
-				"Name": "Thrill of the Hunt",
-				"Icon": "assets/abilities/Thrill_of_the_Hunt.png",
-				"Description": ""
+				"Active": {
+					"ID": "thrill_of_the_hunt",
+					"Name": "Thrill of the Hunt",
+					"Icon": "assets/abilities/Thrill_of_the_Hunt.png",
+					"Description": ""
+				}
 			}
 		},
 		"riven": {
@@ -2850,28 +3432,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "broken_wings",
-				"Name": "Broken Wings",
-				"Icon": "assets/abilities/Broken_Wings.png",
-				"Description": ""
+				"Active": {
+					"ID": "broken_wings",
+					"Name": "Broken Wings",
+					"Icon": "assets/abilities/Broken_Wings.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "ki_burst",
-				"Name": "Ki Burst",
-				"Icon": "assets/abilities/Ki_Burst.png",
-				"Description": ""
+				"Active": {
+					"ID": "ki_burst",
+					"Name": "Ki Burst",
+					"Icon": "assets/abilities/Ki_Burst.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "valor",
-				"Name": "Valor",
-				"Icon": "assets/abilities/Valor.png",
-				"Description": ""
+				"Active": {
+					"ID": "valor",
+					"Name": "Valor",
+					"Icon": "assets/abilities/Valor.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			}
 		},
 		"rumble": {
@@ -2882,28 +3472,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "flamespitter",
-				"Name": "Flamespitter",
-				"Icon": "assets/abilities/Flamespitter.png",
-				"Description": ""
+				"Active": {
+					"ID": "flamespitter",
+					"Name": "Flamespitter",
+					"Icon": "assets/abilities/Flamespitter.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "scrap_shield",
-				"Name": "Scrap Shield",
-				"Icon": "assets/abilities/Scrap_Shield.png",
-				"Description": ""
+				"Active": {
+					"ID": "scrap_shield",
+					"Name": "Scrap Shield",
+					"Icon": "assets/abilities/Scrap_Shield.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "electro-harpoon",
-				"Name": "Electro-Harpoon",
-				"Icon": "assets/abilities/Electro-Harpoon.png",
-				"Description": ""
+				"Active": {
+					"ID": "electro-harpoon",
+					"Name": "Electro-Harpoon",
+					"Icon": "assets/abilities/Electro-Harpoon.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "the_equalizer",
-				"Name": "The Equalizer",
-				"Icon": "assets/abilities/The_Equalizer.png",
-				"Description": ""
+				"Active": {
+					"ID": "the_equalizer",
+					"Name": "The Equalizer",
+					"Icon": "assets/abilities/The_Equalizer.png",
+					"Description": ""
+				}
 			}
 		},
 		"ryze": {
@@ -2914,28 +3512,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "overload",
-				"Name": "Overload",
-				"Icon": "assets/abilities/Overload.png",
-				"Description": ""
+				"Active": {
+					"ID": "overload",
+					"Name": "Overload",
+					"Icon": "assets/abilities/Overload.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "rune_prison",
-				"Name": "Rune Prison",
-				"Icon": "assets/abilities/Rune_Prison.png",
-				"Description": ""
+				"Active": {
+					"ID": "rune_prison",
+					"Name": "Rune Prison",
+					"Icon": "assets/abilities/Rune_Prison.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "spell_flux",
-				"Name": "Spell Flux",
-				"Icon": "assets/abilities/Spell_Flux.png",
-				"Description": ""
+				"Active": {
+					"ID": "spell_flux",
+					"Name": "Spell Flux",
+					"Icon": "assets/abilities/Spell_Flux.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "desperate_power",
-				"Name": "Desperate Power",
-				"Icon": "assets/abilities/Desperate_Power.png",
-				"Description": ""
+				"Active": {
+					"ID": "desperate_power",
+					"Name": "Desperate Power",
+					"Icon": "assets/abilities/Desperate_Power.png",
+					"Description": ""
+				}
 			}
 		},
 		"sejuani": {
@@ -2946,28 +3552,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "arctic_assault",
-				"Name": "Arctic Assault",
-				"Icon": "assets/abilities/Arctic_Assault.png",
-				"Description": ""
+				"Active": {
+					"ID": "arctic_assault",
+					"Name": "Arctic Assault",
+					"Icon": "assets/abilities/Arctic_Assault.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "flail_of_the_northern_winds",
-				"Name": "Flail of the Northern Winds",
-				"Icon": "assets/abilities/Flail_of_the_Northern_Winds.png",
-				"Description": ""
+				"Active": {
+					"ID": "flail_of_the_northern_winds",
+					"Name": "Flail of the Northern Winds",
+					"Icon": "assets/abilities/Flail_of_the_Northern_Winds.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "permafrost",
-				"Name": "Permafrost",
-				"Icon": "assets/abilities/Permafrost.png",
-				"Description": ""
+				"Active": {
+					"ID": "permafrost",
+					"Name": "Permafrost",
+					"Icon": "assets/abilities/Permafrost.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "glacial_prison",
-				"Name": "Glacial Prison",
-				"Icon": "assets/abilities/Glacial_Prison.png",
-				"Description": ""
+				"Active": {
+					"ID": "glacial_prison",
+					"Name": "Glacial Prison",
+					"Icon": "assets/abilities/Glacial_Prison.png",
+					"Description": ""
+				}
 			}
 		},
 		"shaco": {
@@ -2978,28 +3592,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "deceive",
-				"Name": "Deceive",
-				"Icon": "assets/abilities/Deceive.png",
-				"Description": ""
+				"Active": {
+					"ID": "deceive",
+					"Name": "Deceive",
+					"Icon": "assets/abilities/Deceive.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "jack_in_the_box",
-				"Name": "Jack In The Box",
-				"Icon": "assets/abilities/Jack_In_The_Box.png",
-				"Description": ""
+				"Active": {
+					"ID": "jack_in_the_box",
+					"Name": "Jack In The Box",
+					"Icon": "assets/abilities/Jack_In_The_Box.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "two-shiv_poison",
-				"Name": "Two-Shiv Poison",
-				"Icon": "assets/abilities/Two-Shiv_Poison.png",
-				"Description": ""
+				"Active": {
+					"ID": "two-shiv_poison",
+					"Name": "Two-Shiv Poison",
+					"Icon": "assets/abilities/Two-Shiv_Poison.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "hallucinate",
-				"Name": "Hallucinate",
-				"Icon": "assets/abilities/Hallucinate.png",
-				"Description": ""
+				"Active": {
+					"ID": "hallucinate",
+					"Name": "Hallucinate",
+					"Icon": "assets/abilities/Hallucinate.png",
+					"Description": ""
+				}
 			}
 		},
 		"shen": {
@@ -3010,28 +3632,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "vorpal_blade",
-				"Name": "Vorpal Blade",
-				"Icon": "assets/abilities/Vorpal_Blade.png",
-				"Description": ""
+				"Active": {
+					"ID": "vorpal_blade",
+					"Name": "Vorpal Blade",
+					"Icon": "assets/abilities/Vorpal_Blade.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "feint",
-				"Name": "Feint",
-				"Icon": "assets/abilities/Feint.png",
-				"Description": ""
+				"Active": {
+					"ID": "feint",
+					"Name": "Feint",
+					"Icon": "assets/abilities/Feint.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "shadow_dash",
-				"Name": "Shadow Dash",
-				"Icon": "assets/abilities/Shadow_Dash.png",
-				"Description": ""
+				"Active": {
+					"ID": "shadow_dash",
+					"Name": "Shadow Dash",
+					"Icon": "assets/abilities/Shadow_Dash.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "stand_united",
-				"Name": "Stand United",
-				"Icon": "assets/abilities/Stand_United.png",
-				"Description": ""
+				"Active": {
+					"ID": "stand_united",
+					"Name": "Stand United",
+					"Icon": "assets/abilities/Stand_United.png",
+					"Description": ""
+				}
 			}
 		},
 		"shyvana": {
@@ -3042,28 +3672,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "twin_bite",
-				"Name": "Twin Bite",
-				"Icon": "assets/abilities/Twin_Bite.png",
-				"Description": ""
+				"Active": {
+					"ID": "twin_bite",
+					"Name": "Twin Bite",
+					"Icon": "assets/abilities/Twin_Bite.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "burnout",
-				"Name": "Burnout",
-				"Icon": "assets/abilities/Burnout.png",
-				"Description": ""
+				"Active": {
+					"ID": "burnout",
+					"Name": "Burnout",
+					"Icon": "assets/abilities/Burnout.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "flame_breath",
-				"Name": "Flame Breath",
-				"Icon": "assets/abilities/Flame_Breath.png",
-				"Description": ""
+				"Active": {
+					"ID": "flame_breath",
+					"Name": "Flame Breath",
+					"Icon": "assets/abilities/Flame_Breath.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "dragons_descent",
-				"Name": "Dragon's Descent",
-				"Icon": "assets/abilities/Dragons_Descent.png",
-				"Description": ""
+				"Active": {
+					"ID": "dragons_descent",
+					"Name": "Dragon's Descent",
+					"Icon": "assets/abilities/Dragons_Descent.png",
+					"Description": ""
+				}
 			}
 		},
 		"singed": {
@@ -3074,28 +3712,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "poison_trail",
-				"Name": "Poison Trail",
-				"Icon": "assets/abilities/Poison_Trail.png",
-				"Description": ""
+				"Active": {
+					"ID": "poison_trail",
+					"Name": "Poison Trail",
+					"Icon": "assets/abilities/Poison_Trail.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "mega_adhesive",
-				"Name": "Mega Adhesive",
-				"Icon": "assets/abilities/Mega_Adhesive.png",
-				"Description": ""
+				"Active": {
+					"ID": "mega_adhesive",
+					"Name": "Mega Adhesive",
+					"Icon": "assets/abilities/Mega_Adhesive.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "fling",
-				"Name": "Fling",
-				"Icon": "assets/abilities/Fling.png",
-				"Description": ""
+				"Active": {
+					"ID": "fling",
+					"Name": "Fling",
+					"Icon": "assets/abilities/Fling.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "insanity_potion",
-				"Name": "Insanity Potion",
-				"Icon": "assets/abilities/Insanity_Potion.png",
-				"Description": ""
+				"Active": {
+					"ID": "insanity_potion",
+					"Name": "Insanity Potion",
+					"Icon": "assets/abilities/Insanity_Potion.png",
+					"Description": ""
+				}
 			}
 		},
 		"sion": {
@@ -3106,28 +3752,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "cryptic_gaze",
-				"Name": "Cryptic Gaze",
-				"Icon": "assets/abilities/Cryptic_Gaze.png",
-				"Description": ""
+				"Active": {
+					"ID": "cryptic_gaze",
+					"Name": "Cryptic Gaze",
+					"Icon": "assets/abilities/Cryptic_Gaze.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "deaths_caress",
-				"Name": "Death's Caress",
-				"Icon": "assets/abilities/Death's_Caress.png",
-				"Description": ""
+				"Active": {
+					"ID": "deaths_caress",
+					"Name": "Death's Caress",
+					"Icon": "assets/abilities/Death's_Caress.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "enrage",
-				"Name": "Enrage",
-				"Icon": "assets/abilities/Enrage.png",
-				"Description": ""
+				"Active": {
+					"ID": "enrage",
+					"Name": "Enrage",
+					"Icon": "assets/abilities/Enrage.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "cannibalism",
-				"Name": "Cannibalism",
-				"Icon": "assets/abilities/Cannibalism.png",
-				"Description": ""
+				"Active": {
+					"ID": "cannibalism",
+					"Name": "Cannibalism",
+					"Icon": "assets/abilities/Cannibalism.png",
+					"Description": ""
+				}
 			}
 		},
 		"sivir": {
@@ -3138,28 +3792,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "boomerang_blade",
-				"Name": "Boomerang Blade",
-				"Icon": "assets/abilities/Boomerang_Blade.png",
-				"Description": ""
+				"Active": {
+					"ID": "boomerang_blade",
+					"Name": "Boomerang Blade",
+					"Icon": "assets/abilities/Boomerang_Blade.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "ricochet",
-				"Name": "Ricochet",
-				"Icon": "assets/abilities/Ricochet.png",
-				"Description": ""
+				"Active": {
+					"ID": "ricochet",
+					"Name": "Ricochet",
+					"Icon": "assets/abilities/Ricochet.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "spell_shield",
-				"Name": "Spell Shield",
-				"Icon": "assets/abilities/Spell_Shield.png",
-				"Description": ""
+				"Active": {
+					"ID": "spell_shield",
+					"Name": "Spell Shield",
+					"Icon": "assets/abilities/Spell_Shield.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "on_the_hunt",
-				"Name": "On The Hunt",
-				"Icon": "assets/abilities/On_The_Hunt.png",
-				"Description": ""
+				"Active": {
+					"ID": "on_the_hunt",
+					"Name": "On The Hunt",
+					"Icon": "assets/abilities/On_The_Hunt.png",
+					"Description": ""
+				}
 			}
 		},
 		"skarner": {
@@ -3170,28 +3832,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "crystal_slash",
-				"Name": "Crystal Slash",
-				"Icon": "assets/abilities/Crystal_Slash.png",
-				"Description": ""
+				"Active": {
+					"ID": "crystal_slash",
+					"Name": "Crystal Slash",
+					"Icon": "assets/abilities/Crystal_Slash.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "crystalline_exoskeleton",
-				"Name": "Crystalline Exoskeleton",
-				"Icon": "assets/abilities/Crystalline_Exoskeleton.png",
-				"Description": ""
+				"Active": {
+					"ID": "crystalline_exoskeleton",
+					"Name": "Crystalline Exoskeleton",
+					"Icon": "assets/abilities/Crystalline_Exoskeleton.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "fracture",
-				"Name": "Fracture",
-				"Icon": "assets/abilities/Fracture.png",
-				"Description": ""
+				"Active": {
+					"ID": "fracture",
+					"Name": "Fracture",
+					"Icon": "assets/abilities/Fracture.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "impale",
-				"Name": "Impale",
-				"Icon": "assets/abilities/Impale.png",
-				"Description": ""
+				"Active": {
+					"ID": "impale",
+					"Name": "Impale",
+					"Icon": "assets/abilities/Impale.png",
+					"Description": ""
+				}
 			}
 		},
 		"sona": {
@@ -3202,28 +3872,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "hymn_of_valor",
-				"Name": "Hymn of Valor",
-				"Icon": "assets/abilities/Hymn_of_Valor.png",
-				"Description": ""
+				"Active": {
+					"ID": "hymn_of_valor",
+					"Name": "Hymn of Valor",
+					"Icon": "assets/abilities/Hymn_of_Valor.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "aria_of_perseverance",
-				"Name": "Aria of Perseverance",
-				"Icon": "assets/abilities/Aria_of_Perseverance.png",
-				"Description": ""
+				"Active": {
+					"ID": "aria_of_perseverance",
+					"Name": "Aria of Perseverance",
+					"Icon": "assets/abilities/Aria_of_Perseverance.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "song_of_celerity",
-				"Name": "Song of Celerity",
-				"Icon": "assets/abilities/Song_of_Celerity.png",
-				"Description": ""
+				"Active": {
+					"ID": "song_of_celerity",
+					"Name": "Song of Celerity",
+					"Icon": "assets/abilities/Song_of_Celerity.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "crescendo",
-				"Name": "Crescendo",
-				"Icon": "assets/abilities/Crescendo.png",
-				"Description": ""
+				"Active": {
+					"ID": "crescendo",
+					"Name": "Crescendo",
+					"Icon": "assets/abilities/Crescendo.png",
+					"Description": ""
+				}
 			}
 		},
 		"soraka": {
@@ -3234,28 +3912,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "starcall",
-				"Name": "Starcall",
-				"Icon": "assets/abilities/Starcall.png",
-				"Description": ""
+				"Active": {
+					"ID": "starcall",
+					"Name": "Starcall",
+					"Icon": "assets/abilities/Starcall.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "astral_blessing",
-				"Name": "Astral Blessing",
-				"Icon": "assets/abilities/Astral_Blessing.png",
-				"Description": ""
+				"Active": {
+					"ID": "astral_blessing",
+					"Name": "Astral Blessing",
+					"Icon": "assets/abilities/Astral_Blessing.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "infuse",
-				"Name": "Infuse",
-				"Icon": "assets/abilities/Infuse.png",
-				"Description": ""
+				"Active": {
+					"ID": "infuse",
+					"Name": "Infuse",
+					"Icon": "assets/abilities/Infuse.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "wish",
-				"Name": "Wish",
-				"Icon": "assets/abilities/Wish.png",
-				"Description": ""
+				"Active": {
+					"ID": "wish",
+					"Name": "Wish",
+					"Icon": "assets/abilities/Wish.png",
+					"Description": ""
+				}
 			}
 		},
 		"swain": {
@@ -3266,28 +3952,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "decrepify",
-				"Name": "Decrepify",
-				"Icon": "assets/abilities/Decrepify.png",
-				"Description": ""
+				"Active": {
+					"ID": "decrepify",
+					"Name": "Decrepify",
+					"Icon": "assets/abilities/Decrepify.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "nevermove",
-				"Name": "Nevermove",
-				"Icon": "assets/abilities/Nevermove.png",
-				"Description": ""
+				"Active": {
+					"ID": "nevermove",
+					"Name": "Nevermove",
+					"Icon": "assets/abilities/Nevermove.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "torment",
-				"Name": "Torment",
-				"Icon": "assets/abilities/Torment.png",
-				"Description": ""
+				"Active": {
+					"ID": "torment",
+					"Name": "Torment",
+					"Icon": "assets/abilities/Torment.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "ravenous_flock",
-				"Name": "Ravenous Flock",
-				"Icon": "assets/abilities/Ravenous_Flock.png",
-				"Description": ""
+				"Active": {
+					"ID": "ravenous_flock",
+					"Name": "Ravenous Flock",
+					"Icon": "assets/abilities/Ravenous_Flock.png",
+					"Description": ""
+				}
 			}
 		},
 		"syndra": {
@@ -3298,28 +3992,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "dark_sphere",
-				"Name": "Dark Sphere",
-				"Icon": "assets/abilities/Dark_Sphere.png",
-				"Description": ""
+				"Active": {
+					"ID": "dark_sphere",
+					"Name": "Dark Sphere",
+					"Icon": "assets/abilities/Dark_Sphere.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "scatter_the_weak",
-				"Name": "Scatter the Weak",
-				"Icon": "assets/abilities/Scatter_the_Weak.png",
-				"Description": ""
+				"Active": {
+					"ID": "scatter_the_weak",
+					"Name": "Scatter the Weak",
+					"Icon": "assets/abilities/Scatter_the_Weak.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "unleashed_power",
-				"Name": "Unleashed Power",
-				"Icon": "assets/abilities/Unleashed_Power.png",
-				"Description": ""
+				"Active": {
+					"ID": "unleashed_power",
+					"Name": "Unleashed Power",
+					"Icon": "assets/abilities/Unleashed_Power.png",
+					"Description": ""
+				}
 			}
 		},
 		"talon": {
@@ -3330,28 +4032,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "noxian_diplomacy",
-				"Name": "Noxian Diplomacy",
-				"Icon": "assets/abilities/Noxian_Diplomacy.png",
-				"Description": ""
+				"Active": {
+					"ID": "noxian_diplomacy",
+					"Name": "Noxian Diplomacy",
+					"Icon": "assets/abilities/Noxian_Diplomacy.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "rake",
-				"Name": "Rake",
-				"Icon": "assets/abilities/Rake.png",
-				"Description": ""
+				"Active": {
+					"ID": "rake",
+					"Name": "Rake",
+					"Icon": "assets/abilities/Rake.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "cutthroat",
-				"Name": "Cutthroat",
-				"Icon": "assets/abilities/Cutthroat.png",
-				"Description": ""
+				"Active": {
+					"ID": "cutthroat",
+					"Name": "Cutthroat",
+					"Icon": "assets/abilities/Cutthroat.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "shadow_assault",
-				"Name": "Shadow Assault",
-				"Icon": "assets/abilities/Shadow_Assault.png",
-				"Description": ""
+				"Active": {
+					"ID": "shadow_assault",
+					"Name": "Shadow Assault",
+					"Icon": "assets/abilities/Shadow_Assault.png",
+					"Description": ""
+				}
 			}
 		},
 		"taric": {
@@ -3362,28 +4072,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "imbue",
-				"Name": "Imbue",
-				"Icon": "assets/abilities/Imbue.png",
-				"Description": ""
+				"Active": {
+					"ID": "imbue",
+					"Name": "Imbue",
+					"Icon": "assets/abilities/Imbue.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "shatter",
-				"Name": "Shatter",
-				"Icon": "assets/abilities/Shatter.png",
-				"Description": ""
+				"Active": {
+					"ID": "shatter",
+					"Name": "Shatter",
+					"Icon": "assets/abilities/Shatter.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "dazzle",
-				"Name": "Dazzle",
-				"Icon": "assets/abilities/Dazzle.png",
-				"Description": ""
+				"Active": {
+					"ID": "dazzle",
+					"Name": "Dazzle",
+					"Icon": "assets/abilities/Dazzle.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "radiance",
-				"Name": "Radiance",
-				"Icon": "assets/abilities/Radiance.png",
-				"Description": ""
+				"Active": {
+					"ID": "radiance",
+					"Name": "Radiance",
+					"Icon": "assets/abilities/Radiance.png",
+					"Description": ""
+				}
 			}
 		},
 		"teemo": {
@@ -3394,28 +4112,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "blinding_dart",
-				"Name": "Blinding Dart",
-				"Icon": "assets/abilities/Blinding_Dart.png",
-				"Description": ""
+				"Active": {
+					"ID": "blinding_dart",
+					"Name": "Blinding Dart",
+					"Icon": "assets/abilities/Blinding_Dart.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "move_quick",
-				"Name": "Move Quick",
-				"Icon": "assets/abilities/Move_Quick.png",
-				"Description": ""
+				"Active": {
+					"ID": "move_quick",
+					"Name": "Move Quick",
+					"Icon": "assets/abilities/Move_Quick.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "toxic_shot",
-				"Name": "Toxic Shot",
-				"Icon": "assets/abilities/Toxic_Shot.png",
-				"Description": ""
+				"Active": {
+					"ID": "toxic_shot",
+					"Name": "Toxic Shot",
+					"Icon": "assets/abilities/Toxic_Shot.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "noxious_trap",
-				"Name": "Noxious Trap",
-				"Icon": "assets/abilities/Noxious_Trap.png",
-				"Description": ""
+				"Active": {
+					"ID": "noxious_trap",
+					"Name": "Noxious Trap",
+					"Icon": "assets/abilities/Noxious_Trap.png",
+					"Description": ""
+				}
 			}
 		},
 		"thresh": {
@@ -3426,28 +4152,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "death_sentence",
-				"Name": "Death Sentence",
-				"Icon": "assets/abilities/Death_Sentence.png",
-				"Description": ""
+				"Active": {
+					"ID": "death_sentence",
+					"Name": "Death Sentence",
+					"Icon": "assets/abilities/Death_Sentence.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "dark_passage",
-				"Name": "Dark Passage",
-				"Icon": "assets/abilities/Dark_Passage.png",
-				"Description": ""
+				"Active": {
+					"ID": "dark_passage",
+					"Name": "Dark Passage",
+					"Icon": "assets/abilities/Dark_Passage.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "flay",
-				"Name": "Flay",
-				"Icon": "assets/abilities/Flay.png",
-				"Description": ""
+				"Active": {
+					"ID": "flay",
+					"Name": "Flay",
+					"Icon": "assets/abilities/Flay.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "the_box",
-				"Name": "The Box",
-				"Icon": "assets/abilities/The_Box.png",
-				"Description": ""
+				"Active": {
+					"ID": "the_box",
+					"Name": "The Box",
+					"Icon": "assets/abilities/The_Box.png",
+					"Description": ""
+				}
 			}
 		},
 		"tristana": {
@@ -3458,28 +4192,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "rapid_fire",
-				"Name": "Rapid Fire",
-				"Icon": "assets/abilities/Rapid_Fire.png",
-				"Description": ""
+				"Active": {
+					"ID": "rapid_fire",
+					"Name": "Rapid Fire",
+					"Icon": "assets/abilities/Rapid_Fire.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "rocket_jump",
-				"Name": "Rocket Jump",
-				"Icon": "assets/abilities/Rocket_Jump.png",
-				"Description": ""
+				"Active": {
+					"ID": "rocket_jump",
+					"Name": "Rocket Jump",
+					"Icon": "assets/abilities/Rocket_Jump.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "explosive_shot",
-				"Name": "Explosive Shot",
-				"Icon": "assets/abilities/Explosive_Shot.png",
-				"Description": ""
+				"Active": {
+					"ID": "explosive_shot",
+					"Name": "Explosive Shot",
+					"Icon": "assets/abilities/Explosive_Shot.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "buster_shot",
-				"Name": "Buster Shot",
-				"Icon": "assets/abilities/Buster_Shot.png",
-				"Description": ""
+				"Active": {
+					"ID": "buster_shot",
+					"Name": "Buster Shot",
+					"Icon": "assets/abilities/Buster_Shot.png",
+					"Description": ""
+				}
 			}
 		},
 		"trundle": {
@@ -3490,28 +4232,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "chomp",
-				"Name": "Chomp",
-				"Icon": "assets/abilities/Chomp.png",
-				"Description": ""
+				"Active": {
+					"ID": "chomp",
+					"Name": "Chomp",
+					"Icon": "assets/abilities/Chomp.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "frozen_domain",
-				"Name": "Frozen Domain",
-				"Icon": "assets/abilities/Frozen_Domain.png",
-				"Description": ""
+				"Active": {
+					"ID": "frozen_domain",
+					"Name": "Frozen Domain",
+					"Icon": "assets/abilities/Frozen_Domain.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "pillar_of_ice",
-				"Name": "Pillar of Ice",
-				"Icon": "assets/abilities/Pillar_of_Ice.png",
-				"Description": ""
+				"Active": {
+					"ID": "pillar_of_ice",
+					"Name": "Pillar of Ice",
+					"Icon": "assets/abilities/Pillar_of_Ice.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "subjugate",
-				"Name": "Subjugate",
-				"Icon": "assets/abilities/Subjugate.png",
-				"Description": ""
+				"Active": {
+					"ID": "subjugate",
+					"Name": "Subjugate",
+					"Icon": "assets/abilities/Subjugate.png",
+					"Description": ""
+				}
 			}
 		},
 		"tryndamere": {
@@ -3522,28 +4272,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "bloodlust",
-				"Name": "Bloodlust",
-				"Icon": "assets/abilities/Bloodlust.png",
-				"Description": ""
+				"Active": {
+					"ID": "bloodlust",
+					"Name": "Bloodlust",
+					"Icon": "assets/abilities/Bloodlust.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "mocking_shout",
-				"Name": "Mocking Shout",
-				"Icon": "assets/abilities/Mocking_Shout.png",
-				"Description": ""
+				"Active": {
+					"ID": "mocking_shout",
+					"Name": "Mocking Shout",
+					"Icon": "assets/abilities/Mocking_Shout.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "spinning_slash",
-				"Name": "Spinning Slash",
-				"Icon": "assets/abilities/Spinning_Slash.png",
-				"Description": ""
+				"Active": {
+					"ID": "spinning_slash",
+					"Name": "Spinning Slash",
+					"Icon": "assets/abilities/Spinning_Slash.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "undying_rage",
-				"Name": "Undying Rage",
-				"Icon": "assets/abilities/Undying_Rage.png",
-				"Description": ""
+				"Active": {
+					"ID": "undying_rage",
+					"Name": "Undying Rage",
+					"Icon": "assets/abilities/Undying_Rage.png",
+					"Description": ""
+				}
 			}
 		},
 		"twistedfate": {
@@ -3554,28 +4312,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "wild_cards",
-				"Name": "Wild Cards",
-				"Icon": "assets/abilities/Wild_Cards.png",
-				"Description": ""
+				"Active": {
+					"ID": "wild_cards",
+					"Name": "Wild Cards",
+					"Icon": "assets/abilities/Wild_Cards.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "stacked_deck",
-				"Name": "Stacked Deck",
-				"Icon": "assets/abilities/Stacked_Deck.png",
-				"Description": ""
+				"Active": {
+					"ID": "stacked_deck",
+					"Name": "Stacked Deck",
+					"Icon": "assets/abilities/Stacked_Deck.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			}
 		},
 		"twitch": {
@@ -3586,28 +4352,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "ambush",
-				"Name": "Ambush",
-				"Icon": "assets/abilities/Ambush.png",
-				"Description": ""
+				"Active": {
+					"ID": "ambush",
+					"Name": "Ambush",
+					"Icon": "assets/abilities/Ambush.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "venom_cask",
-				"Name": "Venom Cask",
-				"Icon": "assets/abilities/Venom_Cask.png",
-				"Description": ""
+				"Active": {
+					"ID": "venom_cask",
+					"Name": "Venom Cask",
+					"Icon": "assets/abilities/Venom_Cask.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "expunge",
-				"Name": "Expunge",
-				"Icon": "assets/abilities/Expunge.png",
-				"Description": ""
+				"Active": {
+					"ID": "expunge",
+					"Name": "Expunge",
+					"Icon": "assets/abilities/Expunge.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "spray_and_pray",
-				"Name": "Spray and Pray",
-				"Icon": "assets/abilities/Spray_and_Pray.png",
-				"Description": ""
+				"Active": {
+					"ID": "spray_and_pray",
+					"Name": "Spray and Pray",
+					"Icon": "assets/abilities/Spray_and_Pray.png",
+					"Description": ""
+				}
 			}
 		},
 		"udyr": {
@@ -3618,28 +4392,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "tiger_stance",
-				"Name": "Tiger Stance",
-				"Icon": "assets/abilities/Tiger_Stance.png",
-				"Description": ""
+				"Active": {
+					"ID": "tiger_stance",
+					"Name": "Tiger Stance",
+					"Icon": "assets/abilities/Tiger_Stance.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "turtle_stance",
-				"Name": "Turtle Stance",
-				"Icon": "assets/abilities/Turtle_Stance.png",
-				"Description": ""
+				"Active": {
+					"ID": "turtle_stance",
+					"Name": "Turtle Stance",
+					"Icon": "assets/abilities/Turtle_Stance.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "bear_stance",
-				"Name": "Bear Stance",
-				"Icon": "assets/abilities/Bear_Stance.png",
-				"Description": ""
+				"Active": {
+					"ID": "bear_stance",
+					"Name": "Bear Stance",
+					"Icon": "assets/abilities/Bear_Stance.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "phoenix_stance",
-				"Name": "Phoenix Stance",
-				"Icon": "assets/abilities/Phoenix_Stance.png",
-				"Description": ""
+				"Active": {
+					"ID": "phoenix_stance",
+					"Name": "Phoenix Stance",
+					"Icon": "assets/abilities/Phoenix_Stance.png",
+					"Description": ""
+				}
 			}
 		},
 		"urgot": {
@@ -3650,28 +4432,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "acid_hunter",
-				"Name": "Acid Hunter",
-				"Icon": "assets/abilities/Acid_Hunter.png",
-				"Description": ""
+				"Active": {
+					"ID": "acid_hunter",
+					"Name": "Acid Hunter",
+					"Icon": "assets/abilities/Acid_Hunter.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "terror_capacitor",
-				"Name": "Terror Capacitor",
-				"Icon": "assets/abilities/Terror_Capacitor.png",
-				"Description": ""
+				"Active": {
+					"ID": "terror_capacitor",
+					"Name": "Terror Capacitor",
+					"Icon": "assets/abilities/Terror_Capacitor.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "noxian_corrosive_charge",
-				"Name": "Noxian Corrosive Charge",
-				"Icon": "assets/abilities/Noxian_Corrosive_Charge.png",
-				"Description": ""
+				"Active": {
+					"ID": "noxian_corrosive_charge",
+					"Name": "Noxian Corrosive Charge",
+					"Icon": "assets/abilities/Noxian_Corrosive_Charge.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "hyper-kinetic_position_reverser",
-				"Name": "Hyper-Kinetic Position Reverser",
-				"Icon": "assets/abilities/Hyper-Kinetic_Position_Reverser.png",
-				"Description": ""
+				"Active": {
+					"ID": "hyper-kinetic_position_reverser",
+					"Name": "Hyper-Kinetic Position Reverser",
+					"Icon": "assets/abilities/Hyper-Kinetic_Position_Reverser.png",
+					"Description": ""
+				}
 			}
 		},
 		"varus": {
@@ -3682,28 +4472,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "piercing_arrow",
-				"Name": "Piercing Arrow",
-				"Icon": "assets/abilities/Piercing_Arrow.png",
-				"Description": ""
+				"Active": {
+					"ID": "piercing_arrow",
+					"Name": "Piercing Arrow",
+					"Icon": "assets/abilities/Piercing_Arrow.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "blighted_quiver",
-				"Name": "Blighted Quiver",
-				"Icon": "assets/abilities/Blighted_Quiver.png",
-				"Description": ""
+				"Active": {
+					"ID": "blighted_quiver",
+					"Name": "Blighted Quiver",
+					"Icon": "assets/abilities/Blighted_Quiver.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "hail_of_arrows",
-				"Name": "Hail of Arrows",
-				"Icon": "assets/abilities/Hail_of_Arrows.png",
-				"Description": ""
+				"Active": {
+					"ID": "hail_of_arrows",
+					"Name": "Hail of Arrows",
+					"Icon": "assets/abilities/Hail_of_Arrows.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "chain_of_corruption",
-				"Name": "Chain of Corruption",
-				"Icon": "assets/abilities/Chain_of_Corruption.png",
-				"Description": ""
+				"Active": {
+					"ID": "chain_of_corruption",
+					"Name": "Chain of Corruption",
+					"Icon": "assets/abilities/Chain_of_Corruption.png",
+					"Description": ""
+				}
 			}
 		},
 		"vayne": {
@@ -3714,28 +4512,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "tumble",
-				"Name": "Tumble",
-				"Icon": "assets/abilities/Tumble.png",
-				"Description": ""
+				"Active": {
+					"ID": "tumble",
+					"Name": "Tumble",
+					"Icon": "assets/abilities/Tumble.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "silver_bolts",
-				"Name": "Silver Bolts",
-				"Icon": "assets/abilities/Silver_Bolts.png",
-				"Description": ""
+				"Active": {
+					"ID": "silver_bolts",
+					"Name": "Silver Bolts",
+					"Icon": "assets/abilities/Silver_Bolts.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "condemn",
-				"Name": "Condemn",
-				"Icon": "assets/abilities/Condemn.png",
-				"Description": ""
+				"Active": {
+					"ID": "condemn",
+					"Name": "Condemn",
+					"Icon": "assets/abilities/Condemn.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "final_hour",
-				"Name": "Final Hour",
-				"Icon": "assets/abilities/Final_Hour.png",
-				"Description": ""
+				"Active": {
+					"ID": "final_hour",
+					"Name": "Final Hour",
+					"Icon": "assets/abilities/Final_Hour.png",
+					"Description": ""
+				}
 			}
 		},
 		"veigar": {
@@ -3746,28 +4552,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "baleful_strike",
-				"Name": "Baleful Strike",
-				"Icon": "assets/abilities/Baleful_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "baleful_strike",
+					"Name": "Baleful Strike",
+					"Icon": "assets/abilities/Baleful_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "dark_matter",
-				"Name": "Dark Matter",
-				"Icon": "assets/abilities/Dark_Matter.png",
-				"Description": ""
+				"Active": {
+					"ID": "dark_matter",
+					"Name": "Dark Matter",
+					"Icon": "assets/abilities/Dark_Matter.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "event_horizon",
-				"Name": "Event Horizon",
-				"Icon": "assets/abilities/Event_Horizon.png",
-				"Description": ""
+				"Active": {
+					"ID": "event_horizon",
+					"Name": "Event Horizon",
+					"Icon": "assets/abilities/Event_Horizon.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "primordial_burst",
-				"Name": "Primordial Burst",
-				"Icon": "assets/abilities/Primordial_Burst.png",
-				"Description": ""
+				"Active": {
+					"ID": "primordial_burst",
+					"Name": "Primordial Burst",
+					"Icon": "assets/abilities/Primordial_Burst.png",
+					"Description": ""
+				}
 			}
 		},
 		"vi": {
@@ -3778,28 +4592,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "vault_breaker",
-				"Name": "Vault Breaker",
-				"Icon": "assets/abilities/Vault_Breaker.png",
-				"Description": ""
+				"Active": {
+					"ID": "vault_breaker",
+					"Name": "Vault Breaker",
+					"Icon": "assets/abilities/Vault_Breaker.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "denting_blows",
-				"Name": "Denting Blows",
-				"Icon": "assets/abilities/Denting_Blows.png",
-				"Description": ""
+				"Active": {
+					"ID": "denting_blows",
+					"Name": "Denting Blows",
+					"Icon": "assets/abilities/Denting_Blows.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "excessive_force",
-				"Name": "Excessive Force",
-				"Icon": "assets/abilities/Excessive_Force.png",
-				"Description": ""
+				"Active": {
+					"ID": "excessive_force",
+					"Name": "Excessive Force",
+					"Icon": "assets/abilities/Excessive_Force.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "assault_and_battery",
-				"Name": "Assault and Battery",
-				"Icon": "assets/abilities/Assault_and_Battery.png",
-				"Description": ""
+				"Active": {
+					"ID": "assault_and_battery",
+					"Name": "Assault and Battery",
+					"Icon": "assets/abilities/Assault_and_Battery.png",
+					"Description": ""
+				}
 			}
 		},
 		"viktor": {
@@ -3810,28 +4632,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "chaos_storm",
-				"Name": "Chaos Storm",
-				"Icon": "assets/abilities/Chaos_Storm.png",
-				"Description": ""
+				"Active": {
+					"ID": "chaos_storm",
+					"Name": "Chaos Storm",
+					"Icon": "assets/abilities/Chaos_Storm.png",
+					"Description": ""
+				}
 			}
 		},
 		"vladimir": {
@@ -3842,28 +4672,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "transfusion",
-				"Name": "Transfusion",
-				"Icon": "assets/abilities/Transfusion.png",
-				"Description": ""
+				"Active": {
+					"ID": "transfusion",
+					"Name": "Transfusion",
+					"Icon": "assets/abilities/Transfusion.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "sanguine_pool",
-				"Name": "Sanguine Pool",
-				"Icon": "assets/abilities/Sanguine_Pool.png",
-				"Description": ""
+				"Active": {
+					"ID": "sanguine_pool",
+					"Name": "Sanguine Pool",
+					"Icon": "assets/abilities/Sanguine_Pool.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "tides_of_blood",
-				"Name": "Tides of Blood",
-				"Icon": "assets/abilities/Tides_of_Blood.png",
-				"Description": ""
+				"Active": {
+					"ID": "tides_of_blood",
+					"Name": "Tides of Blood",
+					"Icon": "assets/abilities/Tides_of_Blood.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "hemoplague",
-				"Name": "Hemoplague",
-				"Icon": "assets/abilities/Hemoplague.png",
-				"Description": ""
+				"Active": {
+					"ID": "hemoplague",
+					"Name": "Hemoplague",
+					"Icon": "assets/abilities/Hemoplague.png",
+					"Description": ""
+				}
 			}
 		},
 		"volibear": {
@@ -3874,28 +4712,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "rolling_thunder",
-				"Name": "Rolling Thunder",
-				"Icon": "assets/abilities/Rolling_Thunder.png",
-				"Description": ""
+				"Active": {
+					"ID": "rolling_thunder",
+					"Name": "Rolling Thunder",
+					"Icon": "assets/abilities/Rolling_Thunder.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "frenzy",
-				"Name": "Frenzy",
-				"Icon": "assets/abilities/Frenzy.png",
-				"Description": ""
+				"Active": {
+					"ID": "frenzy",
+					"Name": "Frenzy",
+					"Icon": "assets/abilities/Frenzy.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "majestic_roar",
-				"Name": "Majestic Roar",
-				"Icon": "assets/abilities/Majestic_Roar.png",
-				"Description": ""
+				"Active": {
+					"ID": "majestic_roar",
+					"Name": "Majestic Roar",
+					"Icon": "assets/abilities/Majestic_Roar.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "thunder_claws",
-				"Name": "Thunder Claws",
-				"Icon": "assets/abilities/Thunder_Claws.png",
-				"Description": ""
+				"Active": {
+					"ID": "thunder_claws",
+					"Name": "Thunder Claws",
+					"Icon": "assets/abilities/Thunder_Claws.png",
+					"Description": ""
+				}
 			}
 		},
 		"warwick": {
@@ -3906,28 +4752,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "hungering_strike",
-				"Name": "Hungering Strike",
-				"Icon": "assets/abilities/Hungering_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "hungering_strike",
+					"Name": "Hungering Strike",
+					"Icon": "assets/abilities/Hungering_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "hunters_call",
-				"Name": "Hunters Call",
-				"Icon": "assets/abilities/Hunters_Call.png",
-				"Description": ""
+				"Active": {
+					"ID": "hunters_call",
+					"Name": "Hunters Call",
+					"Icon": "assets/abilities/Hunters_Call.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "blood_scent",
-				"Name": "Blood Scent",
-				"Icon": "assets/abilities/Blood_Scent.png",
-				"Description": ""
+				"Active": {
+					"ID": "blood_scent",
+					"Name": "Blood Scent",
+					"Icon": "assets/abilities/Blood_Scent.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "infinite_duress",
-				"Name": "Infinite Duress",
-				"Icon": "assets/abilities/Infinite_Duress.png",
-				"Description": ""
+				"Active": {
+					"ID": "infinite_duress",
+					"Name": "Infinite Duress",
+					"Icon": "assets/abilities/Infinite_Duress.png",
+					"Description": ""
+				}
 			}
 		},
 		"monkeyking": {
@@ -3938,28 +4792,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "crushing_blow",
-				"Name": "Crushing Blow",
-				"Icon": "assets/abilities/Crushing_Blow.png",
-				"Description": ""
+				"Active": {
+					"ID": "crushing_blow",
+					"Name": "Crushing Blow",
+					"Icon": "assets/abilities/Crushing_Blow.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "decoy",
-				"Name": "Decoy",
-				"Icon": "assets/abilities/Decoy.png",
-				"Description": ""
+				"Active": {
+					"ID": "decoy",
+					"Name": "Decoy",
+					"Icon": "assets/abilities/Decoy.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "nimbus_strike",
-				"Name": "Nimbus Strike",
-				"Icon": "assets/abilities/Nimbus_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "nimbus_strike",
+					"Name": "Nimbus Strike",
+					"Icon": "assets/abilities/Nimbus_Strike.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "cyclone",
-				"Name": "Cyclone",
-				"Icon": "assets/abilities/Cyclone.png",
-				"Description": ""
+				"Active": {
+					"ID": "cyclone",
+					"Name": "Cyclone",
+					"Icon": "assets/abilities/Cyclone.png",
+					"Description": ""
+				}
 			}
 		},
 		"xerath": {
@@ -3970,28 +4832,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "arcanopulse",
-				"Name": "Arcanopulse",
-				"Icon": "assets/abilities/Arcanopulse.png",
-				"Description": ""
+				"Active": {
+					"ID": "arcanopulse",
+					"Name": "Arcanopulse",
+					"Icon": "assets/abilities/Arcanopulse.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "locus_of_power",
-				"Name": "Locus of Power",
-				"Icon": "assets/abilities/Locus_of_Power.png",
-				"Description": ""
+				"Active": {
+					"ID": "locus_of_power",
+					"Name": "Locus of Power",
+					"Icon": "assets/abilities/Locus_of_Power.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "mage_chains",
-				"Name": "Mage Chains",
-				"Icon": "assets/abilities/Mage_Chains.png",
-				"Description": ""
+				"Active": {
+					"ID": "mage_chains",
+					"Name": "Mage Chains",
+					"Icon": "assets/abilities/Mage_Chains.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "arcane_barrage",
-				"Name": "Arcane Barrage",
-				"Icon": "assets/abilities/Arcane_Barrage.png",
-				"Description": ""
+				"Active": {
+					"ID": "arcane_barrage",
+					"Name": "Arcane Barrage",
+					"Icon": "assets/abilities/Arcane_Barrage.png",
+					"Description": ""
+				}
 			}
 		},
 		"xinzhao": {
@@ -4002,28 +4872,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "three_talon_strike",
-				"Name": "Three Talon Strike",
-				"Icon": "assets/abilities/Three_Talon_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "three_talon_strike",
+					"Name": "Three Talon Strike",
+					"Icon": "assets/abilities/Three_Talon_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "battle_cry",
-				"Name": "Battle Cry",
-				"Icon": "assets/abilities/Battle_Cry.png",
-				"Description": ""
+				"Active": {
+					"ID": "battle_cry",
+					"Name": "Battle Cry",
+					"Icon": "assets/abilities/Battle_Cry.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "audacious_charge",
-				"Name": "Audacious Charge",
-				"Icon": "assets/abilities/Audacious_Charge.png",
-				"Description": ""
+				"Active": {
+					"ID": "audacious_charge",
+					"Name": "Audacious Charge",
+					"Icon": "assets/abilities/Audacious_Charge.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "crescent_sweep",
-				"Name": "Crescent Sweep",
-				"Icon": "assets/abilities/Crescent_Sweep.png",
-				"Description": ""
+				"Active": {
+					"ID": "crescent_sweep",
+					"Name": "Crescent Sweep",
+					"Icon": "assets/abilities/Crescent_Sweep.png",
+					"Description": ""
+				}
 			}
 		},
 		"yasuo": {
@@ -4034,28 +4912,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "",
-				"Name": "",
-				"Icon": "assets/abilities/.png",
-				"Description": ""
+				"Active": {
+					"ID": "",
+					"Name": "",
+					"Icon": "assets/abilities/.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "wind_wall",
-				"Name": "Wind Wall",
-				"Icon": "assets/abilities/Wind_Wall.png",
-				"Description": ""
+				"Active": {
+					"ID": "wind_wall",
+					"Name": "Wind Wall",
+					"Icon": "assets/abilities/Wind_Wall.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "sweeping_blade",
-				"Name": "Sweeping Blade",
-				"Icon": "assets/abilities/Sweeping_Blade.png",
-				"Description": ""
+				"Active": {
+					"ID": "sweeping_blade",
+					"Name": "Sweeping Blade",
+					"Icon": "assets/abilities/Sweeping_Blade.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "last_breath",
-				"Name": "Last Breath",
-				"Icon": "assets/abilities/Last_Breath.png",
-				"Description": ""
+				"Active": {
+					"ID": "last_breath",
+					"Name": "Last Breath",
+					"Icon": "assets/abilities/Last_Breath.png",
+					"Description": ""
+				}
 			}
 		},
 		"yorick": {
@@ -4066,28 +4952,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "omen_of_war",
-				"Name": "Omen of War",
-				"Icon": "assets/abilities/Omen_of_War.png",
-				"Description": ""
+				"Active": {
+					"ID": "omen_of_war",
+					"Name": "Omen of War",
+					"Icon": "assets/abilities/Omen_of_War.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "omen_of_pestilence",
-				"Name": "Omen of Pestilence",
-				"Icon": "assets/abilities/Omen_of_Pestilence.png",
-				"Description": ""
+				"Active": {
+					"ID": "omen_of_pestilence",
+					"Name": "Omen of Pestilence",
+					"Icon": "assets/abilities/Omen_of_Pestilence.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "omen_of_famine",
-				"Name": "Omen of Famine",
-				"Icon": "assets/abilities/Omen_of_Famine.png",
-				"Description": ""
+				"Active": {
+					"ID": "omen_of_famine",
+					"Name": "Omen of Famine",
+					"Icon": "assets/abilities/Omen_of_Famine.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "omen_of_death",
-				"Name": "Omen of Death",
-				"Icon": "assets/abilities/Omen_of_Death.png",
-				"Description": ""
+				"Active": {
+					"ID": "omen_of_death",
+					"Name": "Omen of Death",
+					"Icon": "assets/abilities/Omen_of_Death.png",
+					"Description": ""
+				}
 			}
 		},
 		"zac": {
@@ -4098,28 +4992,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "stretching_strike",
-				"Name": "Stretching Strike",
-				"Icon": "assets/abilities/Stretching_Strike.png",
-				"Description": ""
+				"Active": {
+					"ID": "stretching_strike",
+					"Name": "Stretching Strike",
+					"Icon": "assets/abilities/Stretching_Strike.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "unstable_matter",
-				"Name": "Unstable Matter",
-				"Icon": "assets/abilities/Unstable_Matter.png",
-				"Description": ""
+				"Active": {
+					"ID": "unstable_matter",
+					"Name": "Unstable Matter",
+					"Icon": "assets/abilities/Unstable_Matter.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "elastic_slingshot",
-				"Name": "Elastic Slingshot",
-				"Icon": "assets/abilities/Elastic_Slingshot.png",
-				"Description": ""
+				"Active": {
+					"ID": "elastic_slingshot",
+					"Name": "Elastic Slingshot",
+					"Icon": "assets/abilities/Elastic_Slingshot.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "lets_bounce",
-				"Name": "Let's Bounce!",
-				"Icon": "assets/abilities/Lets_Bounce.png",
-				"Description": ""
+				"Active": {
+					"ID": "lets_bounce",
+					"Name": "Let's Bounce!",
+					"Icon": "assets/abilities/Lets_Bounce.png",
+					"Description": ""
+				}
 			}
 		},
 		"zed": {
@@ -4130,28 +5032,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "razor_shuriken",
-				"Name": "Razor Shuriken",
-				"Icon": "assets/abilities/Razor_Shuriken.png",
-				"Description": ""
+				"Active": {
+					"ID": "razor_shuriken",
+					"Name": "Razor Shuriken",
+					"Icon": "assets/abilities/Razor_Shuriken.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "living_shadow",
-				"Name": "Living Shadow",
-				"Icon": "assets/abilities/Living_Shadow.png",
-				"Description": ""
+				"Active": {
+					"ID": "living_shadow",
+					"Name": "Living Shadow",
+					"Icon": "assets/abilities/Living_Shadow.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "shadow_slash",
-				"Name": "Shadow Slash",
-				"Icon": "assets/abilities/Shadow_Slash.png",
-				"Description": ""
+				"Active": {
+					"ID": "shadow_slash",
+					"Name": "Shadow Slash",
+					"Icon": "assets/abilities/Shadow_Slash.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "death_mark",
-				"Name": "Death Mark",
-				"Icon": "assets/abilities/Death_Mark.png",
-				"Description": ""
+				"Active": {
+					"ID": "death_mark",
+					"Name": "Death Mark",
+					"Icon": "assets/abilities/Death_Mark.png",
+					"Description": ""
+				}
 			}
 		},
 		"ziggs": {
@@ -4162,28 +5072,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "bouncing_bomb",
-				"Name": "Bouncing Bomb",
-				"Icon": "assets/abilities/Bouncing_Bomb.png",
-				"Description": ""
+				"Active": {
+					"ID": "bouncing_bomb",
+					"Name": "Bouncing Bomb",
+					"Icon": "assets/abilities/Bouncing_Bomb.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "satchel_charge",
-				"Name": "Satchel Charge",
-				"Icon": "assets/abilities/Satchel_Charge.png",
-				"Description": ""
+				"Active": {
+					"ID": "satchel_charge",
+					"Name": "Satchel Charge",
+					"Icon": "assets/abilities/Satchel_Charge.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "hexplosive_minefield",
-				"Name": "Hexplosive Minefield",
-				"Icon": "assets/abilities/Hexplosive_Minefield.png",
-				"Description": ""
+				"Active": {
+					"ID": "hexplosive_minefield",
+					"Name": "Hexplosive Minefield",
+					"Icon": "assets/abilities/Hexplosive_Minefield.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "mega_inferno_bomb",
-				"Name": "Mega Inferno Bomb",
-				"Icon": "assets/abilities/Mega_Inferno_Bomb.png",
-				"Description": ""
+				"Active": {
+					"ID": "mega_inferno_bomb",
+					"Name": "Mega Inferno Bomb",
+					"Icon": "assets/abilities/Mega_Inferno_Bomb.png",
+					"Description": ""
+				}
 			}
 		},
 		"zilean": {
@@ -4194,28 +5112,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "time_bomb",
-				"Name": "Time Bomb",
-				"Icon": "assets/abilities/Time_Bomb.png",
-				"Description": ""
+				"Active": {
+					"ID": "time_bomb",
+					"Name": "Time Bomb",
+					"Icon": "assets/abilities/Time_Bomb.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "rewind",
-				"Name": "Rewind",
-				"Icon": "assets/abilities/Rewind.png",
-				"Description": ""
+				"Active": {
+					"ID": "rewind",
+					"Name": "Rewind",
+					"Icon": "assets/abilities/Rewind.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "time_warp",
-				"Name": "Time Warp",
-				"Icon": "assets/abilities/Time_Warp.png",
-				"Description": ""
+				"Active": {
+					"ID": "time_warp",
+					"Name": "Time Warp",
+					"Icon": "assets/abilities/Time_Warp.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "chrono_shift",
-				"Name": "Chrono Shift",
-				"Icon": "assets/abilities/Chrono_Shift.png",
-				"Description": ""
+				"Active": {
+					"ID": "chrono_shift",
+					"Name": "Chrono Shift",
+					"Icon": "assets/abilities/Chrono_Shift.png",
+					"Description": ""
+				}
 			}
 		},
 		"zyra": {
@@ -4226,28 +5152,36 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "deadly_bloom",
-				"Name": "Deadly Bloom",
-				"Icon": "assets/abilities/Deadly_Bloom.png",
-				"Description": ""
+				"Active": {
+					"ID": "deadly_bloom",
+					"Name": "Deadly Bloom",
+					"Icon": "assets/abilities/Deadly_Bloom.png",
+					"Description": ""
+				}
 			},
 			"W": {
-				"ID": "rampant_growth",
-				"Name": "Rampant Growth",
-				"Icon": "assets/abilities/Rampant_Growth.png",
-				"Description": ""
+				"Active": {
+					"ID": "rampant_growth",
+					"Name": "Rampant Growth",
+					"Icon": "assets/abilities/Rampant_Growth.png",
+					"Description": ""
+				}
 			},
 			"E": {
-				"ID": "grasping_roots",
-				"Name": "Grasping Roots",
-				"Icon": "assets/abilities/Grasping_Roots.png",
-				"Description": ""
+				"Active": {
+					"ID": "grasping_roots",
+					"Name": "Grasping Roots",
+					"Icon": "assets/abilities/Grasping_Roots.png",
+					"Description": ""
+				}
 			},
 			"R": {
-				"ID": "stranglethorns",
-				"Name": "Stranglethorns",
-				"Icon": "assets/abilities/Stranglethorns.png",
-				"Description": ""
+				"Active": {
+					"ID": "stranglethorns",
+					"Name": "Stranglethorns",
+					"Icon": "assets/abilities/Stranglethorns.png",
+					"Description": ""
+				}
 			}
 		},
 		// "": {
