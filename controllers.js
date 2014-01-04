@@ -68,7 +68,12 @@ function SummonerSearch($scope, $location, API, Enums) {
 	}
 }
 
-function SummonerDetail($scope, $routeParams, API, Enums) {
+function SummonerDetail($scope, $routeParams, $location, API, Enums) {
+	$scope.Links = {
+		"Stats": "#" + $location.path() + "/stats",
+		"Masteries": "#" + $location.path() +  "/masteries"
+	}
+
 	$scope.Summoner = {};
 	$scope.Summoner.ID = $routeParams.id;
 
@@ -86,7 +91,11 @@ function SummonerDetail($scope, $routeParams, API, Enums) {
 	});
 }
 
-function SummonerMasteries($scope, $routeParams, API, Enums) {
+function SummonerMasteries($scope, $routeParams, $location, API, Enums) {
+	$scope.Links = {
+		"Back": "#" + $location.path().replace("/masteries", "")
+	}
+
 	$scope.Summoner = {};
 	$scope.Summoner.ID = $routeParams.id;
 
@@ -121,7 +130,11 @@ function SummonerMasteries($scope, $routeParams, API, Enums) {
 	});
 }
 
-function SummonerStats($scope, $routeParams, API, Enums) {
+function SummonerStats($scope, $routeParams, $location, API, Enums) {
+	$scope.Links = {
+		"Back": "#" + $location.path().replace("/stats", "")
+	}
+
 	$scope.Summoner = {};
 	$scope.Summoner.ID = $routeParams.id;
 	$scope.Stats = {
