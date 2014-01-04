@@ -1,4 +1,5 @@
 angular.module('App').factory('Enums', function() {
+	
 	var Regions = Object.freeze([
 		{
 			"ID": "na",
@@ -5424,40 +5425,302 @@ angular.module('App').factory('Enums', function() {
 				}
 			}
 		},
-		// "": {
-		// 	"Passive": {
-		// 		"ID": "",
-		// 		"Name": "",
-		// 		"Icon": "assets/abilities/",
-		// 		"Description": ""
-		// 	},
-		// 	"Q": {
-		// 		"ID": "",
-		// 		"Name": "",
-		// 		"Icon": "assets/abilities/",
-		// 		"Description": ""
-		// 	},
-		// 	"W": {
-		// 		"ID": "",
-		// 		"Name": "",
-		// 		"Icon": "assets/abilities/",
-		// 		"Description": ""
-		// 	},
-		// 	"E": {
-		// 		"ID": "",
-		// 		"Name": "",
-		// 		"Icon": "assets/abilities/",
-		// 		"Description": ""
-		// 	},
-		// 	"R": {
-		// 		"ID": "",
-		// 		"Name": "",
-		// 		"Icon": "assets/abilities/",
-		// 		"Description": ""
-		// 	}
-		// },
 	});
-
+	
+	var Masteries = Object.freeze({
+		// [Season][Tree][Row][Column]
+		"Offense": {
+			4111: {
+				"Name": "Double Edged Sword",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4111.png"
+			},
+			4112: {
+				"Name": "Fury",
+				"Ranks": 4,
+				"Icon": "assets/masteries/4112.png"
+			},
+			4113: {
+				"Name": "Sorcery",
+				"Ranks": 4,
+				"Icon": "assets/masteries/4113.png"
+			},
+			4114: {
+				"Name": "Butcher",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4114.png"
+			},
+			4121: {
+				"Name": "Expose Weakness",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4121.png"
+			},
+			4122: {
+				"Name": "Brute Force",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4122.png"
+			},
+			4123: {
+				"Name": "Mental Force",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4123.png"
+			},
+			4124: {
+				"Name": "Feast",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4124.png"
+			},
+			4131: {
+				"Name": "Spell Weaving",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4131.png"
+			},
+			4132: {
+				"Name": "Martial Mastery",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4132.png"
+			},
+			4133: {
+				"Name": "Arcane Mastery",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4133.png"
+			},
+			4134: {
+				"Name": "Executioner",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4134.png"
+			},
+			4141: {
+				"Name": "Blade Weaving",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4141.png"
+			},
+			4142: {
+				"Name": "Warlord",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4142.png"
+			},
+			4143: {
+				"Name": "Archmage",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4143.png"
+			},
+			4144: {
+				"Name": "Dangerous Game",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4144.png"
+			},
+			4151: {
+				"Name": "Frenzy",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4151.png"
+			},
+			4152: {
+				"Name": "Devastating Strikes",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4152.png"
+			},
+			4154: {
+				"Name": "Arcane Blade",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4154.png"
+			},
+			4162: {
+				"Name": "Havoc",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4162.png"
+			}
+		},
+		"Defense": {
+			4211: {
+				"Name": "Block",
+				"Ranks": 2,
+				"Icon": "assets/masteries/4211.png"
+			},
+			4212: {
+				"Name": "Recovery",
+				"Ranks": 2,
+				"Icon": "assets/masteries/4212.png"
+			},
+			4213: {
+				"Name": "Enchanted Armor",
+				"Ranks": 2,
+				"Icon": "assets/masteries/4213.png"
+			},
+			4214: {
+				"Name": "Tough Skin",
+				"Ranks": 2,
+				"Icon": "assets/masteries/4214.png"
+			},
+			4221: {
+				"Name": "Unyielding",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4221.png"
+			},
+			4222: {
+				"Name": "Veteran Scars",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4222.png"
+			},
+			4224: {
+				"Name": "Bladed Armor",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4224.png"
+			},
+			4231: {
+				"Name": "Oppression",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4231.png"
+			},
+			4232: {
+				"Name": "Juggernaut",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4232.png"
+			},
+			4233: {
+				"Name": "Hardiness",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4233.png"
+			},
+			4234: {
+				"Name": "Resistance",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4234.png"
+			},
+			4241: {
+				"Name": "Perseverance",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4241.png"
+			},
+			4242: {
+				"Name": "Swiftness",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4242.png"
+			},
+			4243: {
+				"Name": "Reinforced Armor",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4243.png"
+			},
+			4244: {
+				"Name": "Evasive",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4244.png"
+			},
+			4251: {
+				"Name": "Second Wind",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4251.png"
+			},
+			4252: {
+				"Name": "Tenacious",
+				"Ranks": 4,
+				"Icon": "assets/masteries/4252.png"
+			},
+			4253: {
+				"Name": "Runic Blessing",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4253.png"
+			},
+			4262: {
+				"Name": "Legendary Guardian",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4262.png"
+			}
+		},
+		"Utility": {
+			4311: {
+				"Name": "Phasewalker",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4311.png"
+			},
+			4312: {
+				"Name": "Fleet of Foot",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4312.png"
+			},
+			4313: {
+				"Name": "Meditation",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4313.png"
+			},
+			4314: {
+				"Name": "Scout",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4314.png"
+			},
+			4322: {
+				"Name": "Summoner's Insight",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4322.png"
+			},
+			4323: {
+				"Name": "Strength of Spirit",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4323.png"
+			},
+			4324: {
+				"Name": "Alchemist",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4324.png"
+			},
+			4331: {
+				"Name": "Greed",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4331.png"
+			},
+			4332: {
+				"Name": "Runic Affinity",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4332.png"
+			},
+			4333: {
+				"Name": "Vampirism",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4333.png"
+			},
+			4334: {
+				"Name": "Culinary Master",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4334.png"
+			},
+			4341: {
+				"Name": "Scavenger",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4341.png"
+			},
+			4342: {
+				"Name": "Wealth",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4342.png"
+			},
+			4343: {
+				"Name": "Expanded Mind",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4343.png"
+			},
+			4344: {
+				"Name": "Inspiration",
+				"Ranks": 2,
+				"Icon": "assets/masteries/4344.png"
+			},
+			4352: {
+				"Name": "Bandit",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4352.png"
+			},
+			4353: {
+				"Name": "Intelligence",
+				"Ranks": 3,
+				"Icon": "assets/masteries/4353.png"
+			},
+			4362: {
+				"Name": "Wanderer",
+				"Ranks": 1,
+				"Icon": "assets/masteries/4362.png"
+			}
+		}
+	});
 	var SummonerIcons = Object.freeze([
 		{
 			"ID": -1,
@@ -5664,11 +5927,11 @@ angular.module('App').factory('Enums', function() {
 		// 	"Icon": "assets/summoner_icons/"
 		// },
 	]);
-
 	return {
 		"Regions": Regions,
 		"Champions": Champions,
 		"Abilities": Abilities,
+		"Masteries": Masteries,
 		"SummonerIcons": SummonerIcons,
 	}
 });

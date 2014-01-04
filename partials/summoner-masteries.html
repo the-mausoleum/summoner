@@ -1,0 +1,165 @@
+<style>
+	.masteries {
+		margin: 5px 5px 5px 5px;
+		padding: 5px;
+		width: 30%;
+		height: 400px;
+		float: left;
+		text-align: center;
+	}
+
+	.row {
+		width: 25%;
+		display: inline;
+	}
+
+	#offense {
+		background-color: red;
+	}
+
+	#defense {
+		background-color: blue;
+	}
+
+	#utility {
+		background-color: green;
+	}
+</style>
+<section style="padding: 100px 0; width: 100%; width: 960px; margin: 0 auto;">
+	<h1 style="color: #fff; text-transform: uppercase; font-size: 48px;">{{Summoner.Name}} | Masteries</h1>
+	<div class="masteries" id="offense">
+		Offense
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Offense'][4111].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4112].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4113].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4114].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Offense'][4121].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4122].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4123].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4124].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Offense'][4131].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4132].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4133].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4134].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Offense'][4141].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4142].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4143].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4144].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Offense'][4151].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4152].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4153].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4154].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Offense'][4161].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4162].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4163].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Offense'][4164].Icon}}" width="48px"></img>
+		</div>
+	</div>
+	<div class="masteries" id="defense">
+		Defense
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Defense'][4211].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4212].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4213].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4214].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Defense'][4221].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4222].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4223].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4224].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Defense'][4231].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4232].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4233].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4234].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Defense'][4241].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4242].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4243].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4244].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Defense'][4251].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4252].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4253].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4254].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Defense'][4261].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4262].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4263].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Defense'][4264].Icon}}" width="48px"></img>
+		</div>
+	</div>
+	<div class="masteries" id="utility">
+		Utility
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Utility'][4311].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4312].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4313].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4314].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Utility'][4321].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4322].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4323].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4324].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Utility'][4331].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4332].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4333].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4334].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Utility'][4341].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4342].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4343].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4344].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Utility'][4351].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4352].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4353].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4354].Icon}}" width="48px"></img>
+		</div>
+		<br>
+		<div class="row">
+			<img ng-src="{{Masteries['Utility'][4361].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4362].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4363].Icon}}" width="48px"></img>
+			<img ng-src="{{Masteries['Utility'][4364].Icon}}" width="48px"></img>
+		</div>
+	</div>
+</section>
