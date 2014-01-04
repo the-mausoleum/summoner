@@ -1232,34 +1232,52 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+				"HumanForm": {
+					"ID": "neurotoxin",
+					"Name": "Neurotoxin",
+					"Icon": "assets/abilities/Neurotoxin.png",
+					"Description": ""
+				},
+				"SpiderForm": {
+					"ID": "venomous_bite",
+					"Name": "Venomous Bite",
+					"Icon": "assets/abilities/Venomous_Bite.png",
 					"Description": ""
 				}
 			},
 			"W": {
-				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+				"HumanForm": {
+					"ID": "volatile_spiderling",
+					"Name": "Volatile Spiderling",
+					"Icon": "assets/abilities/Volatile_Spiderling.png",
+					"Description": ""
+				},
+				"SpiderForm": {
+					"ID": "skittering_frenzy",
+					"Name": "Skittering Frenzy",
+					"Icon": "assets/abilities/Skittering_Frenzy.png",
 					"Description": ""
 				}
 			},
 			"E": {
-				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+				"HumanForm": {
+					"ID": "cocoon",
+					"Name": "Cocoon",
+					"Icon": "assets/abilities/Cocoon.png",
+					"Description": ""
+				},
+				"SpiderForm": {
+					"ID": "rappel",
+					"Name": "Rappel",
+					"Icon": "assets/abilities/Rappel.png",
 					"Description": ""
 				}
 			},
 			"R": {
 				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+					"ID": "spider_form-human_form",
+					"Name": "Spider Form / Human Form",
+					"Icon": "assets/abilities/Spider_Form.png",
 					"Description": ""
 				}
 			}
@@ -1448,10 +1466,16 @@ angular.module('App').factory('Enums', function() {
 				}
 			},
 			"E": {
-				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+				"First": {
+					"ID": "playful",
+					"Name": "Playful",
+					"Icon": "assets/abilities/Playful.png",
+					"Description": ""
+				},
+				"Second": {
+					"ID": "trickster",
+					"Name": "Trickster",
+					"Icon": "assets/abilities/Trickster.png",
 					"Description": ""
 				}
 			},
@@ -1713,27 +1737,45 @@ angular.module('App').factory('Enums', function() {
 			},
 			"Q": {
 				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+					"ID": "h-28g_evolution_turret",
+					"Name": "H-28G Evolution Turret",
+					"Icon": "assets/abilities/H-28G_Evolution_Turret.png",
 					"Description": ""
-				}
+				},
+				"Upgrade": {
+					"ID": "h-28q_apex_turret",
+					"Name": "H-28Q Apex Turret",
+					"Icon": "assets/abilities/H-28Q_Apex_Turret.png",
+					"Description": ""
+				},
 			},
 			"W": {
 				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+					"ID": "hextech_micro-rockets",
+					"Name": "Hextech Micro-Rockets",
+					"Icon": "assets/abilities/Hextech_Micro-Rockets.png",
 					"Description": ""
-				}
+				},
+				"Upgrade": {
+					"ID": "hextech_rocket_swarm",
+					"Name": "Hextech Rocket Swarm",
+					"Icon": "assets/abilities/Hextech_Rocket_Swarm.png",
+					"Description": ""
+				},
 			},
 			"E": {
 				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+					"ID": "ch-1_electron_storm_grenade",
+					"Name": "CH-1 Electron Storm Grenade",
+					"Icon": "assets/abilities/CH-1_Electron_Storm_Grenade.png",
 					"Description": ""
-				}
+				},
+				"Upgrade": {
+					"ID": "ch-3x_lightning_grenade",
+					"Name": "CH-3X Lightning Grenade",
+					"Icon": "assets/abilities/CH-3X_Lightning_Grenade.png",
+					"Description": ""
+				},
 			},
 			"R": {
 				"Active": {
@@ -1912,34 +1954,58 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+				"MercuryHammer": {
+					"ID": "to_the_skies",
+					"Name": "To the Skies!",
+					"Icon": "assets/abilities/To_the_Skies.png",
+					"Description": ""
+				},
+				"MercuryCannon": {
+					"ID": "shock_blast",
+					"Name": "Shock Blast",
+					"Icon": "assets/abilities/Shock_Blast.png",
 					"Description": ""
 				}
 			},
 			"W": {
-				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+				"MercuryHammer": {
+					"ID": "lightning_field",
+					"Name": "Lightning Field",
+					"Icon": "assets/abilities/Lightning_Field.png",
+					"Description": ""
+				},
+				"MercuryCannon": {
+					"ID": "hyper_charge",
+					"Name": "Hyper Charge",
+					"Icon": "assets/abilities/Hyper_Charge.png",
 					"Description": ""
 				}
 			},
 			"E": {
-				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+				"MercuryHammer": {
+					"ID": "thundering_blow",
+					"Name": "Thundering Blow",
+					"Icon": "assets/abilities/Thundering_Blow.png",
+					"Description": ""
+				},
+				"MercuryCannon": {
+					"ID": "acceleration_gate",
+					"Name": "Acceleration Gate",
+					"Icon": "assets/abilities/Acceleration_Gate.png",
 					"Description": ""
 				}
 			},
 			"R": {
-				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+				"MercuryHammer": {
+					"ID": "transform_mercury_cannon",
+					"Name": "Transform: Mercury Cannon",
+					"Icon": "assets/abilities/Transform_Mercury_Cannon.png",
+					"Description": ""
+				},
+				"MercuryCannon": {
+					"ID": "transform_mercury_hammer",
+					"Name": "Transform: Mercury Hammer",
+					"Icon": "assets/abilities/Transform_Mercury_Hammer.png",
 					"Description": ""
 				}
 			}
@@ -1993,25 +2059,43 @@ angular.module('App').factory('Enums', function() {
 			},
 			"Q": {
 				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+					"ID": "inner_flame",
+					"Name": "Inner Flame",
+					"Icon": "assets/abilities/Inner_Flame.png",
+					"Description": ""
+				},
+				"Mantra": {
+					"ID": "soulflare",
+					"Name": "Soulflare",
+					"Icon": "assets/abilities/Soulflare.png",
 					"Description": ""
 				}
 			},
 			"W": {
 				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+					"ID": "focused_resolve",
+					"Name": "Focused Resolve",
+					"Icon": "assets/abilities/Focused_Resolve.png",
+					"Description": ""
+				},
+				"Mantra": {
+					"ID": "renewal",
+					"Name": "Renewal",
+					"Icon": "assets/abilities/Renewal.png",
 					"Description": ""
 				}
 			},
 			"E": {
 				"Active": {
-					"ID": "",
-					"Name": "",
-					"Icon": "assets/abilities/.png",
+					"ID": "inspire",
+					"Name": "Inspire",
+					"Icon": "assets/abilities/Inspire.png",
+					"Description": ""
+				},
+				"Mantra": {
+					"ID": "defiance",
+					"Name": "Defiance",
+					"Icon": "assets/abilities/Defiance.png",
 					"Description": ""
 				}
 			},
