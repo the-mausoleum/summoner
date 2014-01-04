@@ -2006,7 +2006,7 @@ angular.module('App').factory('Enums', function() {
 			"R": {
 				"ID": "dragons_rage",
 				"Name": "Dragon's Rage",
-				"Icon": "assets/abilities/Dragon's_Rage.png",
+				"Icon": "assets/abilities/Dragons_Rage.png",
 				"Description": ""
 			}
 		},
@@ -3062,7 +3062,7 @@ angular.module('App').factory('Enums', function() {
 			"R": {
 				"ID": "dragons_descent",
 				"Name": "Dragon's Descent",
-				"Icon": "assets/abilities/Dragon's_Descent.png",
+				"Icon": "assets/abilities/Dragons_Descent.png",
 				"Description": ""
 			}
 		},
