@@ -4872,7 +4872,7 @@ angular.module('App').factory('Enums', function() {
 			"E": {
 				"Active": {
 					"ID": "death_ray",
-					"Name": "death_ray",
+					"Name": "Death Ray",
 					"Icon": "assets/abilities/Death_Ray.png",
 					"Description": ""
 				},
