@@ -68,7 +68,12 @@ function SummonerSearch($scope, $location, API, Enums) {
 	}
 }
 
-function SummonerDetail($scope, $routeParams, API, Enums) {
+function SummonerDetail($scope, $routeParams, $location, API, Enums) {
+	$scope.Links = {
+		"Stats": "#" + $location.path() + "/stats",
+		"Masteries": "#" + $location.path() +  "/masteries"
+	}
+
 	$scope.Summoner = {};
 	$scope.Summoner.ID = $routeParams.id;
 
@@ -81,24 +86,55 @@ function SummonerDetail($scope, $routeParams, API, Enums) {
 			"Level": data.summonerLevel,
 			"Icon": Enums.SummonerIcons.filter(function(o) { return o.ID === data.profileIconId })[0].Icon
 		}
-
-		// API.getStatsSummary($scope.Summoner.ID).success(function(data) {
-		// 	console.log(data);
-		// }).error(function(data) {
-		// 	console.log(data);
-		// });
-
-		// API.getTeams($scope.Summoner.ID).success(function(data) {
-		// 	console.log(data);
-		// }).error(function(data) {
-		// 	console.log(data);
-		// });
 	}).error(function(data) {
 		console.log(data);
 	});
 }
 
-function SummonerStats($scope, $routeParams, API, Enums) {
+function SummonerMasteries($scope, $routeParams, $location, API, Enums) {
+	$scope.Links = {
+		"Back": "#" + $location.path().replace("/masteries", "")
+	}
+
+	$scope.Summoner = {};
+	$scope.Summoner.ID = $routeParams.id;
+
+	$scope.Masteries = Enums.Masteries;
+
+	console.log(Enums.Masteries);
+
+	// angular.forEach(Enums.Masteries['Offense'], function(value, key) {
+	// 	var row = key.charAt(2);
+	// 	var col = key.charAt(3);
+
+	// 	console.log(row, col);
+	// });
+
+	API.Summoner.getByID($scope.Summoner.ID).success(function(data) {
+		console.log(data);
+		$scope.Summoner = {
+			"ID": data.id,
+			"Name": data.name,
+			"Region": Enums.Regions.filter(function(o) { return o.ID === $routeParams.region })[0].Name,
+			"Level": data.summonerLevel,
+			"Icon": Enums.SummonerIcons.filter(function(o) { return o.ID === data.profileIconId })[0].Icon
+		}
+
+		API.Summoner.getMasteries($scope.Summoner.ID).success(function(data) {
+			console.log(data);
+		}).error(function(data) {
+			console.log(data);
+		});
+	}).error(function(data) {
+		console.log(data);
+	});
+}
+
+function SummonerStats($scope, $routeParams, $location, API, Enums) {
+	$scope.Links = {
+		"Back": "#" + $location.path().replace("/stats", "")
+	}
+
 	$scope.Summoner = {};
 	$scope.Summoner.ID = $routeParams.id;
 	$scope.Stats = {
@@ -148,19 +184,6 @@ function SummonerStats($scope, $routeParams, API, Enums) {
 					"Total": ranked5solo.wins + ranked5solo.losses
 				}
 			}
-
-			// $scope.Ranked = {
-			// 	"3v3": {
-			// 		"Wins": ranked3.wins,
-			// 		"Losses": ranked3.losses,
-			// 		"Total": ranked3.wins + ranked3.losses
-			// 	},
-			// 	"Solo5v5": {
-			// 		"Wins": ranked5solo.wins,
-			// 		"Losses": ranked5solo.losses,
-			// 		"Total": ranked5solo.wins + ranked5solo.losses
-			// 	}
-			// }
 
 			$scope.Stats.WinRate = {
 				"Ranked3v3": getWinRate("Ranked3v3"),
