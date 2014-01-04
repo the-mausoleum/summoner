@@ -13,11 +13,11 @@ blockquote:before, blockquote:after, q:before, q:after { content: ""; content: n
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-a { color: #000; }
+a { color: #fff; }
 
 a:visited { color: #333; }
 
-a:hover { color: #000; }
+a:hover { color: #eee; }
 
 a:focus { outline: thin dotted; }
 
