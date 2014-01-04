@@ -904,9 +904,9 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"W": {
-				"ID": "feral_screen",
-				"Name": "Feral Screen",
-				"Icon": "assets/abilities/Feral_Screen.png",
+				"ID": "feral_scream",
+				"Name": "Feral Scream",
+				"Icon": "assets/abilities/Feral_Scream.png",
 				"Description": ""
 			},
 			"E": {
@@ -956,9 +956,9 @@ angular.module('App').factory('Enums', function() {
 		},
 		"darius": {
 			"Passive": {
-				"ID": "hemmorrhage",
-				"Name": "Hemmorrhage",
-				"Icon": "assets/abilities/Hemmorrhage.png",
+				"ID": "hemorrhage",
+				"Name": "Hemorrhage",
+				"Icon": "assets/abilities/Hemorrhage.png",
 				"Description": ""
 			},
 			"Q": {
@@ -994,9 +994,9 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "cresent_strike",
-				"Name": "Cresent Strike",
-				"Icon": "assets/abilities/Cresent_Strike.png",
+				"ID": "crescent_strike",
+				"Name": "Crescent Strike",
+				"Icon": "assets/abilities/Crescent_Strike.png",
 				"Description": ""
 			},
 			"W": {
@@ -1186,9 +1186,9 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "terrift",
-				"Name": "Terrift",
-				"Icon": "assets/abilities/Terrift.png",
+				"ID": "terrify",
+				"Name": "Terrify",
+				"Icon": "assets/abilities/Terrify.png",
 				"Description": ""
 			},
 			"W": {
@@ -1358,9 +1358,9 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"E": {
-				"ID": "judgement",
-				"Name": "Judgement",
-				"Icon": "assets/abilities/Judgement.png",
+				"ID": "judgment",
+				"Name": "Judgment",
+				"Icon": "assets/abilities/Judgment.png",
 				"Description": ""
 			},
 			"R": {
@@ -1602,9 +1602,9 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "leap_stike",
-				"Name": "Leap Stike",
-				"Icon": "assets/abilities/Leap_Stike.png",
+				"ID": "leap_strike",
+				"Name": "Leap Strike",
+				"Icon": "assets/abilities/Leap_Strike.png",
 				"Description": ""
 			},
 			"W": {
@@ -1724,9 +1724,9 @@ angular.module('App').factory('Enums', function() {
 		},
 		"karthus": {
 			"Passive": {
-				"ID": "death_defiled",
-				"Name": "Death Defiled",
-				"Icon": "assets/abilities/Death_Defiled.png",
+				"ID": "death_defied",
+				"Name": "Death Defied",
+				"Icon": "assets/abilities/Death_Defied.png",
 				"Description": ""
 			},
 			"Q": {
@@ -1742,9 +1742,9 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"E": {
-				"ID": "defiled",
-				"Name": "Defiled",
-				"Icon": "assets/abilities/Defiled.png",
+				"ID": "defile",
+				"Name": "Defile",
+				"Icon": "assets/abilities/Defile.png",
 				"Description": ""
 			},
 			"R": {
@@ -1794,9 +1794,9 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"Q": {
-				"ID": "bounding_blades",
-				"Name": "Bounding Blades",
-				"Icon": "assets/abilities/Bounding_Blades.png",
+				"ID": "bouncing_blades",
+				"Name": "Bouncing Blades",
+				"Icon": "assets/abilities/Bouncing_Blades.png",
 				"Description": ""
 			},
 			"W": {
@@ -2416,7 +2416,7 @@ angular.module('App').factory('Enums', function() {
 			"E": {
 				"ID": "tidecallers_blessing",
 				"Name": "Tidecaller's Blessing",
-				"Icon": "assets/abilities/Tidecaller's_Blessing.png",
+				"Icon": "assets/abilities/Tidecallers_Blessing.png",
 				"Description": ""
 			},
 			"R": {
@@ -2522,7 +2522,7 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			}
 		},
-		"noctourne": {
+		"nocturne": {
 			"Passive": {
 				"ID": "umbra_blades",
 				"Name": "Umbra Blades",
@@ -3656,9 +3656,9 @@ angular.module('App').factory('Enums', function() {
 				"Description": ""
 			},
 			"W": {
-				"ID": "terror_capicator",
-				"Name": "Terror Capicator",
-				"Icon": "assets/abilities/Terror_Capicator.png",
+				"ID": "terror_capacitor",
+				"Name": "Terror Capacitor",
+				"Icon": "assets/abilities/Terror_Capacitor.png",
 				"Description": ""
 			},
 			"E": {
@@ -3895,6 +3895,198 @@ angular.module('App').factory('Enums', function() {
 				"ID": "thunder_claws",
 				"Name": "Thunder Claws",
 				"Icon": "assets/abilities/Thunder_Claws.png",
+				"Description": ""
+			}
+		},
+		"warwick": {
+			"Passive": {
+				"ID": "eternal_thirst",
+				"Name": "Eternal Thirst",
+				"Icon:" "assets/abilities/Eternal_Thirst.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "hungering_strike",
+				"Name": "Hungering Strike",
+				"Icon": "assets/abilities/Hungering_Strike.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "hunters_call",
+				"Name": "Hunters Call",
+				"Icon": "assets/abilities/Hunters_Call.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "blood_scent",
+				"Name": "Blood Scent",
+				"Icon": "assets/abilities/Blood_Scent.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "infinite_duress",
+				"Name": "Infinite Duress",
+				"Icon": "assets/abilities/Infinite_Duress.png",
+				"Description": ""
+			}
+		},
+		"monkeyking": {
+			"Passive": {
+				"ID": "stone_skin",
+				"Name": "Stone Skin",
+				"Icon:" "assets/abilities/Stone_Skin.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "crushing_blow",
+				"Name": "Crushing Blow",
+				"Icon": "assets/abilities/Crushing_Blow.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "decoy",
+				"Name": "Decoy",
+				"Icon": "assets/abilities/Decoy.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "nimbus_strike",
+				"Name": "Nimbus Strike",
+				"Icon": "assets/abilities/Nimbus_Strike.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "cyclone",
+				"Name": "Cyclone",
+				"Icon": "assets/abilities/Cyclone.png",
+				"Description": ""
+			}
+		},
+		"xerath": {
+			"Passive": {
+				"ID": "ascended_form",
+				"Name": "Ascended Form",
+				"Icon:" "assets/abilities/Ascended_Form.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "arcanopulse",
+				"Name": "Arcanopulse",
+				"Icon": "assets/abilities/Arcanopulse.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "locus_of_power",
+				"Name": "Locus of Power",
+				"Icon": "assets/abilities/Locus_of_Power.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "mage_chains",
+				"Name": "Mage Chains",
+				"Icon": "assets/abilities/Mage_Chains.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "arcane_barrage",
+				"Name": "Arcane Barrage",
+				"Icon": "assets/abilities/Arcane_Barrage.png",
+				"Description": ""
+			}
+		},
+		"xinzhao": {
+			"Passive": {
+				"ID": "challenge",
+				"Name": "Challenge",
+				"Icon:" "assets/abilities/Challenge.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "three_talon_strike",
+				"Name": "Three Talon Strike",
+				"Icon": "assets/abilities/Three_Talon_Strike.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "battle_cry",
+				"Name": "Battle Cry",
+				"Icon": "assets/abilities/Battle_Cry.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "audacious_charge",
+				"Name": "Audacious Charge",
+				"Icon": "assets/abilities/Audacious_Charge.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "crescent_sweep",
+				"Name": "Crescent Sweep",
+				"Icon": "assets/abilities/Crescent_Sweep.png",
+				"Description": ""
+			}
+		},
+		"yasuo": {
+			"Passive": {
+				"ID": "way_of_the_wanderer",
+				"Name": "Way of the Wanderer",
+				"Icon:" "assets/abilities/Way_of_the_Wanderer.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "",
+				"Name": "",
+				"Icon": "assets/abilities/.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "wind_wall",
+				"Name": "Wind Wall",
+				"Icon": "assets/abilities/Wind_Wall.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "sweeping_blade",
+				"Name": "Sweeping Blade",
+				"Icon": "assets/abilities/Sweeping_Blade.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "last_breath",
+				"Name": "Last Breath",
+				"Icon": "assets/abilities/Last_Breath.png",
+				"Description": ""
+			}
+		},
+		"yorick": {
+			"Passive": {
+				"ID": "unholy_covenant",
+				"Name": "Unholy Covenant",
+				"Icon:" "assets/abilities/Unholy_Covenant.png",
+				"Description": ""
+			},
+			"Q": {
+				"ID": "omen_of_war",
+				"Name": "Omen of War",
+				"Icon": "assets/abilities/Omen_of_War.png",
+				"Description": ""
+			},
+			"W": {
+				"ID": "omen_of_pestilence",
+				"Name": "Omen of Pestilence",
+				"Icon": "assets/abilities/Omen_of_Pestilence.png",
+				"Description": ""
+			},
+			"E": {
+				"ID": "omen_of_famine",
+				"Name": "Omen of Famine",
+				"Icon": "assets/abilities/Omen_of_Famine.png",
+				"Description": ""
+			},
+			"R": {
+				"ID": "omen_of_death",
+				"Name": "Omen of Death",
+				"Icon": "assets/abilities/Omen_of_Death.png",
 				"Description": ""
 			}
 		},
