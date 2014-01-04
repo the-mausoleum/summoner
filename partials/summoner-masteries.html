@@ -13,22 +13,16 @@
 		display: inline;
 	}
 
-	#offense {
-		background-color: red;
-	}
-
-	#defense {
-		background-color: blue;
-	}
-
-	#utility {
-		background-color: green;
+	.row > img {
+		margin: 5px 5px 5px 5px;
 	}
 </style>
 <section style="padding: 100px 0; width: 100%; width: 960px; margin: 0 auto;">
 	<h1 style="color: #fff; text-transform: uppercase; font-size: 48px;">{{Summoner.Name}} | Masteries</h1>
 	<div class="masteries" id="offense">
-		Offense
+		<p style="color: #fff; text-align: center; text-transform: uppercase; font-size: 12px; padding-top: 20px; letter-spacing: 3px; font-weight: bold;">
+			Offense
+		</p>
 		<br>
 		<div class="row">
 			<img ng-src="{{Masteries['Offense'][4111].Icon}}" width="48px"></img>
@@ -73,7 +67,9 @@
 		</div>
 	</div>
 	<div class="masteries" id="defense">
-		Defense
+		<p style="color: #fff; text-align: center; text-transform: uppercase; font-size: 12px; padding-top: 20px; letter-spacing: 3px; font-weight: bold;">
+			Defense
+		</p>
 		<br>
 		<div class="row">
 			<img ng-src="{{Masteries['Defense'][4211].Icon}}" width="48px"></img>
@@ -118,7 +114,9 @@
 		</div>
 	</div>
 	<div class="masteries" id="utility">
-		Utility
+		<p style="color: #fff; text-align: center; text-transform: uppercase; font-size: 12px; padding-top: 20px; letter-spacing: 3px; font-weight: bold;">
+			Utility
+		</p>
 		<br>
 		<div class="row">
 			<img ng-src="{{Masteries['Utility'][4311].Icon}}" width="48px"></img>
