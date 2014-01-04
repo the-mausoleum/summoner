@@ -3902,7 +3902,7 @@ angular.module('App').factory('Enums', function() {
 			"Passive": {
 				"ID": "eternal_thirst",
 				"Name": "Eternal Thirst",
-				"Icon:" "assets/abilities/Eternal_Thirst.png",
+				"Icon": "assets/abilities/Eternal_Thirst.png",
 				"Description": ""
 			},
 			"Q": {
@@ -3934,7 +3934,7 @@ angular.module('App').factory('Enums', function() {
 			"Passive": {
 				"ID": "stone_skin",
 				"Name": "Stone Skin",
-				"Icon:" "assets/abilities/Stone_Skin.png",
+				"Icon": "assets/abilities/Stone_Skin.png",
 				"Description": ""
 			},
 			"Q": {
@@ -3966,7 +3966,7 @@ angular.module('App').factory('Enums', function() {
 			"Passive": {
 				"ID": "ascended_form",
 				"Name": "Ascended Form",
-				"Icon:" "assets/abilities/Ascended_Form.png",
+				"Icon": "assets/abilities/Ascended_Form.png",
 				"Description": ""
 			},
 			"Q": {
@@ -3998,7 +3998,7 @@ angular.module('App').factory('Enums', function() {
 			"Passive": {
 				"ID": "challenge",
 				"Name": "Challenge",
-				"Icon:" "assets/abilities/Challenge.png",
+				"Icon": "assets/abilities/Challenge.png",
 				"Description": ""
 			},
 			"Q": {
@@ -4030,7 +4030,7 @@ angular.module('App').factory('Enums', function() {
 			"Passive": {
 				"ID": "way_of_the_wanderer",
 				"Name": "Way of the Wanderer",
-				"Icon:" "assets/abilities/Way_of_the_Wanderer.png",
+				"Icon": "assets/abilities/Way_of_the_Wanderer.png",
 				"Description": ""
 			},
 			"Q": {
@@ -4062,7 +4062,7 @@ angular.module('App').factory('Enums', function() {
 			"Passive": {
 				"ID": "unholy_covenant",
 				"Name": "Unholy Covenant",
-				"Icon:" "assets/abilities/Unholy_Covenant.png",
+				"Icon": "assets/abilities/Unholy_Covenant.png",
 				"Description": ""
 			},
 			"Q": {
