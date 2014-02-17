@@ -16,6 +16,10 @@ function Index($scope, API, Enums) {
 	// })
 
 	// console.log(out);
+
+	// $.getJSON("data/champions.json", function(data) {
+	// 	console.log(data);
+	// });
 }
 
 function ChampionList($scope, API) {

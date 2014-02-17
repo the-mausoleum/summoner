@@ -26,7 +26,7 @@ angular.module('App').factory('Enums', function() {
 			"Name": "Turkey"
 		},
 	]);
-
+	
 	var Champions = Object.freeze({
 		"aatrox": {
 			"Name": "Aatrox",
